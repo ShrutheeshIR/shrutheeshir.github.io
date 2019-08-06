@@ -108,7 +108,7 @@ analytics:
 # Site Author
 author:
   name             : "Shrutheesh Raman Iyer"
-  avatar           : "/assets/images/bio-photo.jpg"
+  avatar           : #"/assets/images/bio-photo.jpg"
   bio              : "Maybe Something"
   location         : "Bangalore, India"
   email            :
