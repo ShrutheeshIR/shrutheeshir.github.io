@@ -8,6 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <link rel="stylesheet" type="text/css" href="stylesheet_cards.css">
   <link rel="icon" type="image/png" href="images/robot.jpg">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
@@ -26,15 +27,13 @@
                 Hello there &#128075;.
               </p>
               <p>
-                 I'm Shrutheesh
-              </p>
-              <p>I'm a first year graduate student pursuing my master's degree in Computer Science and Engineering at the University of California, San Diego, specializing in robotics.
+                 I'm Shrutheesh, a first year graduate student pursuing my master's degree in Computer Science and Engineering at the University of California, San Diego, specializing in robotics.
               </p>
               <p>
                 I'm interested in developing robot systems and simulations, tackling problems ranging from manipulation to navigation and SLAM.
               </p>
               <p>
-                And when I'm not doing robotics, you'd typically find me watching cricket or football (re: soccer) or passionately defending why the Eagles could not have carried the ring to Mordor.
+                And when I'm not doing robotics, you'd typically find me watching cricket or football (re: soccer) or passionately defending why the Eagles could not have flown the ring to Mordor.
               </p>
               <p style="text-align:center">
                 <a href="mailto:siyer@ucsd.edu" class="fa fa-envelope" ></a> &nbsp/&nbsp
@@ -47,7 +46,7 @@
               </p>
             </td>
             <td style="padding:2.5%;width:40%;max-width:40%">
-              <a href="images/Self_cropped.jpg"><img style="width:75%;max-width:75%" alt="profile photo" src="images/Self_cropped.jpg" class="hoverZoomLink"></a>
+              <a href="images/Self_cropped.jpg"><img style="width:60%;max-width:60%" alt="profile photo" src="images/Self_cropped.jpg" class="hoverZoomLink"></a>
             </td>
           </tr>
         </tbody></table>
@@ -68,110 +67,96 @@
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
             <tr>
             <td style="padding:20px;width:100%;vertical-align:middle">
-              <heading>Research</heading>
+              <heading>Research and Projects</heading>
               <p>
                 I'm interested in robotics problems, .
               </p>
             </td>
           </tr>
         </tbody></table>
+
+
+
+
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
-          <tr onmouseout="mip360_stop()" onmouseover="mip360_start()"  bgcolor="#ffffd0">
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <div class="two" id='mip360_image'><video  width=100% height=100% muted autoplay loop>
-                <source src="images/mip360_sat.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-                </video></div>
-                <img src='images/mip360_sat.jpg' width="160">
+          <!-- <div class = "GridP"> -->
+            <div class = "GridP-scroller">
+
+            <div class = "card">
+              <a href="images/asha.png" style="text-decoration:none">
+            <div class = "grid">
+              <div class = "gridImage"> Fetch Robot </div>
+              <div class="textCard"> <h4> Framework for Robot Tool Improvisation </h4>
+                                     <h5>CRI, UCSD <span style="float:right"> Advisor : Henrik I. Christensen</span> </h5>
+                                     <p>Develop a framework for the Robot Tool Macgyver Problem</p> </div>
               </div>
-              <script type="text/javascript">
-                function mip360_start() {
-                  document.getElementById('mip360_image').style.opacity = "1";
-                }
+            </a>
+            </div>
 
-                function mip360_stop() {
-                  document.getElementById('mip360_image').style.opacity = "0";
-                }
-                mip360_stop()
-              </script>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-              <a href="http://jonbarron.info/mipnerf360">
-                <papertitle>Mip-NeRF 360: Unbounded Anti-Aliased Neural Radiance Fields</papertitle>
+            <div class = "card">
+              <a href="images/asha.png" style="text-decoration:none">
+            <div class = "grid">
+              <div class = "gridImage"><img style="width:100%;max-width:100%" alt="profile photo" src="images/asha.png" class="hoverZoomLink"></div>
+              <div class="textCard"> <h4> Teleoperation of Humanoid Robot </h4>
+                                    <h5>RBCCPS, IISc <span style="float:right"> Advisor : Raghu Krishnapuram</span> </h5>
+                                    <p>Develop a framework for the Robot Tool Macgyver Problem</p> </div>
+              </div>
               </a>
-              <br>
-              <strong>Jonathan T. Barron</strong>,
-              <a href="https://bmild.github.io/">Ben Mildenhall</a>,
-              <a href="https://scholar.harvard.edu/dorverbin/home">Dor Verbin</a>,
-              <a href="https://pratulsrinivasan.github.io/">Pratul Srinivasan</a>,
-              <a href="https://phogzone.com/">Peter Hedman</a>
-              <br>
-							<em>arXiv</em>, 2021
-              <br>
-              <a href="http://jonbarron.info/mipnerf360">project page</a>
-              /
-              <a href="https://arxiv.org/abs/2111.12077">arXiv</a>
-              /
-              <a href="https://youtu.be/zBSH-k9GbV4">video</a>
-              <p></p>
-              <p>mip-NeRF can be extended to produce realistic results on unbounded scenes.</p>
-            </td>
-          </tr>
+            </div>
 
-    <tr onmouseout="refnerf_stop()" onmouseover="refnerf_start()">
-      <td style="padding:20px;width:25%;vertical-align:middle">
-        <div class="one">
-          <div class="two" id='refnerf_image'><video  width=100% height=100% muted autoplay loop>
-          <source src="images/refnerf.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-          </video></div>
-          <img src='images/refnerf.jpg' width="160">
-        </div>
-        <script type="text/javascript">
-          function refnerf_start() {
-            document.getElementById('refnerf_image').style.opacity = "1";
-          }
+            <div class = "card">
+              <a href="images/VO.gif" style="text-decoration:none">
+            <div class = "grid">
+              <div class = "gridImage"><img style="width:100%;max-width:100%" alt="profile photo" src="images/VO_cut.gif" class="hoverZoomLink"></div>
+              <div class="textCard"> <h4> Monocular Visual Odometry </h4>
+                                    <h5>RBCCPS, IISc <span style="float:right"> Advisor : Raghu Krishnapuram</span> </h5>
+                                    <p>Do monocular VO and whatever. Another line whatever</p> </div>
+              </div>
+              </a>
+            </div>
 
-          function refnerf_stop() {
-            document.getElementById('refnerf_image').style.opacity = "0";
-          }
-          refnerf_stop()
-        </script>
-      </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-          <a href="https://dorverbin.github.io/refnerf/index.html">
-            <papertitle>Ref-NeRF: Structured View-Dependent Appearance for Neural Radiance Fields</papertitle>
-          </a>
-          <br>
-          <a href="https://scholar.harvard.edu/dorverbin/home">Dor Verbin</a>,
-          <a href="https://phogzone.com/">Peter Hedman</a>,
-          <a href="https://bmild.github.io/">Ben Mildenhall</a>, <br>
-          <a href="Todd Zickler">Todd Zickler</a>,
-          <strong>Jonathan T. Barron</strong>,
-          <a href="https://pratulsrinivasan.github.io/">Pratul Srinivasan</a>
-          <br>
-    <em>arXiv</em>, 2021
-          <br>
-          <a href="https://dorverbin.github.io/refnerf/index.html">project page</a>
-    /
-          <a href="https://arxiv.org/abs/2112.03907">arXiv</a>
-    /
-          <a href="https://youtu.be/qrdRH9irAlk">video</a>
-          <p></p>
-          <p>Explicitly modeling reflections in NeRF produces realistic shiny surfaces and accurate surface normals, and lets you edit materials.</p>
-        </td>
-      </tr>
+            <div class = "card">
+              <a href="images/IIMB.png" style="text-decoration:none">
+            <div class = "grid">
+              <div class = "gridImage"><img style="width:100%;max-width:100%" alt="profile photo" src="images/IIMB.png" class="hoverZoomLink"></div>
+              <div class="textCard"> <h4> Collection & Analysis of Financial Filings </h4>
+                                    <h5>F\&A, IIMB <span style="float:right"> Advisor : Srinivas Rangan</span> </h5>
+                                    <p>Develop a disclosure index, and one more line will fit now</p> </div>
+              </div>
+              </a>
+            </div>
 
 
-        </tbody></table>
+            <div class = "card">
+              <a href="images/jatayu_drone.jpg" style="text-decoration:none">
+            <div class = "grid">
+              <div class = "gridImage"><img style="width:100%;max-width:100%" alt="profile photo" src="images/jatayu_drone.jpg" class="hoverZoomLink"></div>
+              <div class="textCard"> <h4> UAVs </h4>
+                                    <h5>RVCE </h5>
+                                    <p>Oooo wee with UAVeees and whatever and also fit now</p> </div>
+              </div>
+              </a>
+            </div>
 
+            <!-- <div class = "card">
+              <a href="images/IIMB.png" style="text-decoration:none">
+            <div class = "grid">
+              <div class = "gridImage"><img style="width:100%;max-width:100%" alt="profile photo" src="images/IIMB.png" class="hoverZoomLink"></div>
+              <div class="textCard"> <h4> One more thingy </h4>
+                                    <h5>RVCE </h5>
+                                    <p>Oooo wee with UAVeees and whatever</p> </div>
+              </div>
+              </a>
+            </div> -->
+
+          </div>
+        </table>
 
         <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
           <tr>
             <td>
-              <heading>Misc</heading>
+              <heading>Teaching</heading>
             </td>
           </tr>
         </tbody></table>
