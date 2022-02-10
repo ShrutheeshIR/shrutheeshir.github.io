@@ -153,7 +153,8 @@ plugins:
   - jekyll/scholar
   - jekyll-sitemap
   - jekyll-target-blank
-  # - jekyll-twitter-plugin
+  - jekyll-mermaid  
+  - jekyll-twitter-plugin
   - jemoji
 
 # Sitemap settings
