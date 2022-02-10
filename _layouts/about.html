@@ -37,6 +37,12 @@ layout: default
           <!-- News -->
           {%- include news.html %}
           {%- endif %}
+
+          {% if page.small_bio -%}
+          <!-- News -->
+          {%- include small_bio.html %}
+          {%- endif %}
+
           {% if page.selected_papers -%}
             <!-- Selected papers -->
             {%- include selected_papers.html %}
