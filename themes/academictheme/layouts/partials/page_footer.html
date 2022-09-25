@@ -1,0 +1,12 @@
+{{ partial "page_edit" . }}
+{{ partial "tags" . }}
+{{ partial "page_author" . }}
+{{ partial "comments" . }}
+
+{{ if .Params.pager }}
+<div class="article-widget">
+  {{ partial "components/pager" . }}
+</div>
+{{ end }}
+
+{{ partial "page_related" . }}

@@ -1,0 +1,28 @@
+{{ $ := .root }}
+{{ $page := .page }}
+{{ $columns := $page.Params.design.columns | default "2" }}
+
+<!-- Experience widget -->
+<div class="col-12 {{if eq $columns "2"}}col-lg-8{{end}}">
+  {{ with $page.Content }}{{ . }}{{ end }}
+
+  {{ with $page.Params.education }}
+    <div class="section-subheading">{{ i18n "education" | markdownify }}</div>
+    <ul class="ul-edu fa-ul mb-0">
+      {{ range .courses }}
+      <li>
+        <i class="fa-li fas fa-graduation-cap"></i>
+        <div class="description">
+          <div style="float:right;"> <p class="institution">{{ .location }}</p> </div>
+          <p class="course"> <b> {{ .institution }}</p> </b> <div style="float:right;"> <p class="institution">{{ .dates }}</p> </div>
+          
+          <p class="course">{{ .course }}</p>
+          {{ if .specialization }}
+          <p class="institution"> Specialization in {{ .specialization }}</p>
+          {{ end }}
+        </div>
+      </li>
+      {{ end }}
+    </ul>
+  {{ end }}
+
