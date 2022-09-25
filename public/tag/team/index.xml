@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Team | Shrutheesh Raman Iyer</title>
+    <link>http://localhost:1313/tag/team/</link>
+      <atom:link href="http://localhost:1313/tag/team/index.xml" rel="self" type="application/rss+xml" />
+    <description>Team</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator>
+    <item>
+      <title>Unmanned Aerial Vehicles</title>
+      <link>http://localhost:1313/projects/jatayu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/jatayu/</guid>
+      <description>&lt;p&gt;Project Jatayu is the autonomous UAV team of RVCE (undergrad university)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Built multiple UAVs, both multicoptors and fixed wings.&lt;/li&gt;
+&lt;li&gt;Developed robust perception modules for noisy and poorly lit video footage from drones for object detection and localization. Some of the work available &lt;a href=&#34;https://github.com/ShrutheeshIR/ODLC-GUI&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;As the team lead, participated in the Student Unmanned Aerial Vehicle Challenge (SUAS 2019), held in Maryland, USA. &lt;a href=&#34;https://www.youtube.com/watch?v=_rCvikNtklg&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Details&lt;/a&gt; about the drone developed for the competition.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

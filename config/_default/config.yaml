@@ -15,6 +15,7 @@ hasCJKLanguage: false
 defaultContentLanguageInSubdir: false
 removePathAccents: true
 
+publishDir: "public"
 ############################
 ## MODULES
 ############################

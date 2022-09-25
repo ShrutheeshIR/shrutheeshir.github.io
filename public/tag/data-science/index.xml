@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data Science | Shrutheesh Raman Iyer</title>
+    <link>http://localhost:1313/tag/data-science/</link>
+      <atom:link href="http://localhost:1313/tag/data-science/index.xml" rel="self" type="application/rss+xml" />
+    <description>Data Science</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator>
+    <item>
+      <title>Analysis of Financial Filings</title>
+      <link>http://localhost:1313/projects/iimb/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/iimb/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Advised by Prof. Srinivasan Rangan, and PhD Student, Prabhu Venkatachalam&lt;/li&gt;
+&lt;li&gt;Implemented a pipeline to extract textual and numeric data from public financial filings of firms for an academic project which seeks to develop a new measure of Disclosure Quality&lt;/li&gt;
+&lt;li&gt;Extracted data from ~60000 firms&lt;/li&gt;
+&lt;li&gt;Developed all stages of the data science pipeline from web scraping to cleaning to analysis and visualization&lt;/li&gt;
+&lt;li&gt;Developed textual analysis methods at low level using regular expressions and contextual level using regex and scipy&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
