@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Research | Shrutheesh Raman Iyer</title>
+    <link>http://localhost:1313/tag/research/</link>
+      <atom:link href="http://localhost:1313/tag/research/index.xml" rel="self" type="application/rss+xml" />
+    <description>Research</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator>
+    <item>
+      <title>Robot Macgyver Project</title>
+      <link>http://localhost:1313/projects/macgyver/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/macgyver/</guid>
+      <description>&lt;p&gt;Research Project in developing a generalized framework for robot tool improvization using affordances. Complex reasoning allows robots to &amp;ldquo;think outside the box&amp;rdquo; using available items to improvize in unforseen environments.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Advised by &lt;a href=&#34;https://hichristensen.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Prof. Henrik Christensen&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Working on recognizing and using affordances of objects and tools.&lt;/li&gt;
+&lt;li&gt;Implementing an end-to-end working pipeline on V-Rep CoppeliaSim Simulation Environment, and on a real Fetch robot.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Humanoid Robot Teleoperation</title>
+      <link>http://localhost:1313/projects/avatar/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/avatar/</guid>
+      <description>&lt;p&gt;Development of teleoperation of a robot humanoid nurse towards ANA Xprize Avatar challenge&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Advised by Prof. Bharadwaj Amrutur and Prof. Raghu Krishnapuram&lt;/li&gt;
+&lt;li&gt;Research project to develop a teleoperated humanoiod robotic nurse as part of ANA Xprize Avatar challenge which aims to deploy real-time senses in remote environments.&lt;/li&gt;
+&lt;li&gt;Research project in collaboration with ARTPARK, Tata Consultancy Services and Hanson Robotics.&lt;/li&gt;
+&lt;li&gt;Worked on tracking human arm movements on the robot using optical trackers and VR technology, and relaying the operations.&lt;/li&gt;
+&lt;li&gt;Developed an in-house data glove with finger tracking and haptic feedback for hand teleoperation.&lt;/li&gt;
+&lt;li&gt;Contributed to the entire teleoperation architecture including networking and inverse kinematics &amp;amp; control&lt;/li&gt;
+&lt;li&gt;Team went on to reach the semi-finals of the competition.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;More information can be found at &lt;a href=&#34;%22https://aham-avatar.org/%22&#34;&gt;aham-avatar&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Monocular Visual Odometry</title>
+      <link>http://localhost:1313/projects/visual_odometry/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/visual_odometry/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Research project to explore the challenges and applications of Visual Odometry&lt;/li&gt;
+&lt;li&gt;Compared deep learning based feature extractors and traditional features for indoor and outdoor navigation tasks&lt;/li&gt;
+&lt;li&gt;Identified bottlenecks in VO pipeline and explored learnt feature descriptors for enhanced performance&lt;/li&gt;
+&lt;li&gt;Published a comprehensive survey on advancements in monocular visual odometry. Used research findings to design an application for visual odometry in Advanced Driver Assistant System (ADAS) for emergency autonomous parking. Publication under review&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Analysis of Financial Filings</title>
+      <link>http://localhost:1313/projects/iimb/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/iimb/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Advised by Prof. Srinivasan Rangan, and PhD Student, Prabhu Venkatachalam&lt;/li&gt;
+&lt;li&gt;Implemented a pipeline to extract textual and numeric data from public financial filings of firms for an academic project which seeks to develop a new measure of Disclosure Quality&lt;/li&gt;
+&lt;li&gt;Extracted data from ~60000 firms&lt;/li&gt;
+&lt;li&gt;Developed all stages of the data science pipeline from web scraping to cleaning to analysis and visualization&lt;/li&gt;
+&lt;li&gt;Developed textual analysis methods at low level using regular expressions and contextual level using regex and scipy&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

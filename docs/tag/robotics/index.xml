@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Robotics | Shrutheesh Raman Iyer</title>
+    <link>http://localhost:1313/tag/robotics/</link>
+      <atom:link href="http://localhost:1313/tag/robotics/index.xml" rel="self" type="application/rss+xml" />
+    <description>Robotics</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator>
+    <item>
+      <title>Robot Macgyver Project</title>
+      <link>http://localhost:1313/projects/macgyver/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/macgyver/</guid>
+      <description>&lt;p&gt;Research Project in developing a generalized framework for robot tool improvization using affordances. Complex reasoning allows robots to &amp;ldquo;think outside the box&amp;rdquo; using available items to improvize in unforseen environments.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Advised by &lt;a href=&#34;https://hichristensen.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Prof. Henrik Christensen&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Working on recognizing and using affordances of objects and tools.&lt;/li&gt;
+&lt;li&gt;Implementing an end-to-end working pipeline on V-Rep CoppeliaSim Simulation Environment, and on a real Fetch robot.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Humanoid Robot Teleoperation</title>
+      <link>http://localhost:1313/projects/avatar/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/avatar/</guid>
+      <description>&lt;p&gt;Development of teleoperation of a robot humanoid nurse towards ANA Xprize Avatar challenge&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Advised by Prof. Bharadwaj Amrutur and Prof. Raghu Krishnapuram&lt;/li&gt;
+&lt;li&gt;Research project to develop a teleoperated humanoiod robotic nurse as part of ANA Xprize Avatar challenge which aims to deploy real-time senses in remote environments.&lt;/li&gt;
+&lt;li&gt;Research project in collaboration with ARTPARK, Tata Consultancy Services and Hanson Robotics.&lt;/li&gt;
+&lt;li&gt;Worked on tracking human arm movements on the robot using optical trackers and VR technology, and relaying the operations.&lt;/li&gt;
+&lt;li&gt;Developed an in-house data glove with finger tracking and haptic feedback for hand teleoperation.&lt;/li&gt;
+&lt;li&gt;Contributed to the entire teleoperation architecture including networking and inverse kinematics &amp;amp; control&lt;/li&gt;
+&lt;li&gt;Team went on to reach the semi-finals of the competition.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;More information can be found at &lt;a href=&#34;%22https://aham-avatar.org/%22&#34;&gt;aham-avatar&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Monocular Visual Odometry</title>
+      <link>http://localhost:1313/projects/visual_odometry/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/visual_odometry/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Research project to explore the challenges and applications of Visual Odometry&lt;/li&gt;
+&lt;li&gt;Compared deep learning based feature extractors and traditional features for indoor and outdoor navigation tasks&lt;/li&gt;
+&lt;li&gt;Identified bottlenecks in VO pipeline and explored learnt feature descriptors for enhanced performance&lt;/li&gt;
+&lt;li&gt;Published a comprehensive survey on advancements in monocular visual odometry. Used research findings to design an application for visual odometry in Advanced Driver Assistant System (ADAS) for emergency autonomous parking. Publication under review&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>JetBot Roomba Prototype</title>
+      <link>http://localhost:1313/projects/roomba_prototype/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/roomba_prototype/</guid>
+      <description>&lt;p&gt;Developed a autonomous mobile robot (NVidia JetBot), equipped with perception, planning and control to be able to navigate in a given space, similar to a roomba, written from scratch, as part of CSE276A: Introduction to Robotics.
+Features:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Perception performed with the help of AprilTags.&lt;/li&gt;
+&lt;li&gt;EKF used for SLAM.&lt;/li&gt;
+&lt;li&gt;A spiral-like pattern used for the lawn mover algorithms&lt;/li&gt;
+&lt;li&gt;Written in C++, Python and ROS&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Unmanned Aerial Vehicles</title>
+      <link>http://localhost:1313/projects/jatayu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/jatayu/</guid>
+      <description>&lt;p&gt;Project Jatayu is the autonomous UAV team of RVCE (undergrad university)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Built multiple UAVs, both multicoptors and fixed wings.&lt;/li&gt;
+&lt;li&gt;Developed robust perception modules for noisy and poorly lit video footage from drones for object detection and localization. Some of the work available &lt;a href=&#34;https://github.com/ShrutheeshIR/ODLC-GUI&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;As the team lead, participated in the Student Unmanned Aerial Vehicle Challenge (SUAS 2019), held in Maryland, USA. &lt;a href=&#34;https://www.youtube.com/watch?v=_rCvikNtklg&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Details&lt;/a&gt; about the drone developed for the competition.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
