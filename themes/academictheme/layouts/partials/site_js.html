@@ -45,6 +45,18 @@
   {{ printf "<script src=\"%s\" integrity=\"%s\" crossorigin=\"anonymous\"></script>" (printf $js.leaflet.url $js.leaflet.version) $js.leaflet.sri | safeHTML }}
 {{ end }}
 
+{{/* Google Analytics JS. */}}
+{{ $map_provider := lower site.Params.features.map.provider }}
+{{ if eq $map_provider "google" }}
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key={{ site.Params.features.map.api_key }}"></script>
+  {{ if ($scr.Get "use_cdn") }}
+    {{ printf "<script src=\"%s\" integrity=\"%s\" crossorigin=\"anonymous\"></script>" (printf $js.gmaps.url $js.gmaps.version) $js.gmaps.sri | safeHTML }}
+  {{ end }}
+{{ else if (in (slice "mapnik" "mapbox") $map_provider) | and ($scr.Get "use_cdn") }}
+  {{ printf "<script src=\"%s\" integrity=\"%s\" crossorigin=\"anonymous\"></script>" (printf $js.leaflet.url $js.leaflet.version) $js.leaflet.sri | safeHTML }}
+{{ end }}
+
+
 {{/* Load hash anchors for documentation pages. */}}
 {{ if in (slice "book" "docs") .Type }}
 {{ printf "<script src=\"%s\" integrity=\"%s\" crossorigin=\"anonymous\"></script>" (printf $js.anchor.url $js.anchor.version) $js.anchor.sri | safeHTML }}
