@@ -10,6 +10,7 @@ appearance:
   theme_night: minimal
   font: rose
   font_size: m
+light: true
 
 # SEO
 
@@ -48,7 +49,7 @@ locale:
 features:
   syntax_highlighter:
     theme_light: github-light
-    theme_dark: dracula
+    theme_dark: github-dark
   math:
     enable: false
   privacy_pack:

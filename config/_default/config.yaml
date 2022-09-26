@@ -15,14 +15,13 @@ hasCJKLanguage: false
 defaultContentLanguageInSubdir: false
 removePathAccents: true
 
-publishDir: "public"
 ############################
 ## MODULES
 ############################
 # module:
 #   imports:
 #     - path: github.com/ShrutheeshIR/academictheme
-
+publishDir: "docs"
 ############################
 ## ADVANCED
 ############################
