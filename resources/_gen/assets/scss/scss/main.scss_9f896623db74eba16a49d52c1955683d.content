@@ -7211,14 +7211,14 @@ a.text-dark:hover, a.text-dark:focus {
  *  Wowchemy's Core Style
  **************************************************/
 html {
-  font-family: "Roboto", sans-serif;
-  font-size: 13.86px;
+  font-family: "B612", sans-serif;
+  font-size: 16.28px;
   color: rgba(0, 0, 0, 0.8);
   line-height: 1.65; }
 
 @media screen and (min-width: 58em) {
   html {
-    font-size: 18px; } }
+    font-size: 18.5px; } }
 
 body {
   font-family: inherit;
@@ -7293,7 +7293,7 @@ ul.task-list li input[type='checkbox'] {
 
 /* Navigation bar text */
 .navbar-light {
-  font-family: "Lora", sans-serif;
+  font-family: "Lato", sans-serif;
   font-weight: 400;
   line-height: 1.25;
   text-rendering: optimizelegibility; }
@@ -7305,7 +7305,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Lora", sans-serif;
+  font-family: "Lato", sans-serif;
   font-weight: 400;
   margin-top: 1rem;
   margin-bottom: 0.5rem;
@@ -7360,7 +7360,7 @@ a:focus {
 
 pre,
 code {
-  font-family: "Cutive Mono", monospace; }
+  font-family: "B612 Mono", monospace; }
 
 pre {
   margin: 0 0 1rem;
@@ -8166,7 +8166,7 @@ a.summary-link {
   height: 70px;
   background: #fff;
   box-shadow: 0 0.125rem 0.25rem 0 rgba(0, 0, 0, 0.11);
-  font-size: 13.86px;
+  font-size: 16.28px;
   padding: 0 1rem; }
   .navbar .nav-item {
     position: relative; }
@@ -8190,7 +8190,7 @@ a.summary-link {
         font-weight: bold !important;
         color: #1b5e20 !important; }
   .navbar .dropdown-menu {
-    font-size: 13.86px; }
+    font-size: 16.28px; }
   .navbar .dropdown-item.active,
   .navbar .dropdown-item-active {
     font-weight: bold;
@@ -9091,7 +9091,7 @@ html[dir='rtl'] body {
 
 .section-subheading {
   font-size: 1.25rem;
-  font-family: "Lora", sans-serif;
+  font-family: "Lato", sans-serif;
   font-weight: bold;
   margin-top: 1rem;
   margin-bottom: 0.5rem; }

@@ -7,8 +7,8 @@
 
 appearance:
   theme_day: forest
-  theme_night: minimal
-  font: rose
+  theme_night: 
+  font: minimal
   font_size: m
 light: true
 
@@ -49,7 +49,7 @@ locale:
 features:
   syntax_highlighter:
     theme_light: github-light
-    theme_dark: github-dark
+    theme_dark: github-light
   math:
     enable: false
   privacy_pack:

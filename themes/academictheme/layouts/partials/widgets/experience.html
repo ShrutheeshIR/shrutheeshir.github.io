@@ -44,8 +44,8 @@
             <div>
           {{ end }}
 
-              <div class="section-subheading card-title exp-title text-muted my-0">{{.title | markdownify | emojify}}</div>
-              <div class="section-subheading card-title exp-company text-muted my-0">
+              <div class="section-subheading card-title exp-title my-0">{{.title | markdownify | emojify}}</div>
+              <div class="section-subheading card-title exp-company my-0">
                 {{- with .company_url}}<a href="{{.}}" target="_blank" rel="noopener">{{end}}{{.company | markdownify | emojify}}{{with .company_url}}</a>{{end -}}
               </div>
               <div class="text-muted exp-meta">
