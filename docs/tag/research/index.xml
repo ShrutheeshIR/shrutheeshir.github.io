@@ -2,15 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Research | Shrutheesh Raman Iyer</title>
-    <link>http://localhost:1313/tag/research/</link>
-      <atom:link href="http://localhost:1313/tag/research/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://example.com/tag/research/</link>
+      <atom:link href="https://example.com/tag/research/index.xml" rel="self" type="application/rss+xml" />
     <description>Research</description>
     <generator>Wowchemy (https://wowchemy.com)</generator>
     <item>
       <title>Robot Macgyver Project</title>
-      <link>http://localhost:1313/projects/macgyver/</link>
+      <link>https://example.com/projects/macgyver/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/macgyver/</guid>
+      <guid>https://example.com/projects/macgyver/</guid>
       <description>&lt;p&gt;Research Project in developing a generalized framework for robot tool improvization using affordances. Complex reasoning allows robots to &amp;ldquo;think outside the box&amp;rdquo; using available items to improvize in unforseen environments.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Advised by &lt;a href=&#34;https://hichristensen.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Prof. Henrik Christensen&lt;/a&gt;&lt;/li&gt;
@@ -22,9 +22,9 @@
     
     <item>
       <title>Humanoid Robot Teleoperation</title>
-      <link>http://localhost:1313/projects/avatar/</link>
+      <link>https://example.com/projects/avatar/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/avatar/</guid>
+      <guid>https://example.com/projects/avatar/</guid>
       <description>&lt;p&gt;Development of teleoperation of a robot humanoid nurse towards ANA Xprize Avatar challenge&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Advised by Prof. Bharadwaj Amrutur and Prof. Raghu Krishnapuram&lt;/li&gt;
@@ -41,9 +41,9 @@
     
     <item>
       <title>Monocular Visual Odometry</title>
-      <link>http://localhost:1313/projects/visual_odometry/</link>
+      <link>https://example.com/projects/visual_odometry/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/visual_odometry/</guid>
+      <guid>https://example.com/projects/visual_odometry/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;Research project to explore the challenges and applications of Visual Odometry&lt;/li&gt;
 &lt;li&gt;Compared deep learning based feature extractors and traditional features for indoor and outdoor navigation tasks&lt;/li&gt;
@@ -55,9 +55,9 @@
     
     <item>
       <title>Analysis of Financial Filings</title>
-      <link>http://localhost:1313/projects/iimb/</link>
+      <link>https://example.com/projects/iimb/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/iimb/</guid>
+      <guid>https://example.com/projects/iimb/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;Advised by Prof. Srinivasan Rangan, and PhD Student, Prabhu Venkatachalam&lt;/li&gt;
 &lt;li&gt;Implemented a pipeline to extract textual and numeric data from public financial filings of firms for an academic project which seeks to develop a new measure of Disclosure Quality&lt;/li&gt;

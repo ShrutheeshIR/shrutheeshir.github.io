@@ -2,15 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Team | Shrutheesh Raman Iyer</title>
-    <link>http://localhost:1313/tag/team/</link>
-      <atom:link href="http://localhost:1313/tag/team/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://example.com/tag/team/</link>
+      <atom:link href="https://example.com/tag/team/index.xml" rel="self" type="application/rss+xml" />
     <description>Team</description>
     <generator>Wowchemy (https://wowchemy.com)</generator>
     <item>
       <title>Unmanned Aerial Vehicles</title>
-      <link>http://localhost:1313/projects/jatayu/</link>
+      <link>https://example.com/projects/jatayu/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/jatayu/</guid>
+      <guid>https://example.com/projects/jatayu/</guid>
       <description>&lt;p&gt;Project Jatayu is the autonomous UAV team of RVCE (undergrad university)&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Built multiple UAVs, both multicoptors and fixed wings.&lt;/li&gt;

@@ -2,15 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Coursework | Shrutheesh Raman Iyer</title>
-    <link>http://localhost:1313/tag/coursework/</link>
-      <atom:link href="http://localhost:1313/tag/coursework/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://example.com/tag/coursework/</link>
+      <atom:link href="https://example.com/tag/coursework/index.xml" rel="self" type="application/rss+xml" />
     <description>Coursework</description>
     <generator>Wowchemy (https://wowchemy.com)</generator>
     <item>
       <title>JetBot Roomba Prototype</title>
-      <link>http://localhost:1313/projects/roomba_prototype/</link>
+      <link>https://example.com/projects/roomba_prototype/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/roomba_prototype/</guid>
+      <guid>https://example.com/projects/roomba_prototype/</guid>
       <description>&lt;p&gt;Developed a autonomous mobile robot (NVidia JetBot), equipped with perception, planning and control to be able to navigate in a given space, similar to a roomba, written from scratch, as part of CSE276A: Introduction to Robotics.
 Features:&lt;/p&gt;
 &lt;ul&gt;
@@ -24,9 +24,9 @@ Features:&lt;/p&gt;
     
     <item>
       <title>3D Reconstruction using SLAM</title>
-      <link>http://localhost:1313/projects/maya/</link>
+      <link>https://example.com/projects/maya/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/maya/</guid>
+      <guid>https://example.com/projects/maya/</guid>
       <description>&lt;p&gt;In a team of 3, developed an end-to-end VR application for 3D reconstruction and VR rendering of archaeological sites with an inertial RGBD camera using SLAM. Code available at &lt;a href=&#34;https://github.com/KolinGuo/maya-slam&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;github&lt;/a&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Primarily contributed to the development and interface of SLAM to obtain 6D pose trajectory&lt;/li&gt;

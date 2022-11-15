@@ -2,15 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Computer Vision | Shrutheesh Raman Iyer</title>
-    <link>http://localhost:1313/tag/computer-vision/</link>
-      <atom:link href="http://localhost:1313/tag/computer-vision/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://example.com/tag/computer-vision/</link>
+      <atom:link href="https://example.com/tag/computer-vision/index.xml" rel="self" type="application/rss+xml" />
     <description>Computer Vision</description>
     <generator>Wowchemy (https://wowchemy.com)</generator>
     <item>
       <title>Monocular Visual Odometry</title>
-      <link>http://localhost:1313/projects/visual_odometry/</link>
+      <link>https://example.com/projects/visual_odometry/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/visual_odometry/</guid>
+      <guid>https://example.com/projects/visual_odometry/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;Research project to explore the challenges and applications of Visual Odometry&lt;/li&gt;
 &lt;li&gt;Compared deep learning based feature extractors and traditional features for indoor and outdoor navigation tasks&lt;/li&gt;
@@ -22,9 +22,9 @@
     
     <item>
       <title>3D Reconstruction using SLAM</title>
-      <link>http://localhost:1313/projects/maya/</link>
+      <link>https://example.com/projects/maya/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/maya/</guid>
+      <guid>https://example.com/projects/maya/</guid>
       <description>&lt;p&gt;In a team of 3, developed an end-to-end VR application for 3D reconstruction and VR rendering of archaeological sites with an inertial RGBD camera using SLAM. Code available at &lt;a href=&#34;https://github.com/KolinGuo/maya-slam&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;github&lt;/a&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Primarily contributed to the development and interface of SLAM to obtain 6D pose trajectory&lt;/li&gt;

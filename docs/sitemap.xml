@@ -2,54 +2,54 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/projects/macgyver/</loc>
+    <loc>https://example.com/projects/macgyver/</loc>
   </url><url>
-    <loc>http://localhost:1313/projects/avatar/</loc>
+    <loc>https://example.com/projects/avatar/</loc>
   </url><url>
-    <loc>http://localhost:1313/projects/visual_odometry/</loc>
+    <loc>https://example.com/projects/visual_odometry/</loc>
   </url><url>
-    <loc>http://localhost:1313/projects/roomba_prototype/</loc>
+    <loc>https://example.com/projects/roomba_prototype/</loc>
   </url><url>
-    <loc>http://localhost:1313/projects/maya/</loc>
+    <loc>https://example.com/projects/maya/</loc>
   </url><url>
-    <loc>http://localhost:1313/projects/jatayu/</loc>
+    <loc>https://example.com/projects/jatayu/</loc>
   </url><url>
-    <loc>http://localhost:1313/projects/iimb/</loc>
+    <loc>https://example.com/projects/iimb/</loc>
   </url><url>
-    <loc>http://localhost:1313/authors/</loc>
+    <loc>https://example.com/authors/</loc>
   </url><url>
-    <loc>http://localhost:1313/bio/</loc>
+    <loc>https://example.com/bio/</loc>
   </url><url>
-    <loc>http://localhost:1313/experience/</loc>
+    <loc>https://example.com/experience/</loc>
   </url><url>
-    <loc>http://localhost:1313/portfolio/</loc>
+    <loc>https://example.com/portfolio/</loc>
   </url><url>
-    <loc>http://localhost:1313/project/</loc>
+    <loc>https://example.com/project/</loc>
   </url><url>
-    <loc>http://localhost:1313/authors/</loc>
+    <loc>https://example.com/authors/</loc>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://example.com/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/tag/computer-vision/</loc>
+    <loc>https://example.com/tag/computer-vision/</loc>
   </url><url>
-    <loc>http://localhost:1313/tag/coursework/</loc>
+    <loc>https://example.com/tag/coursework/</loc>
   </url><url>
-    <loc>http://localhost:1313/tag/data-science/</loc>
+    <loc>https://example.com/tag/data-science/</loc>
   </url><url>
-    <loc>http://localhost:1313/projects/</loc>
+    <loc>https://example.com/projects/</loc>
   </url><url>
-    <loc>http://localhost:1313/publication_types/</loc>
+    <loc>https://example.com/publication_types/</loc>
   </url><url>
-    <loc>http://localhost:1313/tag/research/</loc>
+    <loc>https://example.com/tag/research/</loc>
   </url><url>
-    <loc>http://localhost:1313/tag/robotics/</loc>
+    <loc>https://example.com/tag/robotics/</loc>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://example.com/</loc>
   </url><url>
-    <loc>http://localhost:1313/authors/admin/</loc>
+    <loc>https://example.com/authors/admin/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://example.com/tags/</loc>
   </url><url>
-    <loc>http://localhost:1313/tag/team/</loc>
+    <loc>https://example.com/tag/team/</loc>
   </url>
 </urlset>
