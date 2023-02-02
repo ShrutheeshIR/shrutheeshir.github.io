@@ -39,7 +39,7 @@ experience:
     company_url: 'https://cps.iisc.ac.in/'
     company_logo: rbccps
     location: Bangalore, India
-    date_start: '2019-04-21'
+    date_start: '2019-11-21'
     date_end: '2021-01-31'
     description: |2-
         - Worked on two research projects: Visual Odometry for Navigation, and Teleoperation of a Humanoid Robot

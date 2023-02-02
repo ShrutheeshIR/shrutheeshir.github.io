@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Shrutheesh Raman Iyer</title>
+    <title>Authors | Shrutheesh Raman Iyer</title>
     <link>https://example.com/authors/</link>
       <atom:link href="https://example.com/authors/index.xml" rel="self" type="application/rss+xml" />
-    <description>Shrutheesh Raman Iyer</description>
+    <description>Authors</description>
     <generator>Wowchemy (https://wowchemy.com)</generator>
     <item>
       <title>Shrutheesh Raman Iyer</title>
@@ -18,7 +18,7 @@
 &lt;p&gt;
   &lt;i class=&#34;fas fa-download  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Download my 
 
-&lt;a href=&#34;https://example.com/uploads/demo_resume.pdf&#34; target=&#34;_blank&#34;&gt;resumé&lt;/a&gt;
+&lt;a href=&#34;https://example.com/uploads/CV.pdf&#34; target=&#34;_blank&#34;&gt;CV&lt;/a&gt;
 .&lt;/p&gt;
 </description>
     </item>

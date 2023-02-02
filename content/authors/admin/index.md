@@ -110,4 +110,4 @@ I'm interested in developing robot systems, to be deployed onto the noisy real w
 
 And when I'm not doing robotics, you'd typically find me watching cricket or football (re: soccer) or passionately defending why the Eagles could not have carried the ring to Mordor. 
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/CV.pdf" "newtab" >}}CV{{< /staticref >}}.
