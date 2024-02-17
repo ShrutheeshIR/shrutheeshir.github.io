@@ -22,6 +22,18 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
+
+  - title: Software Engineer
+    company: Aurora Innovation
+    company_url: 'https://aurora.tech'
+    company_logo: aurora
+    location: Pittsburgh
+    date_start: '2023-07-24'
+    date_end: ''
+    description: |2-
+        - Developing safe and robust perception systems for self-driving trucks.
+        - Skills: 3D Object Detection, PyTorch, Python, C++
+
   - title: Software Perception Intern
     company: Aurora Innovation
     company_url: 'https://aurora.tech'
@@ -30,8 +42,7 @@ experience:
     date_start: '2022-06-21'
     date_end: '2022-09-09'
     description: |2-
-        - Implemented and integrated range-view based object detection for the lidar sensors with camera sensors for the self-driving autonomy stack to improve long-range object detection
-        - Increased the long-range detection capabilities allowing the vehicle to detect objects >200m on all sides
+        - Worked on increasing the long-range object detection capabilities for the self-driving perception stack.
         - Skills: 3D Object Detection, Lidar Processing, Depth Processing, PyTorch, Python, C++
 
   - title: Technical Associate (Research Intern formerly)

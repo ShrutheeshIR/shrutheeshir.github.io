@@ -28,7 +28,7 @@ experience:
     company_logo: ucsd
     location: San Diego, CA
     date_start: '2021-08-23'
-    date_end: ''
+    date_end: '2023-06-11'
     description: |2-
         - Serving as a teaching assistant for 4 quarters at UCSD, in the CSE department and Psychology department. 
         - Courses: Beyond Relational Datamodels (DSE250), Introduction to Statistics (PSYC60) and Computer Vision I (CSE252A)
@@ -39,7 +39,7 @@ experience:
     company_logo: cri
     location: San Diego, CA
     date_start: '2022-08-08'
-    date_end: ''
+    date_end: '2023-06-11'
     description: |2-
         - Graduate student organization affiliated with the Contextual Robotics Institute (CRI) at UC San Diego. 
         - Organizing events to connect graduate students through academic, professional, and social events to foster a stronger and more inclusive robotics community at UCSD

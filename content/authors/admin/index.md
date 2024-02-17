@@ -6,12 +6,12 @@ title: Shrutheesh Raman Iyer
 superuser: true
 
 # Role/position/tagline
-role: Graduate Student
+role: Robotics Software Engineer
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: University of California, San Diego
-    url: https://www.ucsd.edu/
+  - name: Aurora Tech
+    url: https://aurora.tech/
 
 # Short bio (displayed in user profile at end of posts)
 bio: Aspiring roboticist interested in perception and planning
@@ -51,6 +51,9 @@ social:
     link: https://www.linkedin.com/ShrutheeshIR
 
 affiliations:
+  - name: aurora
+    link: https://aurora.tech/
+    logo: aurora
   - name: cseucsd
     link: https://cse.ucsd.edu
     logo: cseucsd
@@ -60,9 +63,6 @@ affiliations:
   - name: cri
     link: https://contextualrobotics.ucsd.edu/
     logo: cri
-  - name: aurora
-    link: https://aurora.tech/
-    logo: aurora
   - name: cps
     link: https://cps.iisc.ac.in/
     logo: rbccps
@@ -104,9 +104,9 @@ highlight_name: true
 
  Hello there 👋.
 
-I'm a second year graduate student pursuing my master's degree in Computer Science and Engineering at the University of California, San Diego, specializing in robotics.
+I'm a robotics software engineer at [Aurora Innovation](https://aurora.tech), developing self-driving tech, having graduated from UC San Diego with a master's degree in Computer Science and Engineering at the University of California, San Diego, specializing in robotics.
 
-I'm interested in developing robot systems, to be deployed onto the noisy real world, tackling problems ranging from robot manipulation to navigation and SLAM. I'm currently conducting my research at the Cognitive Robotics Lab at the Contextual Robotics Institute, UCSD, where I am working on developing a generalized framework for robot tool use through affordances.
+I'm interested in developing robot systems, to be deployed onto the noisy real world, tackling problems ranging from robot manipulation to navigation and SLAM. Previously, I conducted my research at the Cognitive Robotics Lab at the Contextual Robotics Institute, UCSD, where I worked on developing a generalized framework for robot tool use through affordances.
 
 And when I'm not doing robotics, you'd typically find me watching cricket or football (re: soccer) or passionately defending why the Eagles could not have carried the ring to Mordor. 
 

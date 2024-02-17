@@ -29,7 +29,7 @@ experience:
     # # company_logo: org-gc
     location: CSE252A
     date_start: '2022-09-19'
-    # date_end: '2022-12-14'
+    date_end: '2023-06-11'
     description: |2-
         - Graduate level course in Computer Vision, taught by [Prof. Ben Ochoa](https://cseweb.ucsd.edu/~bochoa/) 
         - Covers the fundamentals of computer vision across different topics including image formation, image processing, multi-view geometry and CNNs
@@ -41,7 +41,7 @@ experience:
     # # company_logo: org-gc
     location: PSYC60
     date_start: '2022-01-03'
-    date_end: '2022-06-14'
+    date_end: '2023-06-14'
     description: |2-
         - Undergraduate level introduction to statistics for students from the psychology major, taught by Prof. Eric Steiner during Winter 22, and Prof. Fred Rose in Spring 22
         - Covered the fundamentals of statistics and probability from measures of central tendencies to statistical and hypothesis testing

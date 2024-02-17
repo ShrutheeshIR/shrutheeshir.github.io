@@ -20,7 +20,7 @@ design:
 ---
 - *General Programming* : Python, C++, C, Matlab, R
 - *Robotics Development*: ROS with C/C++ and Python. Familiar with move_it and inverse kinematics
-- *Simulation Environments*: Coppelia, Gazebo and Bullet
 - *Computer Vision*: Comfortable with Camera Calibration, multi view geometry and SLAM. Familiar with FFMPEG for low-level tasks
 - *Frameworks*: PyTorch, NumPy, SciPy, Pandas
+- *Simulation Environments*: Coppelia, Gazebo and Bullet
 - *Database Systems*: MySQL, Neo4j, Gremlin, XML
