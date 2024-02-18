@@ -5,18 +5,19 @@
     <link>https://example.com/authors/</link>
       <atom:link href="https://example.com/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Shrutheesh Raman Iyer</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator>
+    <generator>Wowchemy (https://wowchemy.com)</generator><lastBuildDate>Fri, 01 Dec 2023 00:00:00 +0000</lastBuildDate>
     <item>
       <title>Shrutheesh Raman Iyer</title>
       <link>https://example.com/authors/admin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://example.com/authors/admin/</guid>
       <description>&lt;p&gt;Hello there 👋.&lt;/p&gt;
-&lt;p&gt;I&amp;rsquo;m a second year graduate student pursuing my master&amp;rsquo;s degree in Computer Science and Engineering at the University of California, San Diego, specializing in robotics.&lt;/p&gt;
-&lt;p&gt;I&amp;rsquo;m interested in developing robot systems, to be deployed onto the noisy real world, tackling problems ranging from robot manipulation to navigation and SLAM. I&amp;rsquo;m currently conducting my research at the Cognitive Robotics Lab at the Contextual Robotics Institute, UCSD, where I am working on developing a generalized framework for robot tool use through affordances.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m a robotics software engineer at &lt;a href=&#34;https://aurora.tech&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Aurora Innovation&lt;/a&gt;, developing self-driving tech.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m interested in developing robot systems, to be deployed onto the noisy real world, tackling problems ranging from robot manipulation to navigation.&lt;/p&gt;
+&lt;p&gt;I graduated from UC San Diego with a master&amp;rsquo;s degree in Computer Science and Engineering at the University of California, San Diego, specializing in robotics. Here, I conducted my research at the &lt;a href=&#34;https://cogrob.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Cognitive Robotics Lab&lt;/a&gt; at the Contextual Robotics Institute, UCSD, where I worked on developing an improvisational framework for robot tool use through affordances. Thesis available &lt;a href=&#34;https://escholarship.org/uc/item/8622p2rs&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;And when I&amp;rsquo;m not doing robotics, you&amp;rsquo;d typically find me watching cricket or football (re: soccer) or passionately defending why the Eagles could not have carried the ring to Mordor.&lt;/p&gt;
 &lt;p&gt;
-  &lt;i class=&#34;fas fa-download  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Download my 
+  &lt;i class=&#34;fas fa-download  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Download my (semi-up-to-date)
 
 &lt;a href=&#34;https://example.com/uploads/CV.pdf&#34; target=&#34;_blank&#34;&gt;CV&lt;/a&gt;
 .&lt;/p&gt;

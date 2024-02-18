@@ -10,6 +10,9 @@ main:
   - name: Bio
     url: 'bio'
     weight: 20
+  - name: Publications
+    url: 'publications'
+    weight: 25
   - name: Projects
     url: 'project'
     weight: 30

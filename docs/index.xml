@@ -5,7 +5,22 @@
     <link>https://example.com/</link>
       <atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
     <description>Shrutheesh Raman Iyer</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator>
+    <generator>Wowchemy (https://wowchemy.com)</generator><lastBuildDate>Fri, 01 Dec 2023 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Home-Robot Project</title>
+      <link>https://example.com/projects/home_robot/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/projects/home_robot/</guid>
+      <description>&lt;p&gt;Research Project with Jiaming Hu, &lt;a href=&#34;https://anwesanpal.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Anwesan Pal&lt;/a&gt;, Jiaming Hu, Akanimoh Adeyele,  Aditya Aggarwal and Prof. Henrik Christensen at Cogrob UCSD.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Developing an assistant robot that can help humans in everyday house-hold cleanup tasks.&lt;/li&gt;
+&lt;li&gt;Worked on task planning and system architecture with integration, to orchestrate the behavior of the robot.&lt;/li&gt;
+&lt;li&gt;Presented at the &lt;a href=&#34;https://www.ieee-irc.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;IEEE Robotic Computing Conference 2023&lt;/a&gt;. &lt;a href=&#34;https://arxiv.org/pdf/2312.06129.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper link&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Project &lt;a href=&#34;https://sites.google.com/eng.ucsd.edu/home-robot&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;website&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
     <item>
       <title>Robot Macgyver Project</title>
       <link>https://example.com/projects/macgyver/</link>
@@ -14,8 +29,10 @@
       <description>&lt;p&gt;Research Project in developing a generalized framework for robot tool improvization using affordances. Complex reasoning allows robots to &amp;ldquo;think outside the box&amp;rdquo; using available items to improvize in unforseen environments.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Advised by &lt;a href=&#34;https://hichristensen.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Prof. Henrik Christensen&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Working on recognizing and using affordances of objects and tools.&lt;/li&gt;
-&lt;li&gt;Implementing an end-to-end working pipeline on V-Rep CoppeliaSim Simulation Environment, and on a real Fetch robot.&lt;/li&gt;
+&lt;li&gt;Developed recognizing and using affordances of objects and tools.&lt;/li&gt;
+&lt;li&gt;Explored the use of behavior trees in dynamic task planning.&lt;/li&gt;
+&lt;li&gt;Implemented an end-to-end working pipeline on V-Rep CoppeliaSim Simulation Environment, and on a real Fetch robot for table-top settings.&lt;/li&gt;
+&lt;li&gt;Thesis available &lt;a href=&#34;https://escholarship.org/uc/item/8622p2rs&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;online&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
@@ -112,6 +129,30 @@ Features:&lt;/p&gt;
     </item>
     
     <item>
+      <title>Household navigation and manipulation for everyday object rearrangement tasks</title>
+      <link>https://example.com/publications/irc-23-homerobot/</link>
+      <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publications/irc-23-homerobot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Deep-Feature-Based Visual Odometry for Autonomous Emergency Parking</title>
+      <link>https://example.com/publications/iyer-2023-deep/</link>
+      <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publications/iyer-2023-deep/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Improvisational Robot Tool Use using Affordance based Planning</title>
+      <link>https://example.com/publications/iyer-2023-improvisational/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publications/iyer-2023-improvisational/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title></title>
       <link>https://example.com/bio/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -149,11 +190,12 @@ Features:&lt;/p&gt;
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://example.com/authors/admin/</guid>
       <description>&lt;p&gt;Hello there 👋.&lt;/p&gt;
-&lt;p&gt;I&amp;rsquo;m a second year graduate student pursuing my master&amp;rsquo;s degree in Computer Science and Engineering at the University of California, San Diego, specializing in robotics.&lt;/p&gt;
-&lt;p&gt;I&amp;rsquo;m interested in developing robot systems, to be deployed onto the noisy real world, tackling problems ranging from robot manipulation to navigation and SLAM. I&amp;rsquo;m currently conducting my research at the Cognitive Robotics Lab at the Contextual Robotics Institute, UCSD, where I am working on developing a generalized framework for robot tool use through affordances.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m a robotics software engineer at &lt;a href=&#34;https://aurora.tech&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Aurora Innovation&lt;/a&gt;, developing self-driving tech.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m interested in developing robot systems, to be deployed onto the noisy real world, tackling problems ranging from robot manipulation to navigation.&lt;/p&gt;
+&lt;p&gt;I graduated from UC San Diego with a master&amp;rsquo;s degree in Computer Science and Engineering at the University of California, San Diego, specializing in robotics. Here, I conducted my research at the &lt;a href=&#34;https://cogrob.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Cognitive Robotics Lab&lt;/a&gt; at the Contextual Robotics Institute, UCSD, where I worked on developing an improvisational framework for robot tool use through affordances. Thesis available &lt;a href=&#34;https://escholarship.org/uc/item/8622p2rs&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;And when I&amp;rsquo;m not doing robotics, you&amp;rsquo;d typically find me watching cricket or football (re: soccer) or passionately defending why the Eagles could not have carried the ring to Mordor.&lt;/p&gt;
 &lt;p&gt;
-  &lt;i class=&#34;fas fa-download  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Download my 
+  &lt;i class=&#34;fas fa-download  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Download my (semi-up-to-date)
 
 &lt;a href=&#34;https://example.com/uploads/CV.pdf&#34; target=&#34;_blank&#34;&gt;CV&lt;/a&gt;
 .&lt;/p&gt;

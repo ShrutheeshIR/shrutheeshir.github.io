@@ -2,6 +2,8 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://example.com/projects/home_robot/</loc>
+  </url><url>
     <loc>https://example.com/projects/macgyver/</loc>
   </url><url>
     <loc>https://example.com/projects/avatar/</loc>
@@ -17,6 +19,64 @@
     <loc>https://example.com/projects/iimb/</loc>
   </url><url>
     <loc>https://example.com/authors/</loc>
+    <lastmod>2023-12-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://example.com/publication-type/1/</loc>
+    <lastmod>2023-12-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://example.com/authors/aditya-aggarwal/</loc>
+    <lastmod>2023-12-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://example.com/authors/akanimoh-adeleye/</loc>
+    <lastmod>2023-12-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://example.com/authors/anwesan-pal/</loc>
+    <lastmod>2023-12-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://example.com/authors/</loc>
+    <lastmod>2023-12-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://example.com/authors/henrik-i.-christensen/</loc>
+    <lastmod>2023-12-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://example.com/publications/irc-23-homerobot/</loc>
+    <lastmod>2023-12-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://example.com/authors/jiaming-hu/</loc>
+    <lastmod>2023-12-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://example.com/publication_types/</loc>
+    <lastmod>2023-12-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://example.com/publications/</loc>
+    <lastmod>2023-12-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://example.com/authors/shrutheesh-r.-iyer/</loc>
+    <lastmod>2023-12-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://example.com/</loc>
+    <lastmod>2023-12-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://example.com/publications/iyer-2023-deep/</loc>
+    <lastmod>2023-07-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://example.com/authors/panini-bhamidipati/</loc>
+    <lastmod>2023-07-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://example.com/authors/raghu-krishnapuram/</loc>
+    <lastmod>2023-07-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://example.com/authors/shrutheesh-raman-iyer/</loc>
+    <lastmod>2023-07-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://example.com/authors/varghese-p-kuruvilla/</loc>
+    <lastmod>2023-07-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://example.com/publication-type/7/</loc>
+    <lastmod>2023-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://example.com/publications/iyer-2023-improvisational/</loc>
+    <lastmod>2023-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://example.com/bio/</loc>
   </url><url>
@@ -25,8 +85,6 @@
     <loc>https://example.com/portfolio/</loc>
   </url><url>
     <loc>https://example.com/project/</loc>
-  </url><url>
-    <loc>https://example.com/authors/</loc>
   </url><url>
     <loc>https://example.com/categories/</loc>
   </url><url>
@@ -38,13 +96,9 @@
   </url><url>
     <loc>https://example.com/projects/</loc>
   </url><url>
-    <loc>https://example.com/publication_types/</loc>
-  </url><url>
     <loc>https://example.com/tag/research/</loc>
   </url><url>
     <loc>https://example.com/tag/robotics/</loc>
-  </url><url>
-    <loc>https://example.com/</loc>
   </url><url>
     <loc>https://example.com/authors/admin/</loc>
   </url><url>

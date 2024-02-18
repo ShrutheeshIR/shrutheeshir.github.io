@@ -7,6 +7,21 @@
     <description>Research</description>
     <generator>Wowchemy (https://wowchemy.com)</generator>
     <item>
+      <title>Home-Robot Project</title>
+      <link>https://example.com/projects/home_robot/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/projects/home_robot/</guid>
+      <description>&lt;p&gt;Research Project with Jiaming Hu, &lt;a href=&#34;https://anwesanpal.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Anwesan Pal&lt;/a&gt;, Jiaming Hu, Akanimoh Adeyele,  Aditya Aggarwal and Prof. Henrik Christensen at Cogrob UCSD.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Developing an assistant robot that can help humans in everyday house-hold cleanup tasks.&lt;/li&gt;
+&lt;li&gt;Worked on task planning and system architecture with integration, to orchestrate the behavior of the robot.&lt;/li&gt;
+&lt;li&gt;Presented at the &lt;a href=&#34;https://www.ieee-irc.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;IEEE Robotic Computing Conference 2023&lt;/a&gt;. &lt;a href=&#34;https://arxiv.org/pdf/2312.06129.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper link&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Project &lt;a href=&#34;https://sites.google.com/eng.ucsd.edu/home-robot&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;website&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Robot Macgyver Project</title>
       <link>https://example.com/projects/macgyver/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -14,8 +29,10 @@
       <description>&lt;p&gt;Research Project in developing a generalized framework for robot tool improvization using affordances. Complex reasoning allows robots to &amp;ldquo;think outside the box&amp;rdquo; using available items to improvize in unforseen environments.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Advised by &lt;a href=&#34;https://hichristensen.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Prof. Henrik Christensen&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Working on recognizing and using affordances of objects and tools.&lt;/li&gt;
-&lt;li&gt;Implementing an end-to-end working pipeline on V-Rep CoppeliaSim Simulation Environment, and on a real Fetch robot.&lt;/li&gt;
+&lt;li&gt;Developed recognizing and using affordances of objects and tools.&lt;/li&gt;
+&lt;li&gt;Explored the use of behavior trees in dynamic task planning.&lt;/li&gt;
+&lt;li&gt;Implemented an end-to-end working pipeline on V-Rep CoppeliaSim Simulation Environment, and on a real Fetch robot for table-top settings.&lt;/li&gt;
+&lt;li&gt;Thesis available &lt;a href=&#34;https://escholarship.org/uc/item/8622p2rs&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;online&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>

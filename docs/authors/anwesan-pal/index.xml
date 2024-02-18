@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Anwesan Pal | Shrutheesh Raman Iyer</title>
+    <link>https://example.com/authors/anwesan-pal/</link>
+      <atom:link href="https://example.com/authors/anwesan-pal/index.xml" rel="self" type="application/rss+xml" />
+    <description>Anwesan Pal</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><lastBuildDate>Fri, 01 Dec 2023 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Household navigation and manipulation for everyday object rearrangement tasks</title>
+      <link>https://example.com/publications/irc-23-homerobot/</link>
+      <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publications/irc-23-homerobot/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -108,7 +108,7 @@ I'm a robotics software engineer at [Aurora Innovation](https://aurora.tech), de
 
 I'm interested in developing robot systems, to be deployed onto the noisy real world, tackling problems ranging from robot manipulation to navigation. 
 
-I graduated from UC San Diego with a master's degree in Computer Science and Engineering at the University of California, San Diego, specializing in robotics. Here, I conducted my research at the [Cognitive Robotics Lab](https://cogrob.org) at the Contextual Robotics Institute, UCSD, where I worked on developing an improvisational framework for robot tool use through affordances. Thesis available at [link](https://escholarship.org/uc/item/8622p2rs).
+I graduated from UC San Diego with a master's degree in Computer Science and Engineering at the University of California, San Diego, specializing in robotics. Here, I conducted my research at the [Cognitive Robotics Lab](https://cogrob.org) at the Contextual Robotics Institute, UCSD, where I worked on developing an improvisational framework for robot tool use through affordances. Thesis available [here](https://escholarship.org/uc/item/8622p2rs).
 
 And when I'm not doing robotics, you'd typically find me watching cricket or football (re: soccer) or passionately defending why the Eagles could not have carried the ring to Mordor. 
 
