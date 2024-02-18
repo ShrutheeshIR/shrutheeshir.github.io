@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Parinith R Iyer | Shrutheesh Raman Iyer</title>
+    <link>https://example.com/authors/parinith-r-iyer/</link>
+      <atom:link href="https://example.com/authors/parinith-r-iyer/index.xml" rel="self" type="application/rss+xml" />
+    <description>Parinith R Iyer</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Adaptive real time traffic prediction using deep neural networks</title>
+      <link>https://example.com/publication/iyer-2019-adaptive/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/iyer-2019-adaptive/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

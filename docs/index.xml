@@ -5,7 +5,7 @@
     <link>https://example.com/</link>
       <atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
     <description>Shrutheesh Raman Iyer</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><lastBuildDate>Fri, 01 Dec 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><lastBuildDate>Mon, 11 Dec 2023 00:00:00 +0000</lastBuildDate>
     <item>
       <title>Home-Robot Project</title>
       <link>https://example.com/projects/home_robot/</link>
@@ -129,11 +129,27 @@ Features:&lt;/p&gt;
     </item>
     
     <item>
+      <title>Presented at IRC 2023</title>
+      <link>https://example.com/post/irc/</link>
+      <pubDate>Mon, 11 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://example.com/post/irc/</guid>
+      <description>&lt;p&gt;Presented our work titled &amp;lsquo;Household navigation and manipulation for everyday object rearrangement tasks&amp;rsquo;, at the IEEE Robotic Computing (IRC) Conference 2023. The pre-print can be found at &lt;a href=&#34;https://arxiv.org/pdf/2312.06129.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;arXiv&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Household navigation and manipulation for everyday object rearrangement tasks</title>
       <link>https://example.com/publication/irc-23-homerobot/</link>
       <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
       <guid>https://example.com/publication/irc-23-homerobot/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Software Engineer at Aurora!</title>
+      <link>https://example.com/post/started_aurora/</link>
+      <pubDate>Mon, 24 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://example.com/post/started_aurora/</guid>
+      <description>&lt;p&gt;Joined Aurora Tech as a software engineer, developing safe and robust perception systems for the self-driving stack&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -145,10 +161,34 @@ Features:&lt;/p&gt;
     </item>
     
     <item>
+      <title>Graduated from UC San Diego!</title>
+      <link>https://example.com/post/graduation/</link>
+      <pubDate>Fri, 16 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>https://example.com/post/graduation/</guid>
+      <description>&lt;p&gt;Graduated from UC San Diego with a masters in Computer Science and Engineering, with a specialization in robotics. Cheers to an amazing two years!&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Presented my thesis!</title>
+      <link>https://example.com/post/thesis/</link>
+      <pubDate>Thu, 08 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>https://example.com/post/thesis/</guid>
+      <description>&lt;p&gt;Presented my masters thesis, titled &amp;ldquo;Improvisational Robot Tool Use using Affordance based Planning&amp;rdquo;, to my committee and a public audience.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Improvisational Robot Tool Use using Affordance based Planning</title>
       <link>https://example.com/publication/iyer-2023-improvisational/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
       <guid>https://example.com/publication/iyer-2023-improvisational/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Adaptive real time traffic prediction using deep neural networks</title>
+      <link>https://example.com/publication/iyer-2019-adaptive/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/iyer-2019-adaptive/</guid>
       <description></description>
     </item>
     
@@ -165,6 +205,14 @@ Features:&lt;/p&gt;
       <link>https://example.com/experience/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://example.com/experience/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://example.com/home/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/home/</guid>
       <description></description>
     </item>
     

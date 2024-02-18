@@ -18,6 +18,15 @@
   </url><url>
     <loc>https://example.com/projects/iimb/</loc>
   </url><url>
+    <loc>https://example.com/post/</loc>
+    <lastmod>2023-12-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://example.com/post/irc/</loc>
+    <lastmod>2023-12-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://example.com/</loc>
+    <lastmod>2023-12-11T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://example.com/authors/</loc>
     <lastmod>2023-12-01T00:00:00+00:00</lastmod>
   </url><url>
@@ -54,8 +63,8 @@
     <loc>https://example.com/authors/shrutheesh-r.-iyer/</loc>
     <lastmod>2023-12-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/</loc>
-    <lastmod>2023-12-01T00:00:00+00:00</lastmod>
+    <loc>https://example.com/post/started_aurora/</loc>
+    <lastmod>2023-07-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://example.com/publication/iyer-2023-deep/</loc>
     <lastmod>2023-07-01T00:00:00+00:00</lastmod>
@@ -72,15 +81,41 @@
     <loc>https://example.com/authors/varghese-p-kuruvilla/</loc>
     <lastmod>2023-07-01T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://example.com/post/graduation/</loc>
+    <lastmod>2023-06-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://example.com/post/thesis/</loc>
+    <lastmod>2023-06-08T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://example.com/publication-type/7/</loc>
     <lastmod>2023-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://example.com/publication/iyer-2023-improvisational/</loc>
     <lastmod>2023-01-01T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://example.com/publication-type/2/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://example.com/publication/iyer-2019-adaptive/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://example.com/authors/kn-subramanya/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://example.com/authors/mr-anala/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://example.com/authors/parinith-r-iyer/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://example.com/authors/raghavendran-ramesh/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://example.com/bio/</loc>
   </url><url>
     <loc>https://example.com/experience/</loc>
+  </url><url>
+    <loc>https://example.com/home/</loc>
   </url><url>
     <loc>https://example.com/portfolio/</loc>
   </url><url>
@@ -93,8 +128,6 @@
     <loc>https://example.com/tag/coursework/</loc>
   </url><url>
     <loc>https://example.com/tag/data-science/</loc>
-  </url><url>
-    <loc>https://example.com/post/</loc>
   </url><url>
     <loc>https://example.com/projects/</loc>
   </url><url>
