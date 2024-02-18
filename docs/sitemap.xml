@@ -39,6 +39,9 @@
     <loc>https://example.com/authors/henrik-i.-christensen/</loc>
     <lastmod>2023-12-01T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://example.com/publication/irc-23-homerobot/</loc>
+    <lastmod>2023-12-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://example.com/publications/irc-23-homerobot/</loc>
     <lastmod>2023-12-01T00:00:00+00:00</lastmod>
   </url><url>
@@ -46,6 +49,9 @@
     <lastmod>2023-12-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://example.com/publication_types/</loc>
+    <lastmod>2023-12-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://example.com/publication/</loc>
     <lastmod>2023-12-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://example.com/publications/</loc>
@@ -56,6 +62,9 @@
   </url><url>
     <loc>https://example.com/</loc>
     <lastmod>2023-12-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://example.com/publication/iyer-2023-deep/</loc>
+    <lastmod>2023-07-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://example.com/publications/iyer-2023-deep/</loc>
     <lastmod>2023-07-01T00:00:00+00:00</lastmod>
@@ -73,6 +82,9 @@
     <lastmod>2023-07-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://example.com/publication-type/7/</loc>
+    <lastmod>2023-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://example.com/publication/iyer-2023-improvisational/</loc>
     <lastmod>2023-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://example.com/publications/iyer-2023-improvisational/</loc>
