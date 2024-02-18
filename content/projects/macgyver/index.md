@@ -36,5 +36,7 @@ image:
 
 Research Project in developing a generalized framework for robot tool improvization using affordances. Complex reasoning allows robots to "think outside the box" using available items to improvize in unforseen environments.
 - Advised by [Prof. Henrik Christensen](https://hichristensen.com)
-- Working on recognizing and using affordances of objects and tools.
-- Implementing an end-to-end working pipeline on V-Rep CoppeliaSim Simulation Environment, and on a real Fetch robot.
+- Developed recognizing and using affordances of objects and tools.
+- Explored the use of behavior trees in dynamic task planning.
+- Implemented an end-to-end working pipeline on V-Rep CoppeliaSim Simulation Environment, and on a real Fetch robot for table-top settings.
+- Thesis available [online](https://escholarship.org/uc/item/8622p2rs).

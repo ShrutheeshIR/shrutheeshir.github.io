@@ -13,6 +13,7 @@ design:
 
 I'm an aspiring roboticist interested in building intelligent systems capable of reasoning and action. I'm interested in problems ranging from active perception to planning for robotics. 
 Currently, I am a perception software engineer at [Aurora Innovation](https://aurora.tech/), building perception systems for self-driving trucks, since July 2023.
+
 I graduated from UC San Diego with a masters in Computer Science, specializing in robotics, where I worked on problems related to task planning for robot manipulation and service robotics under Prof. [Henrik Christensen](https://http://www.hichristensen.com/).
 
 Before I joined UCSD, I completed my bachelors in Computer Science and Engineering from [RV College of Engineering (RVCE)](http://rvce.edu.in/), India.

@@ -104,10 +104,12 @@ highlight_name: true
 
  Hello there 👋.
 
-I'm a robotics software engineer at [Aurora Innovation](https://aurora.tech), developing self-driving tech, having graduated from UC San Diego with a master's degree in Computer Science and Engineering at the University of California, San Diego, specializing in robotics.
+I'm a robotics software engineer at [Aurora Innovation](https://aurora.tech), developing self-driving tech.
 
-I'm interested in developing robot systems, to be deployed onto the noisy real world, tackling problems ranging from robot manipulation to navigation and SLAM. Previously, I conducted my research at the Cognitive Robotics Lab at the Contextual Robotics Institute, UCSD, where I worked on developing a generalized framework for robot tool use through affordances.
+I'm interested in developing robot systems, to be deployed onto the noisy real world, tackling problems ranging from robot manipulation to navigation. 
+
+I graduated from UC San Diego with a master's degree in Computer Science and Engineering at the University of California, San Diego, specializing in robotics. Here, I conducted my research at the [Cognitive Robotics Lab](https://cogrob.org) at the Contextual Robotics Institute, UCSD, where I worked on developing an improvisational framework for robot tool use through affordances. Thesis available at [link](https://escholarship.org/uc/item/8622p2rs).
 
 And when I'm not doing robotics, you'd typically find me watching cricket or football (re: soccer) or passionately defending why the Eagles could not have carried the ring to Mordor. 
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/CV.pdf" "newtab" >}}CV{{< /staticref >}}.
+{{< icon name="download" pack="fas" >}} Download my (semi-up-to-date){{< staticref "uploads/CV.pdf" "newtab" >}}CV{{< /staticref >}}.
