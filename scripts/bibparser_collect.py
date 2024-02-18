@@ -7,7 +7,7 @@ import os
 import glob
 
 complete_entries = []
-all_bibs = glob.glob('content/publications/bibfiles/*.bib')
+all_bibs = glob.glob('content/publication/bibfiles/*.bib')
 
 for filename in all_bibs:
 
@@ -48,5 +48,5 @@ writer.order_entries_by = ('author')
 
 
 
-with open('content/publications/bibfiles/publications.bib', 'w', encoding='utf-8') as bibfile:
+with open('content/publication/bibfiles/publications.bib', 'w', encoding='utf-8') as bibfile:
     bibtexparser.dump(db, bibfile, writer)

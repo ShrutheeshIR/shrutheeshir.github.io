@@ -42,9 +42,6 @@
     <loc>https://example.com/publication/irc-23-homerobot/</loc>
     <lastmod>2023-12-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/publications/irc-23-homerobot/</loc>
-    <lastmod>2023-12-01T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://example.com/authors/jiaming-hu/</loc>
     <lastmod>2023-12-01T00:00:00+00:00</lastmod>
   </url><url>
@@ -54,9 +51,6 @@
     <loc>https://example.com/publication/</loc>
     <lastmod>2023-12-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/publications/</loc>
-    <lastmod>2023-12-01T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://example.com/authors/shrutheesh-r.-iyer/</loc>
     <lastmod>2023-12-01T00:00:00+00:00</lastmod>
   </url><url>
@@ -64,9 +58,6 @@
     <lastmod>2023-12-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://example.com/publication/iyer-2023-deep/</loc>
-    <lastmod>2023-07-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://example.com/publications/iyer-2023-deep/</loc>
     <lastmod>2023-07-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://example.com/authors/panini-bhamidipati/</loc>
@@ -87,9 +78,6 @@
     <loc>https://example.com/publication/iyer-2023-improvisational/</loc>
     <lastmod>2023-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/publications/iyer-2023-improvisational/</loc>
-    <lastmod>2023-01-01T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://example.com/bio/</loc>
   </url><url>
     <loc>https://example.com/experience/</loc>
@@ -105,6 +93,8 @@
     <loc>https://example.com/tag/coursework/</loc>
   </url><url>
     <loc>https://example.com/tag/data-science/</loc>
+  </url><url>
+    <loc>https://example.com/post/</loc>
   </url><url>
     <loc>https://example.com/projects/</loc>
   </url><url>
