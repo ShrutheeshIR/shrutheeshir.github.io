@@ -2,7 +2,7 @@
 title: Latest News
 
 # Listing view
-view: descriptive_list
+view: compact
 columns: '2'
 
 # Optional banner image (relative to `assets/media/` folder).

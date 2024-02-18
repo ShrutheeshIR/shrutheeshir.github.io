@@ -5,7 +5,7 @@ headless: true
 weight: 3
 
 title: Latest News
-subtitle: Latest Cogrob news
+subtitle: Life updates
 
 content:
   count: 5
@@ -19,7 +19,8 @@ content:
   order: desc
   page_type: post
 design:
-  view: 'list'
+  view: 'descriptive_list'
   columns: 2
 show_authors_only: False
+all_day: True
 ---
