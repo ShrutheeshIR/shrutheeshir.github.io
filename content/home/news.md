@@ -1,11 +1,10 @@
 ---
 # Documentation: https://wowchemy.com/docs/page-builder/
 widget: news
-headless: true
 weight: 3
-
 title: Latest News
 subtitle: Life updates
+cms_exclude: true
 
 content:
   count: 5
@@ -20,7 +19,7 @@ content:
   page_type: post
 design:
   view: 'descriptive_list'
-  columns: 2
+  columns: 1
 show_authors_only: False
 all_day: True
 ---
