@@ -1,3 +1,11 @@
+{{/* Hugo Blox: About */}}
+{{/* Documentation: https://hugoblox.com/blocks/ */}}
+{{/* License: https://github.com/HugoBlox/hugo-blox-builder/blob/main/LICENSE.md */}}
+
+<!-- {{/* Initialise */}}
+{{ $page := .wcPage }}
+{{ $block := .wcBlock }} -->
+
 {{ $ := .root }}
 {{ $page := .page }}
 
@@ -80,10 +88,10 @@
 
     </div>
   </div>
-  <div class="col-4 col-lg-8">
+  <div class="col-12 col-lg-8">
 
     {{/* Only display widget title in explicit instances of about widget, not in author pages. */}}
-    {{ if and $page.Params.widget $page.Title }}<h1>{{ $page.Title | markdownify | emojify }}</h1>{{ end }}
+    {{ if and $block.Params.widget $block.Title }}<h1>{{ $block.Title | markdownify | emojify }}</h1>{{ end }}
 
     <div class="article-style">
       {{ $person_page.Content }}
@@ -92,7 +100,7 @@
     <div class="row">
 
       {{ with $person.interests }}
-      <div class="col-md-4">
+      <div class="col-md-5">
         <div class="section-subheading">{{ i18n "interests" | markdownify }}</div>
         <ul class="ul-interests mb-0">
           {{ range . }}
@@ -111,11 +119,7 @@
             <i class="fa-li fas fa-graduation-cap"></i>
             <div class="description">
               <p class="course">{{ .course }}{{ with .year }}, {{ . }}{{ end }}</p>
-              <p class="course">{{ .institution }}</p>
-              {{ if .specialization }}
-              <p class="institution"> Specialization in {{ .specialization }}</p>
-              {{ end }}
-              <p class="institution">{{ .location }}</p>
+              <p class="institution">{{ .institution }}</p>
             </div>
           </li>
           {{ end }}
@@ -145,5 +149,6 @@
 
   </span> 
     {{ end }}
+
   </div>
 </div>
