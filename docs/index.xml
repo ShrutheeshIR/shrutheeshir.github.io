@@ -5,7 +5,7 @@
     <link>https://example.com/</link>
       <atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
     <description>Shrutheesh Raman Iyer</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><lastBuildDate>Mon, 11 Dec 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><lastBuildDate>Tue, 16 Jul 2024 00:00:00 +0000</lastBuildDate>
     <item>
       <title>Home-Robot Project</title>
       <link>https://example.com/projects/home_robot/</link>
@@ -129,6 +129,14 @@ Features:&lt;/p&gt;
     </item>
     
     <item>
+      <title>Motion Planning in Foliated Manifolds using Repetition Roadmap</title>
+      <link>https://example.com/publication/jhu-rss-2024/</link>
+      <pubDate>Tue, 16 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/jhu-rss-2024/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Presented at IRC 2023</title>
       <link>https://example.com/post/irc/</link>
       <pubDate>Mon, 11 Dec 2023 00:00:00 +0000</pubDate>
@@ -239,8 +247,8 @@ Features:&lt;/p&gt;
       <guid>https://example.com/authors/admin/</guid>
       <description>&lt;p&gt;Hello there 👋.&lt;/p&gt;
 &lt;p&gt;I&amp;rsquo;m a robotics software engineer at &lt;a href=&#34;https://aurora.tech&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Aurora Innovation&lt;/a&gt;, developing self-driving tech.&lt;/p&gt;
-&lt;p&gt;I&amp;rsquo;m interested in developing robot systems, to be deployed onto the noisy real world, tackling problems ranging from robot manipulation to navigation.&lt;/p&gt;
-&lt;p&gt;I graduated from UC San Diego with a master&amp;rsquo;s degree in Computer Science and Engineering at the University of California, San Diego, specializing in robotics. Here, I conducted my research at the &lt;a href=&#34;https://cogrob.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Cognitive Robotics Lab&lt;/a&gt; at the Contextual Robotics Institute, UCSD, where I worked on developing an improvisational framework for robot tool use through affordances. Thesis available &lt;a href=&#34;https://escholarship.org/uc/item/8622p2rs&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m interested in developing intelligent robot systems, to be deployed onto the noisy real world, tackling problems ranging from robot manipulation to navigation.&lt;/p&gt;
+&lt;p&gt;I graduated from UC San Diego with a master&amp;rsquo;s degree in Computer Science and Engineering at the University of California, San Diego, specializing in robotics. Here, I conducted my research at the &lt;a href=&#34;https://cogrob.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Cognitive Robotics Lab&lt;/a&gt; at the Contextual Robotics Institute, UCSD, where I worked on developing a task planning improvisational framework for robot tool use through affordances. Thesis available &lt;a href=&#34;https://escholarship.org/uc/item/8622p2rs&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;. I also worked on experience based task and motion planning for manipulation tasks, the most recent of which was presented at RSS 2024.&lt;/p&gt;
 &lt;p&gt;And when I&amp;rsquo;m not doing robotics, you&amp;rsquo;d typically find me watching cricket or football (re: soccer) or passionately defending why the Eagles could not have carried the ring to Mordor.&lt;/p&gt;
 &lt;p&gt;
   &lt;i class=&#34;fas fa-download  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Download my (semi-up-to-date)
