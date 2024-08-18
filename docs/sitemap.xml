@@ -52,7 +52,10 @@
     <lastmod>2024-07-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://example.com/post/</loc>
-    <lastmod>2023-12-11T00:00:00+00:00</lastmod>
+    <lastmod>2024-05-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://example.com/post/rss2024/</loc>
+    <lastmod>2024-05-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://example.com/post/irc/</loc>
     <lastmod>2023-12-11T00:00:00+00:00</lastmod>

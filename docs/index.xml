@@ -137,6 +137,14 @@ Features:&lt;/p&gt;
     </item>
     
     <item>
+      <title>Paper Accepted at RSS 2024</title>
+      <link>https://example.com/post/rss2024/</link>
+      <pubDate>Mon, 13 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.com/post/rss2024/</guid>
+      <description>&lt;p&gt;Our most recent work, titled &amp;ldquo;Motion Planning in Foliated Manifolds using Repetition Roadmap&amp;rdquo; has been accepted at &lt;a href=&#34;https://roboticsconference.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Robot Science and Systems (RSS)&lt;/a&gt; 2024 held in Delft, Netherlands. Was presented on July 16, 2024. The conference paper can be found at &lt;a href=&#34;https://roboticsconference.org/program/papers/36/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Presented at IRC 2023</title>
       <link>https://example.com/post/irc/</link>
       <pubDate>Mon, 11 Dec 2023 00:00:00 +0000</pubDate>
