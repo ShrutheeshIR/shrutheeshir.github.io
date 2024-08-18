@@ -7,5 +7,6 @@ publication_types: ["7"]
 abstract: ""
 featured: false
 publication: ""
+url_pdf: "https://escholarship.org/uc/item/8622p2rs"
 ---
 

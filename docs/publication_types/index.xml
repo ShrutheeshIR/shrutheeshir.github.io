@@ -5,6 +5,6 @@
     <link>https://example.com/publication_types/</link>
       <atom:link href="https://example.com/publication_types/index.xml" rel="self" type="application/rss+xml" />
     <description>Publication_types</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><lastBuildDate>Tue, 16 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><lastBuildDate>Mon, 01 Jul 2024 00:00:00 +0000</lastBuildDate>
   </channel>
 </rss>

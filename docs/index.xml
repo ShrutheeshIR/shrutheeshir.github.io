@@ -5,7 +5,7 @@
     <link>https://example.com/</link>
       <atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
     <description>Shrutheesh Raman Iyer</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><lastBuildDate>Tue, 16 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><lastBuildDate>Mon, 01 Jul 2024 00:00:00 +0000</lastBuildDate>
     <item>
       <title>Home-Robot Project</title>
       <link>https://example.com/projects/home_robot/</link>
@@ -130,9 +130,9 @@ Features:&lt;/p&gt;
     
     <item>
       <title>Motion Planning in Foliated Manifolds using Repetition Roadmap</title>
-      <link>https://example.com/publication/jhu-rss-2024/</link>
-      <pubDate>Tue, 16 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/jhu-rss-2024/</guid>
+      <link>https://example.com/publication/hu-2024-foliated-rep-map/</link>
+      <pubDate>Mon, 01 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/hu-2024-foliated-rep-map/</guid>
       <description></description>
     </item>
     

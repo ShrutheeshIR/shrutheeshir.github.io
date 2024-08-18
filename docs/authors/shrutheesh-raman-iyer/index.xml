@@ -5,15 +5,7 @@
     <link>https://example.com/authors/shrutheesh-raman-iyer/</link>
       <atom:link href="https://example.com/authors/shrutheesh-raman-iyer/index.xml" rel="self" type="application/rss+xml" />
     <description>Shrutheesh Raman Iyer</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><lastBuildDate>Tue, 16 Jul 2024 00:00:00 +0000</lastBuildDate>
-    <item>
-      <title>Motion Planning in Foliated Manifolds using Repetition Roadmap</title>
-      <link>https://example.com/publication/jhu-rss-2024/</link>
-      <pubDate>Tue, 16 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/jhu-rss-2024/</guid>
-      <description></description>
-    </item>
-    
+    <generator>Wowchemy (https://wowchemy.com)</generator><lastBuildDate>Sat, 01 Jul 2023 00:00:00 +0000</lastBuildDate>
     <item>
       <title>Deep-Feature-Based Visual Odometry for Autonomous Emergency Parking</title>
       <link>https://example.com/publication/iyer-2023-deep/</link>
