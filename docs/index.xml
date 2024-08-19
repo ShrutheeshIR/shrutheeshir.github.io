@@ -169,19 +169,19 @@ Features:&lt;/p&gt;
     </item>
     
     <item>
-      <title>Deep-Feature-Based Visual Odometry for Autonomous Emergency Parking</title>
-      <link>https://example.com/publication/iyer-2023-deep/</link>
-      <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/iyer-2023-deep/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Graduated from UC San Diego!</title>
       <link>https://example.com/post/graduation/</link>
       <pubDate>Fri, 16 Jun 2023 00:00:00 +0000</pubDate>
       <guid>https://example.com/post/graduation/</guid>
       <description>&lt;p&gt;Graduated from UC San Diego with a masters in Computer Science and Engineering, with a specialization in robotics. Cheers to an amazing two years!&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Improvisational Robot Tool Use using Affordance based Planning</title>
+      <link>https://example.com/publication/iyer-2023-improvisational/</link>
+      <pubDate>Fri, 16 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/iyer-2023-improvisational/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -193,10 +193,10 @@ Features:&lt;/p&gt;
     </item>
     
     <item>
-      <title>Improvisational Robot Tool Use using Affordance based Planning</title>
-      <link>https://example.com/publication/iyer-2023-improvisational/</link>
-      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/iyer-2023-improvisational/</guid>
+      <title>Deep-Feature-Based Visual Odometry for Autonomous Emergency Parking</title>
+      <link>https://example.com/publication/iyer-2023-deep/</link>
+      <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/iyer-2023-deep/</guid>
       <description></description>
     </item>
     
