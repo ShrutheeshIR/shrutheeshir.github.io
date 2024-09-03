@@ -140,9 +140,9 @@
      {{ if not $img_icon }}{{ $img_icon := resources.Get (printf "media/icons/brands/%s.jpg" .logo) }}{{end}}
 
 
-      {{- with .url}}<a href="{{.}}" target="_blank" rel="noopener">{{end -}}
-        <img src="{{ $img_icon.RelPermalink }}" width="56px" height="56px" alt="{{.organization | plainify}}" loading="lazy">
-      {{- with .url}}</a>{{end -}}
+      {{- with .link}}<a href="{{.}}" target="_blank" rel="noopener">{{end -}}
+        <img src="{{ $img_icon.RelPermalink }}" width="56px" height="56px" alt="{{.name | plainify}}" title="{{.name | plainify}}" loading="lazy">
+      {{- with .link}}</a>{{end -}}
     {{ end }}
     {{ end }}
 

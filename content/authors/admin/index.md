@@ -51,40 +51,40 @@ social:
     link: https://www.linkedin.com/ShrutheeshIR
 
 affiliations:
-  - name: aurora
+  - name: Aurora
     link: https://aurora.tech/
     logo: aurora
-  - name: cseucsd
+  - name: CSE, UCSD
     link: https://cse.ucsd.edu
     logo: cseucsd
-  - name: ucsd
+  - name: UCSD
     link: https://ucsd.edu
     logo: ucsd
-  - name: cri
+  - name: Contextual Robotics Institute (CRI), UCSD
     link: https://contextualrobotics.ucsd.edu/
     logo: cri
-  - name: cps
+  - name: Cyber-Physical Systems Lab, IISc
     link: https://cps.iisc.ac.in/
     logo: rbccps
-  - name: iisc
+  - name: Indian Institute of Science (IISc)
     link: https://iisc.ac.in
     logo: iisc
-  - name: iimb
+  - name: Indian Institute of Management (IIMB)
     link: https://iimb.ac.in
     logo: iimb
-  - name: jatayu
+  - name: Project Jatayu
     link: https://rvce.edu.in
     logo: jatayu
-  - name: rvqz
+  - name: RV QuizCorp
     link: https://rvce.edu.in
     logo: rvqc
-  - name: rvce
+  - name: RVCE
     link: https://rvce.edu.in
     logo: rvce
-  - name: lightmetrics
+  - name: Lightmetrics
     link: https://lightmetrics.co
     logo: lightmetrics
-  - name: citrix
+  - name: Citrix
     link: https://www.citrix.com/
     logo: citrix
 
@@ -106,10 +106,10 @@ highlight_name: true
 
 I'm a robotics software engineer at [Aurora Innovation](https://aurora.tech), developing self-driving tech.
 
-I'm interested in developing intelligent robot systems, to be deployed onto the noisy real world, tackling problems ranging from robot manipulation to navigation.
+I'm interested in developing intelligent robot systems capable of contextual reasoning and action. I'd like to deploy these robots onto the noisy real world, where the robots can infer structures about the problem and the world, and execute them robustly. 
 
-I graduated from UC San Diego with a master's degree in Computer Science and Engineering at the University of California, San Diego, specializing in robotics. Here, I conducted my research at the [Cognitive Robotics Lab](https://cogrob.org) at the Contextual Robotics Institute, UCSD, where I worked on developing a task planning improvisational framework for robot tool use through affordances. Thesis available [here](https://escholarship.org/uc/item/8622p2rs). I also worked on experience based task and motion planning for manipulation tasks, the most recent of which was presented at RSS 2024.
+I graduated from UC San Diego with a master's degree in Computer Science and Engineering at the University of California, San Diego, specializing in robotics. Here, I conducted my research at the [Cognitive Robotics Lab](https://cogrob.org) at the Contextual Robotics Institute, UCSD, where I worked on developing a task planning improvisational framework for robot tool use through affordances. ([Thesis](https://escholarship.org/uc/item/8622p2rs)). I also worked on Experience based Task and Motion Planning for manipulation tasks, the most recent of which was presented at [RSS 2024](https://roboticsconference.org/program/papers/36/).
 
-And when I'm not doing robotics, you'd typically find me watching cricket or football (re: soccer) or passionately defending why the Eagles could not have carried the ring to Mordor.
+When I'm not doing robotics, you'd typically find me watching cricket or football (re: soccer) or passionately defending why the Eagles could not have carried the ring to Mordor.
 
-{{< icon name="download" pack="fas" >}} Download my (semi-up-to-date){{< staticref "uploads/CV.pdf" "newtab" >}}CV{{< /staticref >}}.
+{{< icon name="download" pack="fas" >}} Download my (semi-up-to-date){{< staticref "uploads/CV.pdf" "newtab" >}}CV{{< /staticref >}}
