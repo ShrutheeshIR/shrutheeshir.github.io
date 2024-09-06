@@ -1,7 +1,7 @@
 ---
 title: "Deep-Feature-Based Visual Odometry for Autonomous Emergency Parking"
 date: 2023-07-01
-publishDate: 2024-09-06T01:33:10.517667Z
+publishDate: 2024-09-06T02:07:56.988424Z
 authors: ["Shrutheesh Raman Iyer", "Varghese P Kuruvilla", "Raghu Krishnapuram", "Panini Bhamidipati"]
 publication_types: ["1"]
 abstract: ""
