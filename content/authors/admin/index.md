@@ -19,8 +19,8 @@ bio: Aspiring roboticist interested in perception and planning
 # Interests to show in About widget
 interests:
   - Robotics
-  - Autonomy
   - Perception and Planning
+  - Task and Motion Planning
 
 # Education to show in About widget
 education:
@@ -106,9 +106,9 @@ highlight_name: true
 
 I'm a robotics software engineer at [Aurora Innovation](https://aurora.tech), developing self-driving tech.
 
-I'm interested in developing intelligent robot systems capable of contextual reasoning and action. I'd like to deploy these robots onto the noisy real world, where the robots can infer structures about the problem and the world, and execute them robustly. 
+I'm interested in developing intelligent robot systems capable of contextual reasoning and action. I'd like to deploy these robots onto the noisy real world, where the robots can (1) infer underlying structures about the problem and the world, (2) synthesise feasible plan sequences exploiting the structure and prior experiences, and (3) execute them robustly, handling failures. 
 
-I graduated from UC San Diego with a master's degree in Computer Science and Engineering at the University of California, San Diego, specializing in robotics. Here, I conducted my research at the [Cognitive Robotics Lab](https://cogrob.org) at the Contextual Robotics Institute, UCSD, where I worked on developing a task planning improvisational framework for robot tool use through affordances. ([Thesis](https://escholarship.org/uc/item/8622p2rs)). I also worked on Experience based Task and Motion Planning for manipulation tasks, the most recent of which was presented at [RSS 2024](https://roboticsconference.org/program/papers/36/).
+I graduated from UC San Diego with a master's degree in Computer Science and Engineering at the University of California, San Diego, specializing in robotics. Here, I conducted my research at the [Cognitive Robotics Lab](https://cogrob.org) at the Contextual Robotics Institute, UCSD, where I worked on developing a task planning improvisational framework for robot tool use through causal affordances. ([Thesis](https://escholarship.org/uc/item/8622p2rs)). I also worked on Experience based Task and Motion Planning for manipulation tasks, the most recent of which was presented at [RSS 2024](https://roboticsconference.org/program/papers/36/).
 
 When I'm not doing robotics, you'd typically find me watching cricket or football (re: soccer) or passionately defending why the Eagles could not have carried the ring to Mordor.
 

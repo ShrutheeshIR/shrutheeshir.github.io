@@ -5,11 +5,11 @@
     <link>https://example.com/authors/raghu-krishnapuram/</link>
       <atom:link href="https://example.com/authors/raghu-krishnapuram/index.xml" rel="self" type="application/rss+xml" />
     <description>Raghu Krishnapuram</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><lastBuildDate>Thu, 01 Jun 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><lastBuildDate>Sat, 01 Jul 2023 00:00:00 +0000</lastBuildDate>
     <item>
       <title>Deep-Feature-Based Visual Odometry for Autonomous Emergency Parking</title>
       <link>https://example.com/publication/iyer-2023-deep/</link>
-      <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
       <guid>https://example.com/publication/iyer-2023-deep/</guid>
       <description></description>
     </item>

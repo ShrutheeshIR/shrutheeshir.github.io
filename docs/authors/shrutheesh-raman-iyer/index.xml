@@ -5,20 +5,20 @@
     <link>https://example.com/authors/shrutheesh-raman-iyer/</link>
       <atom:link href="https://example.com/authors/shrutheesh-raman-iyer/index.xml" rel="self" type="application/rss+xml" />
     <description>Shrutheesh Raman Iyer</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><lastBuildDate>Fri, 16 Jun 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><lastBuildDate>Sat, 01 Jul 2023 00:00:00 +0000</lastBuildDate>
     <item>
-      <title>Improvisational Robot Tool Use using Affordance based Planning</title>
-      <link>https://example.com/publication/iyer-2023-improvisational/</link>
-      <pubDate>Fri, 16 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/iyer-2023-improvisational/</guid>
+      <title>Deep-Feature-Based Visual Odometry for Autonomous Emergency Parking</title>
+      <link>https://example.com/publication/iyer-2023-deep/</link>
+      <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/iyer-2023-deep/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Deep-Feature-Based Visual Odometry for Autonomous Emergency Parking</title>
-      <link>https://example.com/publication/iyer-2023-deep/</link>
-      <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/iyer-2023-deep/</guid>
+      <title>Improvisational Robot Tool Use using Affordance based Planning</title>
+      <link>https://example.com/publication/iyer-2023-improvisational/</link>
+      <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/iyer-2023-improvisational/</guid>
       <description></description>
     </item>
     

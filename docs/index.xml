@@ -169,6 +169,22 @@ Features:&lt;/p&gt;
     </item>
     
     <item>
+      <title>Deep-Feature-Based Visual Odometry for Autonomous Emergency Parking</title>
+      <link>https://example.com/publication/iyer-2023-deep/</link>
+      <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/iyer-2023-deep/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Improvisational Robot Tool Use using Affordance based Planning</title>
+      <link>https://example.com/publication/iyer-2023-improvisational/</link>
+      <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/iyer-2023-improvisational/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Graduated from UC San Diego!</title>
       <link>https://example.com/post/graduation/</link>
       <pubDate>Fri, 16 Jun 2023 00:00:00 +0000</pubDate>
@@ -177,27 +193,11 @@ Features:&lt;/p&gt;
     </item>
     
     <item>
-      <title>Improvisational Robot Tool Use using Affordance based Planning</title>
-      <link>https://example.com/publication/iyer-2023-improvisational/</link>
-      <pubDate>Fri, 16 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/iyer-2023-improvisational/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Presented my thesis!</title>
       <link>https://example.com/post/thesis/</link>
       <pubDate>Thu, 08 Jun 2023 00:00:00 +0000</pubDate>
       <guid>https://example.com/post/thesis/</guid>
       <description>&lt;p&gt;Presented my masters thesis, titled &amp;ldquo;Improvisational Robot Tool Use using Affordance based Planning&amp;rdquo;, to my committee and a public audience.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Deep-Feature-Based Visual Odometry for Autonomous Emergency Parking</title>
-      <link>https://example.com/publication/iyer-2023-deep/</link>
-      <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/iyer-2023-deep/</guid>
-      <description></description>
     </item>
     
     <item>
@@ -255,8 +255,8 @@ Features:&lt;/p&gt;
       <guid>https://example.com/authors/admin/</guid>
       <description>&lt;p&gt;Hello there 👋.&lt;/p&gt;
 &lt;p&gt;I&amp;rsquo;m a robotics software engineer at &lt;a href=&#34;https://aurora.tech&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Aurora Innovation&lt;/a&gt;, developing self-driving tech.&lt;/p&gt;
-&lt;p&gt;I&amp;rsquo;m interested in developing intelligent robot systems capable of contextual reasoning and action. I&amp;rsquo;d like to deploy these robots onto the noisy real world, where the robots can infer structures about the problem and the world, and execute them robustly.&lt;/p&gt;
-&lt;p&gt;I graduated from UC San Diego with a master&amp;rsquo;s degree in Computer Science and Engineering at the University of California, San Diego, specializing in robotics. Here, I conducted my research at the &lt;a href=&#34;https://cogrob.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Cognitive Robotics Lab&lt;/a&gt; at the Contextual Robotics Institute, UCSD, where I worked on developing a task planning improvisational framework for robot tool use through affordances. (&lt;a href=&#34;https://escholarship.org/uc/item/8622p2rs&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Thesis&lt;/a&gt;). I also worked on Experience based Task and Motion Planning for manipulation tasks, the most recent of which was presented at &lt;a href=&#34;https://roboticsconference.org/program/papers/36/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;RSS 2024&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m interested in developing intelligent robot systems capable of contextual reasoning and action. I&amp;rsquo;d like to deploy these robots onto the noisy real world, where the robots can (1) infer underlying structures about the problem and the world, (2) synthesise feasible plan sequences exploiting the structure and prior experiences, and (3) execute them robustly, handling failures.&lt;/p&gt;
+&lt;p&gt;I graduated from UC San Diego with a master&amp;rsquo;s degree in Computer Science and Engineering at the University of California, San Diego, specializing in robotics. Here, I conducted my research at the &lt;a href=&#34;https://cogrob.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Cognitive Robotics Lab&lt;/a&gt; at the Contextual Robotics Institute, UCSD, where I worked on developing a task planning improvisational framework for robot tool use through causal affordances. (&lt;a href=&#34;https://escholarship.org/uc/item/8622p2rs&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Thesis&lt;/a&gt;). I also worked on Experience based Task and Motion Planning for manipulation tasks, the most recent of which was presented at &lt;a href=&#34;https://roboticsconference.org/program/papers/36/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;RSS 2024&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;When I&amp;rsquo;m not doing robotics, you&amp;rsquo;d typically find me watching cricket or football (re: soccer) or passionately defending why the Eagles could not have carried the ring to Mordor.&lt;/p&gt;
 &lt;p&gt;
   &lt;i class=&#34;fas fa-download  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Download my (semi-up-to-date)

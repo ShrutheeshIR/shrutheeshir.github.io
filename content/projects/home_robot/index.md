@@ -7,7 +7,7 @@ tags:
 # date: '2021-04-27T00:00:00Z'
 weight: 1
 location: CogRob, UCSD
-# authors: [Shrutheesh]
+authors: [Shrutheesh, Anwesan, Jiaming, Akanimoh, Aditya, Henrik]
 show_date: False
 # Optional external URL for project (replaces project detail page).
 external_link: ''
