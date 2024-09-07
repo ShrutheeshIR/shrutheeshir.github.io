@@ -1,9 +1,30 @@
 {{ $item := .item }}
 {{ $has_attachments := partial "functions/has_attachments" $item }}
 
-<div class="pub-list-item view-citation" style="margin-bottom: 1rem">
-  <!-- <i class="far fa-file-alt pub-icon" aria-hidden="true"></i> -->
+{{ $link := $item.RelPermalink }}
+{{ $target := "" }}
+{{ if $item.Params.external_link }}
+  {{ $link = $item.Params.external_link }}
+  {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
+{{ end }}
 
+
+{{ $resource := partial "functions/get_featured_image.html" $item }}
+<div class="pub-list-item view-citation">
+  <table class="table-sm">
+  <tr>
+    <td style="padding-right:2.5%;width:13%;vertical-align:middle;min-width:120px">
+
+      {{ with $resource }}
+      {{ $image := .Resize "1000x" }}
+        <img src="{{ $image.RelPermalink }}" height="{{ $image.Height }}" width="{{ $image.Width }}"
+             alt="{{ $item.Title }}" class="img-responsive" loading="lazy">
+      {{ end }}
+
+    </td>
+
+  <!-- <i class="far fa-file-alt pub-icon" aria-hidden="true"></i> -->
+  <td style="padding-left:2.5%;width:85%;vertical-align:middle;font-size: 15px;">
   {{/* APA Style */}}
   {{ if eq (site.Params.publications.citation_style | default "apa") "apa" }}
 
@@ -41,4 +62,7 @@
   {{ end }}
 
   {{ end }}
+  </td>
+    </tr>
+  </table>  
 </div>
