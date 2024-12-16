@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Henrik I Christensen | Shrutheesh Raman Iyer</title>
+    <link>https://example.com/authors/henrik-i-christensen/</link>
+      <atom:link href="https://example.com/authors/henrik-i-christensen/index.xml" rel="self" type="application/rss+xml" />
+    <description>Henrik I Christensen</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><lastBuildDate>Mon, 01 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Motion Planning in Foliated Manifolds using Repetition Roadmap</title>
+      <link>https://example.com/publication/hu-rss-24/</link>
+      <pubDate>Mon, 01 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/hu-rss-24/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

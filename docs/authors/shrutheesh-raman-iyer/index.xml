@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Shrutheesh Raman Iyer</title>
+    <link>https://example.com/authors/shrutheesh-raman-iyer/</link>
+      <atom:link href="https://example.com/authors/shrutheesh-raman-iyer/index.xml" rel="self" type="application/rss+xml" />
+    <description>Shrutheesh Raman Iyer</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><lastBuildDate>Sat, 01 Jul 2023 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Improvisational Robot Tool Use using Affordance based Planning</title>
+      <link>https://example.com/publication/iyer-2023-improvisational/</link>
+      <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/iyer-2023-improvisational/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Deep-Feature-Based Visual Odometry for Autonomous Emergency Parking</title>
+      <link>https://example.com/publication/iyer-2023-deep/</link>
+      <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/iyer-2023-deep/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Adaptive real time traffic prediction using deep neural networks</title>
+      <link>https://example.com/publication/iyer-2019-adaptive/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/iyer-2019-adaptive/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
