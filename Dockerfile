@@ -4,7 +4,7 @@ USER root
 # Install dependencies
 RUN apt-get update && apt-get install -y \
     python3-pip
-USER $NB_UID
+#USER $NB_UID
 RUN pip3 install academic==0.5.1 --break-system-packages
 
 RUN apt-get install -y ssh-askpass sshpass rsync
