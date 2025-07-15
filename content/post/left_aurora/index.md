@@ -1,5 +1,5 @@
 ---
-title: Software Engineer at Aurora
+title: Depart Aurora
 date: 2025-07-03
 summary: Parted ways with Aurora after 2 amazing years
 

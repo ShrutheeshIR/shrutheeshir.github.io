@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Aditya | Shrutheesh Raman Iyer</title>
+    <link>https://example.com/authors/aditya/</link>
+      <atom:link href="https://example.com/authors/aditya/index.xml" rel="self" type="application/rss+xml" />
+    <description>Aditya</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en</language>
+    <item>
+      <title>Home-Robot Project</title>
+      <link>https://example.com/projects/home_robot/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/projects/home_robot/</guid>
+      <description>&lt;p&gt;Research Project with Jiaming Hu, &lt;a href=&#34;https://anwesanpal.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Anwesan Pal&lt;/a&gt;, Jiaming Hu, Akanimoh Adeyele,  Aditya Aggarwal and Prof. Henrik Christensen at Cogrob UCSD.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Developing an assistant robot that can help humans in everyday house-hold cleanup tasks.&lt;/li&gt;
+&lt;li&gt;Worked on task planning and system architecture with integration, to orchestrate the behavior of the robot.&lt;/li&gt;
+&lt;li&gt;Presented at the &lt;a href=&#34;https://www.ieee-irc.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;IEEE Robotic Computing Conference 2023&lt;/a&gt;. &lt;a href=&#34;https://arxiv.org/pdf/2312.06129.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper link&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Project &lt;a href=&#34;https://sites.google.com/eng.ucsd.edu/home-robot&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;website&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

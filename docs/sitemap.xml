@@ -2,169 +2,169 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/projects/experience_tamp/</loc>
+    <loc>https://example.com/projects/experience_tamp/</loc>
   </url><url>
-    <loc>http://localhost:1313/projects/home_robot/</loc>
+    <loc>https://example.com/projects/home_robot/</loc>
   </url><url>
-    <loc>http://localhost:1313/projects/macgyver/</loc>
+    <loc>https://example.com/projects/macgyver/</loc>
   </url><url>
-    <loc>http://localhost:1313/projects/avatar/</loc>
+    <loc>https://example.com/projects/avatar/</loc>
   </url><url>
-    <loc>http://localhost:1313/projects/visual_odometry/</loc>
+    <loc>https://example.com/projects/visual_odometry/</loc>
   </url><url>
-    <loc>http://localhost:1313/projects/roomba_prototype/</loc>
+    <loc>https://example.com/projects/roomba_prototype/</loc>
   </url><url>
-    <loc>http://localhost:1313/projects/maya/</loc>
+    <loc>https://example.com/projects/maya/</loc>
   </url><url>
-    <loc>http://localhost:1313/projects/jatayu/</loc>
+    <loc>https://example.com/projects/jatayu/</loc>
   </url><url>
-    <loc>http://localhost:1313/projects/iimb/</loc>
+    <loc>https://example.com/projects/iimb/</loc>
   </url><url>
-    <loc>http://localhost:1313/post/</loc>
+    <loc>https://example.com/post/left_aurora/</loc>
     <lastmod>2025-07-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://example.com/post/</loc>
     <lastmod>2025-07-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/left_aurora/</loc>
+    <loc>https://example.com/</loc>
     <lastmod>2025-07-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/authors/</loc>
+    <loc>https://example.com/authors/</loc>
     <lastmod>2024-07-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/publication-type/1/</loc>
+    <loc>https://example.com/publication-type/1/</loc>
     <lastmod>2024-07-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/authors/henrik-i-christensen/</loc>
+    <loc>https://example.com/authors/henrik-i-christensen/</loc>
     <lastmod>2024-07-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/authors/jiaming-hu/</loc>
+    <loc>https://example.com/authors/jiaming-hu/</loc>
     <lastmod>2024-07-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/authors/joel-wong/</loc>
+    <loc>https://example.com/authors/joel-wong/</loc>
     <lastmod>2024-07-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/publication/hu-rss-24/</loc>
+    <loc>https://example.com/publication/hu-rss-24/</loc>
     <lastmod>2024-07-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/publication_types/</loc>
+    <loc>https://example.com/publication_types/</loc>
     <lastmod>2024-07-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/publication/</loc>
+    <loc>https://example.com/publication/</loc>
     <lastmod>2024-07-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/authors/shrutheesh-r.-iyer/</loc>
+    <loc>https://example.com/authors/shrutheesh-r.-iyer/</loc>
     <lastmod>2024-07-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/rss2024/</loc>
+    <loc>https://example.com/post/rss2024/</loc>
     <lastmod>2024-05-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/irc/</loc>
+    <loc>https://example.com/post/irc/</loc>
     <lastmod>2023-12-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/authors/aditya-aggarwal/</loc>
+    <loc>https://example.com/authors/aditya-aggarwal/</loc>
     <lastmod>2023-12-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/authors/akanimoh-adeleye/</loc>
+    <loc>https://example.com/authors/akanimoh-adeleye/</loc>
     <lastmod>2023-12-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/authors/anwesan-pal/</loc>
+    <loc>https://example.com/authors/anwesan-pal/</loc>
     <lastmod>2023-12-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/authors/henrik-i.-christensen/</loc>
+    <loc>https://example.com/authors/henrik-i.-christensen/</loc>
     <lastmod>2023-12-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/publication/irc-23-homerobot/</loc>
+    <loc>https://example.com/publication/irc-23-homerobot/</loc>
     <lastmod>2023-12-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/started_aurora/</loc>
+    <loc>https://example.com/post/started_aurora/</loc>
     <lastmod>2023-07-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/publication-type/7/</loc>
+    <loc>https://example.com/publication-type/7/</loc>
     <lastmod>2023-07-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/publication/iyer-2023-improvisational/</loc>
+    <loc>https://example.com/publication/iyer-2023-improvisational/</loc>
     <lastmod>2023-07-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/authors/shrutheesh-raman-iyer/</loc>
+    <loc>https://example.com/authors/shrutheesh-raman-iyer/</loc>
     <lastmod>2023-07-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/graduation/</loc>
+    <loc>https://example.com/post/graduation/</loc>
     <lastmod>2023-06-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/thesis/</loc>
+    <loc>https://example.com/post/thesis/</loc>
     <lastmod>2023-06-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/publication/iyer-2023-deep/</loc>
+    <loc>https://example.com/publication/iyer-2023-deep/</loc>
     <lastmod>2023-06-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/authors/panini-bhamidipati/</loc>
+    <loc>https://example.com/authors/panini-bhamidipati/</loc>
     <lastmod>2023-06-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/authors/raghu-krishnapuram/</loc>
+    <loc>https://example.com/authors/raghu-krishnapuram/</loc>
     <lastmod>2023-06-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/authors/varghese-p-kuruvilla/</loc>
+    <loc>https://example.com/authors/varghese-p-kuruvilla/</loc>
     <lastmod>2023-06-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/publication-type/2/</loc>
+    <loc>https://example.com/publication-type/2/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/publication/iyer-2019-adaptive/</loc>
+    <loc>https://example.com/publication/iyer-2019-adaptive/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/authors/kn-subramanya/</loc>
+    <loc>https://example.com/authors/kn-subramanya/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/authors/mr-anala/</loc>
+    <loc>https://example.com/authors/mr-anala/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/authors/parinith-r-iyer/</loc>
+    <loc>https://example.com/authors/parinith-r-iyer/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/authors/raghavendran-ramesh/</loc>
+    <loc>https://example.com/authors/raghavendran-ramesh/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/bio/</loc>
+    <loc>https://example.com/bio/</loc>
   </url><url>
-    <loc>http://localhost:1313/experience/</loc>
+    <loc>https://example.com/experience/</loc>
   </url><url>
-    <loc>http://localhost:1313/home/</loc>
+    <loc>https://example.com/home/</loc>
   </url><url>
-    <loc>http://localhost:1313/portfolio/</loc>
+    <loc>https://example.com/portfolio/</loc>
   </url><url>
-    <loc>http://localhost:1313/project/</loc>
+    <loc>https://example.com/project/</loc>
   </url><url>
-    <loc>http://localhost:1313/authors/aditya/</loc>
+    <loc>https://example.com/authors/aditya/</loc>
   </url><url>
-    <loc>http://localhost:1313/authors/akanimoh/</loc>
+    <loc>https://example.com/authors/akanimoh/</loc>
   </url><url>
-    <loc>http://localhost:1313/authors/anwesan/</loc>
+    <loc>https://example.com/authors/anwesan/</loc>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://example.com/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/tag/computer-vision/</loc>
+    <loc>https://example.com/tag/computer-vision/</loc>
   </url><url>
-    <loc>http://localhost:1313/tag/coursework/</loc>
+    <loc>https://example.com/tag/coursework/</loc>
   </url><url>
-    <loc>http://localhost:1313/tag/data-science/</loc>
+    <loc>https://example.com/tag/data-science/</loc>
   </url><url>
-    <loc>http://localhost:1313/authors/henrik/</loc>
+    <loc>https://example.com/authors/henrik/</loc>
   </url><url>
-    <loc>http://localhost:1313/authors/jiaming/</loc>
+    <loc>https://example.com/authors/jiaming/</loc>
   </url><url>
-    <loc>http://localhost:1313/projects/</loc>
+    <loc>https://example.com/projects/</loc>
   </url><url>
-    <loc>http://localhost:1313/tag/research/</loc>
+    <loc>https://example.com/tag/research/</loc>
   </url><url>
-    <loc>http://localhost:1313/tag/robotics/</loc>
+    <loc>https://example.com/tag/robotics/</loc>
   </url><url>
-    <loc>http://localhost:1313/authors/shrutheesh/</loc>
+    <loc>https://example.com/authors/shrutheesh/</loc>
   </url><url>
-    <loc>http://localhost:1313/authors/admin/</loc>
+    <loc>https://example.com/authors/admin/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://example.com/tags/</loc>
   </url><url>
-    <loc>http://localhost:1313/tag/team/</loc>
+    <loc>https://example.com/tag/team/</loc>
   </url>
 </urlset>
