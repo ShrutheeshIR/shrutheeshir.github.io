@@ -19,4 +19,6 @@ I graduated from UC San Diego with a masters in Computer Science, specializing i
 
 For my undergraduate thesis from [RV College of Engineering (RVCE)](http://rvce.edu.in/), India, I worked as an intern at the [Robert Bosch Center for Cyber-Physical Systems](https://cps.iisc.ac.in/), Indian Institute of Science (RBCCPS, IISc) under Prof. Raghu Krishnapuram and Prof. Bharadwaj Amrutur, and later continued as a technical associate at RBCCPS. During my time at RBCCPS, I worked on autonomous navigation and robot teleoperation.
 
+My interest in this domain seriously took shape during my internship at [Lightmetrics Pvt Ltd](https://www.lightmetrics.co/) over two consecutive summers in 2018 and 2019, where I worked on problems such as compression of object detection networks, and statistical report generations.
+
 During my time at RVCE, I was a member of Project Jatayu, the autonomous UAV team, where I also served as the team lead for the SUAS 2019 competition, working on perception and communication. Here, we represented India among a few other teams in an [international UAV competition](https://suas-competition.org/) held in Maryland, USA. This is when I developed an interest in robotics and autonomous navigation in specific, and have been working in this domain since.

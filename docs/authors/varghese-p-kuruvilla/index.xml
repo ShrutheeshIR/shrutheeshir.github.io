@@ -2,15 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Varghese P Kuruvilla | Shrutheesh Raman Iyer</title>
-    <link>https://example.com/authors/varghese-p-kuruvilla/</link>
-      <atom:link href="https://example.com/authors/varghese-p-kuruvilla/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/authors/varghese-p-kuruvilla/</link>
+      <atom:link href="http://localhost:1313/authors/varghese-p-kuruvilla/index.xml" rel="self" type="application/rss+xml" />
     <description>Varghese P Kuruvilla</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en</language><lastBuildDate>Thu, 01 Jun 2023 00:00:00 +0000</lastBuildDate>
     <item>
       <title>Deep-Feature-Based Visual Odometry for Autonomous Emergency Parking</title>
-      <link>https://example.com/publication/iyer-2023-deep/</link>
+      <link>http://localhost:1313/publication/iyer-2023-deep/</link>
       <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/iyer-2023-deep/</guid>
+      <guid>http://localhost:1313/publication/iyer-2023-deep/</guid>
       <description></description>
     </item>
     

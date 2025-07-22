@@ -2,15 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Shrutheesh Raman Iyer</title>
-    <link>https://example.com/</link>
-      <atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/</link>
+      <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <description>Shrutheesh Raman Iyer</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en</language><lastBuildDate>Thu, 03 Jul 2025 00:00:00 +0000</lastBuildDate>
     <item>
       <title>Experience based Motion Planning on Constrained Manifolds</title>
-      <link>https://example.com/projects/experience_tamp/</link>
+      <link>http://localhost:1313/projects/experience_tamp/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.com/projects/experience_tamp/</guid>
+      <guid>http://localhost:1313/projects/experience_tamp/</guid>
       <description>&lt;p&gt;Research Project with Jiaming Hu, Prof. Henrik Christensen at Cogrob UCSD.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Developing an assistant robot that can help humans in everyday house-hold cleanup tasks.&lt;/li&gt;
@@ -23,9 +23,9 @@
     
     <item>
       <title>Home-Robot Project</title>
-      <link>https://example.com/projects/home_robot/</link>
+      <link>http://localhost:1313/projects/home_robot/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.com/projects/home_robot/</guid>
+      <guid>http://localhost:1313/projects/home_robot/</guid>
       <description>&lt;p&gt;Research Project with Jiaming Hu, &lt;a href=&#34;https://anwesanpal.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Anwesan Pal&lt;/a&gt;, Jiaming Hu, Akanimoh Adeyele,  Aditya Aggarwal and Prof. Henrik Christensen at Cogrob UCSD.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Developing an assistant robot that can help humans in everyday house-hold cleanup tasks.&lt;/li&gt;
@@ -38,9 +38,9 @@
     
     <item>
       <title>Robot Macgyver Project</title>
-      <link>https://example.com/projects/macgyver/</link>
+      <link>http://localhost:1313/projects/macgyver/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.com/projects/macgyver/</guid>
+      <guid>http://localhost:1313/projects/macgyver/</guid>
       <description>&lt;p&gt;Research Project in developing a generalized framework for robot tool improvization using affordances. Complex reasoning allows robots to &amp;ldquo;think outside the box&amp;rdquo; using available items to improvize in unforseen environments.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Advised by &lt;a href=&#34;https://hichristensen.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Prof. Henrik Christensen&lt;/a&gt;&lt;/li&gt;
@@ -54,9 +54,9 @@
     
     <item>
       <title>Humanoid Robot Teleoperation</title>
-      <link>https://example.com/projects/avatar/</link>
+      <link>http://localhost:1313/projects/avatar/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.com/projects/avatar/</guid>
+      <guid>http://localhost:1313/projects/avatar/</guid>
       <description>&lt;p&gt;Development of teleoperation of a robot humanoid nurse towards ANA Xprize Avatar challenge&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Advised by Prof. Bharadwaj Amrutur and Prof. Raghu Krishnapuram&lt;/li&gt;
@@ -73,9 +73,9 @@
     
     <item>
       <title>Monocular Visual Odometry</title>
-      <link>https://example.com/projects/visual_odometry/</link>
+      <link>http://localhost:1313/projects/visual_odometry/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.com/projects/visual_odometry/</guid>
+      <guid>http://localhost:1313/projects/visual_odometry/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;Research project to explore the challenges and applications of Visual Odometry&lt;/li&gt;
 &lt;li&gt;Compared deep learning based feature extractors and traditional features for indoor and outdoor navigation tasks&lt;/li&gt;
@@ -87,9 +87,9 @@
     
     <item>
       <title>JetBot Roomba Prototype</title>
-      <link>https://example.com/projects/roomba_prototype/</link>
+      <link>http://localhost:1313/projects/roomba_prototype/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.com/projects/roomba_prototype/</guid>
+      <guid>http://localhost:1313/projects/roomba_prototype/</guid>
       <description>&lt;p&gt;Developed a autonomous mobile robot (NVidia JetBot), equipped with perception, planning and control to be able to navigate in a given space, similar to a roomba, written from scratch, as part of CSE276A: Introduction to Robotics.
 Features:&lt;/p&gt;
 &lt;ul&gt;
@@ -103,9 +103,9 @@ Features:&lt;/p&gt;
     
     <item>
       <title>3D Reconstruction using SLAM</title>
-      <link>https://example.com/projects/maya/</link>
+      <link>http://localhost:1313/projects/maya/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.com/projects/maya/</guid>
+      <guid>http://localhost:1313/projects/maya/</guid>
       <description>&lt;p&gt;In a team of 3, developed an end-to-end VR application for 3D reconstruction and VR rendering of archaeological sites with an inertial RGBD camera using SLAM. Code available at &lt;a href=&#34;https://github.com/KolinGuo/maya-slam&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;github&lt;/a&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Primarily contributed to the development and interface of SLAM to obtain 6D pose trajectory&lt;/li&gt;
@@ -116,9 +116,9 @@ Features:&lt;/p&gt;
     
     <item>
       <title>Unmanned Aerial Vehicles</title>
-      <link>https://example.com/projects/jatayu/</link>
+      <link>http://localhost:1313/projects/jatayu/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.com/projects/jatayu/</guid>
+      <guid>http://localhost:1313/projects/jatayu/</guid>
       <description>&lt;p&gt;Project Jatayu is the autonomous UAV team of RVCE (undergrad university)&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Built multiple UAVs, both multicoptors and fixed wings.&lt;/li&gt;
@@ -130,9 +130,9 @@ Features:&lt;/p&gt;
     
     <item>
       <title>Analysis of Financial Filings</title>
-      <link>https://example.com/projects/iimb/</link>
+      <link>http://localhost:1313/projects/iimb/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.com/projects/iimb/</guid>
+      <guid>http://localhost:1313/projects/iimb/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;Advised by Prof. Srinivasan Rangan, and PhD Student, Prabhu Venkatachalam&lt;/li&gt;
 &lt;li&gt;Implemented a pipeline to extract textual and numeric data from public financial filings of firms for an academic project which seeks to develop a new measure of Disclosure Quality&lt;/li&gt;
@@ -145,137 +145,137 @@ Features:&lt;/p&gt;
     
     <item>
       <title>Depart Aurora</title>
-      <link>https://example.com/post/left_aurora/</link>
+      <link>http://localhost:1313/post/left_aurora/</link>
       <pubDate>Thu, 03 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>https://example.com/post/left_aurora/</guid>
+      <guid>http://localhost:1313/post/left_aurora/</guid>
       <description>&lt;p&gt;After two fantastic years working on multiple interesting problems, I have parted ways with the organization to pursue future goals!&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Motion Planning in Foliated Manifolds using Repetition Roadmap</title>
-      <link>https://example.com/publication/hu-rss-24/</link>
+      <link>http://localhost:1313/publication/hu-rss-24/</link>
       <pubDate>Mon, 01 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/hu-rss-24/</guid>
+      <guid>http://localhost:1313/publication/hu-rss-24/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Paper Accepted at RSS 2024</title>
-      <link>https://example.com/post/rss2024/</link>
+      <link>http://localhost:1313/post/rss2024/</link>
       <pubDate>Mon, 13 May 2024 00:00:00 +0000</pubDate>
-      <guid>https://example.com/post/rss2024/</guid>
+      <guid>http://localhost:1313/post/rss2024/</guid>
       <description>&lt;p&gt;Our most recent work, titled &amp;ldquo;Motion Planning in Foliated Manifolds using Repetition Roadmap&amp;rdquo; has been accepted at &lt;a href=&#34;https://www.roboticsproceedings.org/rss20/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Robot Science and Systems (RSS)&lt;/a&gt; 2024 held in Delft, Netherlands. Was presented on July 16, 2024. The conference paper can be found at &lt;a href=&#34;https://www.roboticsproceedings.org/rss20/p036.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Presented at IRC 2023</title>
-      <link>https://example.com/post/irc/</link>
+      <link>http://localhost:1313/post/irc/</link>
       <pubDate>Mon, 11 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://example.com/post/irc/</guid>
+      <guid>http://localhost:1313/post/irc/</guid>
       <description>&lt;p&gt;Presented our work titled &amp;lsquo;Household navigation and manipulation for everyday object rearrangement tasks&amp;rsquo;, at the IEEE Robotic Computing (IRC) Conference 2023. The pre-print can be found at &lt;a href=&#34;https://arxiv.org/pdf/2312.06129.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;arXiv&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Household navigation and manipulation for everyday object rearrangement tasks</title>
-      <link>https://example.com/publication/irc-23-homerobot/</link>
+      <link>http://localhost:1313/publication/irc-23-homerobot/</link>
       <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/irc-23-homerobot/</guid>
+      <guid>http://localhost:1313/publication/irc-23-homerobot/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Software Engineer at Aurora</title>
-      <link>https://example.com/post/started_aurora/</link>
+      <link>http://localhost:1313/post/started_aurora/</link>
       <pubDate>Mon, 24 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>https://example.com/post/started_aurora/</guid>
+      <guid>http://localhost:1313/post/started_aurora/</guid>
       <description>&lt;p&gt;Joined Aurora Tech as a software engineer, developing safe and robust perception systems for the self-driving stack&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Improvisational Robot Tool Use using Affordance based Planning</title>
-      <link>https://example.com/publication/iyer-2023-improvisational/</link>
+      <link>http://localhost:1313/publication/iyer-2023-improvisational/</link>
       <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/iyer-2023-improvisational/</guid>
+      <guid>http://localhost:1313/publication/iyer-2023-improvisational/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Graduated from UC San Diego!</title>
-      <link>https://example.com/post/graduation/</link>
+      <link>http://localhost:1313/post/graduation/</link>
       <pubDate>Fri, 16 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>https://example.com/post/graduation/</guid>
+      <guid>http://localhost:1313/post/graduation/</guid>
       <description>&lt;p&gt;Graduated from UC San Diego with a masters in Computer Science and Engineering, with a specialization in robotics. Cheers to an amazing two years!&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Presented my thesis!</title>
-      <link>https://example.com/post/thesis/</link>
+      <link>http://localhost:1313/post/thesis/</link>
       <pubDate>Thu, 08 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>https://example.com/post/thesis/</guid>
+      <guid>http://localhost:1313/post/thesis/</guid>
       <description>&lt;p&gt;Presented my masters thesis, titled &amp;ldquo;Improvisational Robot Tool Use using Affordance based Planning&amp;rdquo;, to my committee and a public audience.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Deep-Feature-Based Visual Odometry for Autonomous Emergency Parking</title>
-      <link>https://example.com/publication/iyer-2023-deep/</link>
+      <link>http://localhost:1313/publication/iyer-2023-deep/</link>
       <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/iyer-2023-deep/</guid>
+      <guid>http://localhost:1313/publication/iyer-2023-deep/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Adaptive real time traffic prediction using deep neural networks</title>
-      <link>https://example.com/publication/iyer-2019-adaptive/</link>
+      <link>http://localhost:1313/publication/iyer-2019-adaptive/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/iyer-2019-adaptive/</guid>
+      <guid>http://localhost:1313/publication/iyer-2019-adaptive/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://example.com/bio/</link>
+      <link>http://localhost:1313/bio/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.com/bio/</guid>
+      <guid>http://localhost:1313/bio/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://example.com/experience/</link>
+      <link>http://localhost:1313/experience/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.com/experience/</guid>
+      <guid>http://localhost:1313/experience/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://example.com/home/</link>
+      <link>http://localhost:1313/home/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.com/home/</guid>
+      <guid>http://localhost:1313/home/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://example.com/portfolio/</link>
+      <link>http://localhost:1313/portfolio/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.com/portfolio/</guid>
+      <guid>http://localhost:1313/portfolio/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://example.com/project/</link>
+      <link>http://localhost:1313/project/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.com/project/</guid>
+      <guid>http://localhost:1313/project/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Shrutheesh Raman Iyer</title>
-      <link>https://example.com/authors/admin/</link>
+      <link>http://localhost:1313/authors/admin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.com/authors/admin/</guid>
+      <guid>http://localhost:1313/authors/admin/</guid>
       <description>&lt;p&gt;Hello there 👋.&lt;/p&gt;
 &lt;p&gt;I&amp;rsquo;m an incoming robotics PhD student at the Computer Science Department at Purdue University, under &lt;a href=&#34;https://zkingston.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Zak Kingston&lt;/a&gt;. For the last two years (2023 &amp;ndash; 2025), I worked as a robotics software engineer at &lt;a href=&#34;https://aurora.tech&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Aurora Innovation&lt;/a&gt;, developing self-driving tech.&lt;/p&gt;
 &lt;p&gt;I&amp;rsquo;m interested in developing intelligent robot systems capable of contextual reasoning and action. I&amp;rsquo;d like to deploy these robots onto the noisy real world, where the robots can (1) infer underlying structures about the problem and the world, (2) synthesise feasible plan sequences exploiting the structure and prior experiences, and (3) execute them robustly, handling failures.&lt;/p&gt;
@@ -284,7 +284,7 @@ Features:&lt;/p&gt;
 &lt;p&gt;
   &lt;i class=&#34;fas fa-download  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Download my (semi-up-to-date)
 
-&lt;a href=&#34;https://example.com/uploads/CV.pdf&#34; target=&#34;_blank&#34;&gt;CV&lt;/a&gt;
+&lt;a href=&#34;http://localhost:1313/uploads/CV.pdf&#34; target=&#34;_blank&#34;&gt;CV&lt;/a&gt;
 &lt;/p&gt;
 </description>
     </item>
