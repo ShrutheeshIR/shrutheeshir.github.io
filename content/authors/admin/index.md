@@ -108,7 +108,7 @@ highlight_name: true
 
  Hello there 👋.
 
-I'm an incoming robotics PhD student at the Computer Science Department at Purdue University, under [Zak Kingston](https://zkingston.com/). For the last two years (2023 -- 2025), I worked as a robotics software engineer at [Aurora Innovation](https://aurora.tech), developing self-driving tech.
+I'm a robotics PhD student at the Computer Science Department at Purdue University, under [Zak Kingston](https://zkingston.com/) at the [CoMMA lab](https://commalab.org). For the last two years (2023 -- 2025), I worked as a robotics software engineer at [Aurora Innovation](https://aurora.tech), developing self-driving tech.
 
 I'm interested in developing intelligent robot systems capable of contextual reasoning and action. I'd like to deploy these robots onto the noisy real world, where the robots can (1) infer underlying structures about the problem and the world, (2) synthesise feasible plan sequences exploiting the structure and prior experiences, and (3) execute them robustly, handling failures. 
 

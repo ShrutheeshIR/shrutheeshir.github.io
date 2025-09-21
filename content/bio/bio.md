@@ -11,7 +11,7 @@ design:
   columns: '1'
 ---
 
-I'm an incoming robotics PhD student at the CS Department at Purdue. I'm an aspiring roboticist interested in building intelligent systems capable of reasoning and action, working on problems ranging from active perception to planning.
+I'm a robotics PhD student at the CS Department at Purdue, working at the [CoMMA lab](https://commalab.org) with [Prof. Zak Kingston](https://zkingston.com/). I'm an aspiring roboticist interested in building intelligent systems capable of reasoning and action, working on problems ranging from active perception to planning.
 
 Over the last two years (2023 -- 2025), I worked as a perception software engineer at [Aurora Innovation](https://aurora.tech/), building perception systems for self-driving trucks.
 

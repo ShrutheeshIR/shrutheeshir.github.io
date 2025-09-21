@@ -1,7 +1,7 @@
 ---
-title: Depart Aurora
-date: 2025-07-03
-summary: Parted ways with Aurora after 2 amazing years
+title: Started PhD
+date: 2025-07-28
+summary: Started my PhD at Purdue
 
 image:
     height: 200px
@@ -11,4 +11,4 @@ reading_time: false
 ---
 
 <!--more-->
-After two fantastic years working on multiple interesting problems, I have parted ways with the organization to pursue future goals!
+Started my PhD in CS at Purdue, to work on Planning for Robotics, at the [CoMMA](https://commalab.org/) lab with [Prof. Zachary Kingston](https://zkingston.com/).
