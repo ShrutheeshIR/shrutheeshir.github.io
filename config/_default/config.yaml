@@ -28,7 +28,8 @@ publishDir: "docs"
 
 enableGitInfo: false
 summaryLength: 30
-paginate: 10
+
+pagerSize : 10
 enableEmoji: true
 enableRobotsTXT: true
 footnotereturnlinkcontents: <sup>^</sup>
