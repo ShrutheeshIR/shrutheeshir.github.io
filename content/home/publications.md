@@ -6,7 +6,7 @@ title: Publications
 cms_exclude: true
 
 content:
-  count: 5
+  count: 4
   filters:
     author: ''
     category: ''
@@ -16,6 +16,10 @@ content:
   offset: 0
   order: desc
   page_type: publication
+  archive:
+    enable: true
+    text: view all publications
+    link: /publication/
 design:
   view: 'citation'
   columns: 1

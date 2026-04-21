@@ -6,12 +6,12 @@ title: Shrutheesh Raman Iyer
 superuser: true
 
 # Role/position/tagline
-role: Robotics Software Engineer
+role: PhD Student
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Aurora Tech
-    url: https://aurora.tech/
+  - name: Purdue University
+    url: https://cs.purdue.edu/
 
 # Short bio (displayed in user profile at end of posts)
 bio: Aspiring roboticist interested in perception and planning
@@ -19,21 +19,27 @@ bio: Aspiring roboticist interested in perception and planning
 # Interests to show in About widget
 interests:
   - Robotics
-  - Perception and Planning
   - Task and Motion Planning
+  - Constrained Planning
+  - Long-horizon reasoning
 
 # Education to show in About widget
 education:
   courses:
-    - course: MS in Computer Science & Engineering
+    - course: PhD in Computer Science
+      specialization: Robotics
+      institution: Purdue University
+      location: West Lafayette, IN
+      year: 2025-
+    - course: MS in CSE
       specialization: Robotics
       institution: University of California, San Diego
       location: San Diego, CA
-      year: 2023
-    - course: BE in Computer Science & Engineering
+      year: 2021-2023
+    - course: BE in CSE
       institution: RV College of Engineering
       location: Bangalore, India
-      year: 2020
+      year: 2016-2020
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
@@ -55,6 +61,12 @@ social:
 
 
 affiliations:
+  # - name: commalab
+  #   link: https://commalab.org/
+  #   logo: commalab
+  # - name: purdue
+  #   link: https://purdue.edu/
+  #   logo: purdue
   - name: Aurora
     link: https://aurora.tech/
     logo: aurora
@@ -112,7 +124,7 @@ I'm a robotics PhD student at the Computer Science Department at Purdue Universi
 
 I'm interested in developing intelligent robot systems capable of contextual reasoning and action. I'd like to deploy these robots onto the noisy real world, where the robots can (1) infer underlying structures about the problem and the world, (2) synthesise feasible plan sequences exploiting the structure and prior experiences, and (3) execute them robustly, handling failures. 
 
-I graduated from UC San Diego with a master's degree in Computer Science and Engineering at the University of California, San Diego, specializing in robotics. Here, I conducted my research at the [Cognitive Robotics Lab](https://cogrob.org) at the Contextual Robotics Institute, UCSD, where I worked on developing a task planning improvisational framework for robot tool use through causal affordances. ([Thesis](https://escholarship.org/uc/item/8622p2rs)). I also worked on Experience based Task and Motion Planning for manipulation tasks, the most recent of which was presented at [RSS 2024](https://www.roboticsproceedings.org/rss20/p036.pdf).
+<!-- I graduated from UC San Diego with a master's degree in Computer Science and Engineering at the University of California, San Diego, specializing in robotics. Here, I conducted my research at the [Cognitive Robotics Lab](https://cogrob.org) at the Contextual Robotics Institute, UCSD, where I worked on developing a task planning improvisational framework for robot tool use through causal affordances. ([Thesis](https://escholarship.org/uc/item/8622p2rs)). I also worked on Experience based Task and Motion Planning for manipulation tasks, the most recent of which was presented at [RSS 2024](https://www.roboticsproceedings.org/rss20/p036.pdf). -->
 
 When I'm not doing robotics, you'd typically find me watching cricket or football (re: soccer) or passionately defending why the Eagles could not have carried the ring to Mordor.
 

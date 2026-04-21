@@ -1,3 +1,34 @@
+@misc{iyer2026vectorizingprojectionmanifoldconstrainedmotion,
+  title        = {Vectorizing Projection in Manifold-Constrained Motion Planning for Real-Time Whole-Body Control},
+  author       = {Shrutheesh R. Iyer and I-Chia Chang and Andrew Z. Liu and Yan Gu and Zachary Kingston},
+  abstract     = { Many robot planning tasks require satisfaction of one or more constraints throughout the entire trajectory. For geometric constraints, manifold-constrained motion planning algorithms are capable of planning collision-free path between start and goal configurations on the constraint submanifolds specified by task. Current state-of-the-art methods can take tens of seconds to solve these tasks for complex systems such as humanoid robots, making real-world use impractical, especially in dynamic settings. Inspired by recent advances in hardware accelerated motion planning, we present a CPU SIMD-accelerated manifold-constrained motion planner that revisits projection-based constraint satisfaction through the lens of parallelization. By transforming relevant components into parallelizable structures, we use SIMD parallelism to plan constraint satisfying solutions. Our approach achieves up to 100-1000x speed-ups over the state-of-the-art, making real-time constrained motion planning feasible for the first time. We demonstrate our planner on a real humanoid robot and show real-time whole-body quasi-static plan generation.},
+  year         = 2026,
+  eprint.      = {2604.13323},
+  archivePrefix= {arXiv},
+  primaryClass = {cs.RO},
+  pdf          = {https://arxiv.org/pdf/2604.13323}, 
+  code         = {https://github.com/CoMMALab/vamp/tree/constrained_planner?tab=readme-ov-file#manifold-constrained-planner},
+  website      = {https://commalab.org/papers/mcvamp},
+  note         = {Under Review},
+  projects     = {constraints,realtime},
+  abbr         = {ARXIV},
+  preview      = {mcvamp_maze.gif},
+}
+@inproceedings{chen2025spasm,
+  title        = {Differentiable Particle Optimization for Fast Sequential Manipulation}, 
+  author       = {Lucas Chen and Shrutheesh R. Iyer and Zachary Kingston},
+  abstract     = {Sequential robot manipulation tasks require finding collision-free trajectories that satisfy geometric constraints across multiple object interactions in potentially high-dimensional configuration spaces. Solving these problems in real-time and at large scales has remained out of reach due to computational requirements. Recently, GPU-based acceleration has shown promising results, but prior methods achieve limited performance due to CPU-GPU data transfer overhead and complex logic that prevents full hardware utilization. To this end, we present SPaSM (Sampling Particle optimization for Sequential Manipulation), a fully GPU-parallelized framework that compiles constraint evaluation, sampling, and gradient-based optimization into optimized CUDA kernels for end-to-end trajectory optimization without CPU coordination. The method consists of a two-stage particle optimization strategy: first solving placement constraints through massively parallel sampling, then lifting solutions to full trajectory optimization in joint space. Unlike hierarchical approaches, SPaSM jointly optimizes object placements and robot trajectories to handle scenarios where motion feasibility constrains placement options. Experimental evaluation on challenging benchmarks demonstrates solution times in the realm of milliseconds with a 100\% success rate; a 4000x speedup compared to existing approaches.},
+  booktitle    = icra,
+  year         = 2026,
+  pdf          = {https://arxiv.org/abs/2510.07674}, 
+  projects     = {realtime,long-horizon,constraints},
+  note         = {To Appear},
+  abbr         = {ICRA},
+  website      = {https://commalab.org/papers/spasm},
+  video        = {https://www.youtube.com/watch?v=VK8PYsdXNBk},
+  code         = {https://github.com/CoMMALab/SPaSM},
+  preview      = {spasm.gif}
+}
 @InProceedings{irc23homerobot,
   author =       {Shrutheesh R. Iyer and Anwesan Pal and Jiaming Hu and Akanimoh Adeleye and Aditya Aggarwal and Henrik I. Christensen},
   title =        {Household navigation and manipulation for everyday object rearrangement tasks},
@@ -8,8 +39,6 @@
   address =      {Laguna Hills, CA},
   organization = {IEEE},
   url =          {https://arxiv.org/pdf/2312.06129}
-
-  
 }
 @inproceedings{iyer2023deep,
   title={Deep-Feature-Based Visual Odometry for Autonomous Emergency Parking},

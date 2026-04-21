@@ -17,6 +17,10 @@ content:
   offset: 0
   order: desc
   page_type: post
+  archive:
+    enable: true
+    text: click to view older
+    link: /post/
 design:
   view: 'descriptive_list'
   columns: 1

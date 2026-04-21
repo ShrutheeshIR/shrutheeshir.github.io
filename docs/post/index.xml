@@ -5,7 +5,23 @@
     <link>http://localhost:1313/post/</link>
       <atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Latest News</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en</language><lastBuildDate>Mon, 28 Jul 2025 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en</language><lastBuildDate>Sat, 28 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Started PhD</title>
+      <link>http://localhost:1313/post/icra2026/</link>
+      <pubDate>Sat, 28 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/icra2026/</guid>
+      <description>&lt;p&gt;Our paper &lt;a href=&#34;https://commalab.org/papers/spasm/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SPaSM&lt;/a&gt; has been accepted at ICRA 2026. See you in Vienna!&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Started PhD</title>
+      <link>http://localhost:1313/post/mcvamp/</link>
+      <pubDate>Sat, 28 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/mcvamp/</guid>
+      <description>&lt;p&gt;Our paper &lt;a href=&#34;https://commalab.org/papers/spasm/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SPaSM&lt;/a&gt; has been accepted at ICRA 2026. See you in Vienna!&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>Started PhD</title>
       <link>http://localhost:1313/post/left_aurora/</link>

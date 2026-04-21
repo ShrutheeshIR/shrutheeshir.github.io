@@ -166,7 +166,18 @@
 }
 
 .news-table-content a {
-  color: inherit;
+  color: $sta-link;
+  text-decoration: underline;
+  text-decoration-thickness: from-font;
+  text-underline-offset: 0.08em;
+}
+
+.news-table-content a:hover {
+  color: $sta-link-hover;
+}
+
+.dark .news-table-content a {
+  color: $sta-dark-link;
 }
 
 @media (max-width: 575.98px) {

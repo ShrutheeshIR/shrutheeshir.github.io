@@ -1,7 +1,7 @@
 ---
 title: Started PhD
 date: 2025-07-28
-summary: Started my PhD at Purdue
+summary: Started my PhD in CS at Purdue,  the [CoMMA](https://commalab.org/) lab with [Prof. Zachary Kingston](https://zkingston.com/).
 
 image:
     height: 200px

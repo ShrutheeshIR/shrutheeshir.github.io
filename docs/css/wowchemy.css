@@ -8899,7 +8899,16 @@ footer .powered-by {
   margin: 0; }
 
 .news-table-content a {
-  color: inherit; }
+  color: #4caf50;
+  text-decoration: underline;
+  text-decoration-thickness: from-font;
+  text-underline-offset: 0.08em; }
+
+.news-table-content a:hover {
+  color: #4caf50; }
+
+.dark .news-table-content a {
+  color: #bbdefb; }
 
 @media (max-width: 575.98px) {
   .news-table-date {
@@ -9241,8 +9250,7 @@ html[dir='rtl'] body {
  *  Widgets (common)
  **************************************************/
 .see-all {
-  margin-top: 2rem;
-  text-transform: uppercase; }
+  margin-top: 2rem; }
 
 /* Reset code highlighting style in Alerts when Alert is child of a `.dark` widget, but Alert should be light.` */
 /* But will this affect page which should have dark Alert? */
@@ -9799,14 +9807,53 @@ h6,
   font-family: "Source Sans Pro", "Roboto", sans-serif; }
 
 .navbar .navbar-brand {
-  font-weight: 700;
+  font-weight: 400;
   font-size: 1.15rem;
   letter-spacing: 0.015em; }
 
 .navbar .navbar-nav .nav-link {
-  font-weight: 600;
+  font-weight: 400;
   font-size: 1.05rem;
   letter-spacing: 0.012em; }
+
+/* Make homepage sections much more compact vertically. */
+.home-section {
+  padding-top: 28px;
+  padding-bottom: 28px; }
+
+.home-section + .home-section {
+  border-top: 1px solid rgba(0, 0, 0, 0.08); }
+
+.dark .home-section + .home-section {
+  border-top: 1px solid rgba(255, 255, 255, 0.08); }
+
+.content-widget-hr {
+  margin-top: 0.1rem;
+  padding-top: 0.1rem; }
+
+.article-widget {
+  padding-top: 0.2rem; }
+
+.article-container {
+  max-width: 960px; }
+
+p,
+ul,
+ol,
+dl {
+  margin-bottom: 0.45rem; }
+
+.article-style a {
+  color: #4caf50;
+  text-decoration: underline;
+  text-decoration-thickness: from-font;
+  text-underline-offset: 0.08em; }
+
+.dark .article-style a {
+  color: #bbdefb; }
+
+.article-style a:hover {
+  color: #4caf50; }
 
 /* Disable alternating section backgrounds on the homepage. */
 .home-section:nth-of-type(even) {

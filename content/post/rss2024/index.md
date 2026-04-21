@@ -1,7 +1,7 @@
 ---
 title: Paper Accepted at RSS 2024
 date: 2024-05-13
-summary: Our work on Experience based Task and Motion Planning framework accepted at RSS 2024, and presented in Delft.
+summary: Our work on [Foliated Manifolds Planning](https://jih189.github.io/RSS2024_planning_in_foliation/) was accepted and presented at RSS2024.
 
 image:
     height: 200px

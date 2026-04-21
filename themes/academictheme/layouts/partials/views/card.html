@@ -69,11 +69,9 @@
   {{ end }}
 
   {{ with $summary }}
-  <a href="{{ $link }}" {{ $target | safeHTMLAttr }} class="summary-link">
-    <div class="article-style">
-      <p>{{.}}</p>
-    </div>
-  </a>
+  <div class="article-style">
+    <p>{{.}}</p>
+  </div>
   {{ end }}
 
   {{ if $has_attachments }}
