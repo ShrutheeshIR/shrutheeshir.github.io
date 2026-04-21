@@ -5,6 +5,8 @@
 {{ $resource := partial "functions/get_featured_image.html" $item }}
 {{ $location := $item.Params.publication | default $item.Params.publication_short | default "" }}
 {{ $note := $item.Params.note | default "" }}
+{{ $year := "" }}
+{{ with $item.Date }}{{ $year = .Format "2006" }}{{ end }}
 {{ $has_abstract := ne (trim ($item.Params.abstract | default "") " ") "" }}
 {{ $bib_resource := $item.Resources.GetMatch "cite.bib" }}
 
@@ -49,12 +51,8 @@
       <div class="title"><a href="{{ $item.RelPermalink }}">{{ $item.Title }}</a></div>
       <div class="author">{{ partial "page_metadata_authors" $item }}</div>
 
-      {{ with $location }}
-        <div class="periodical"><em>{{ . | markdownify }}</em></div>
-      {{ end }}
-
-      {{ with $note }}
-        <div class="publication-note text-muted">{{ . | markdownify }}</div>
+      {{ if or $year $location $note }}
+        <div class="periodical"><em>{{ if $location }}{{ $location | markdownify }}{{ if $year }}, {{ $year }}{{ end }}{{ if $note }} ({{ $note | markdownify }}){{ end }}{{ else }}{{ $year }}{{ if $note }} ({{ $note | markdownify }}){{ end }}{{ end }}</em></div>
       {{ end }}
 
       <div class="links">

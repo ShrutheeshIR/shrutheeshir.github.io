@@ -7,6 +7,7 @@ cms_exclude: true
 
 content:
   count: 4
+  sort_by: Weight
   filters:
     author: ''
     category: ''
@@ -14,7 +15,7 @@ content:
     publication_type: ''
     tag: ''
   offset: 0
-  order: desc
+  order: asc
   page_type: publication
   archive:
     enable: true

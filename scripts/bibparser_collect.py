@@ -262,9 +262,12 @@ def main() -> None:
 
     generated_entries: list[dict] = []
 
-    for entry in bib_database.entries:
+    for index, entry in enumerate(bib_database.entries):
         if int(entry.get("year", 0) or 0) < 2017:
             continue
+
+        year_value = int(str(entry.get("year", 0) or 0).strip())
+        weight_value = -(year_value * 1000) + index
 
         folder_name = folder_from_entry(entry)
         bundle_dir = PUBLICATION_DIR / folder_name
@@ -280,6 +283,7 @@ def main() -> None:
             "publication": derived_publication(entry, string_map),
             "publication_short": clean_text(entry.get("publication_short")),
             "note": derived_note(entry),
+            "weight": weight_value,
             "url_project": derived_project_url(entry),
             "url_pdf": derived_pdf_url(entry),
             "url_code": derived_code_url(entry),

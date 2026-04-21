@@ -51,7 +51,7 @@
       </div>
 
       <div id="container-publications">
-        {{ range $index, $item := .Pages.ByDate.Reverse }}
+        {{ range $index, $item := .Pages.ByWeight }}
 
         {{ if .Params.publication_types }}
           {{ $.Scratch.Set "pubtype" (index .Params.publication_types 0) }}
