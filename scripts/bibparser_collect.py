@@ -138,19 +138,28 @@ def publication_type_id(entry_type: str) -> str:
     return "1"
 
 
-def derived_publication(entry: dict) -> str:
+def resolve_bib_string(value: str | None, string_map: dict[str, str] | None = None) -> str:
+    cleaned_value = clean_text(value)
+    if not cleaned_value:
+        return ""
+    if not string_map:
+        return cleaned_value
+    return string_map.get(cleaned_value.lower(), cleaned_value)
+
+
+def derived_publication(entry: dict, string_map: dict[str, str] | None = None) -> str:
     entry_type = (entry.get("ENTRYTYPE") or entry.get("entrytype") or "").lower()
     if entry_type == "article":
-        return clean_text(entry.get("journal")) or clean_text(entry.get("abbr"))
+        return resolve_bib_string(entry.get("journal"), string_map)
     if entry_type in {"inproceedings", "incollection"}:
-        return clean_text(entry.get("abbr")) or clean_text(entry.get("booktitle"))
+        return resolve_bib_string(entry.get("booktitle"), string_map)
     if entry_type in {"phdthesis", "mastersthesis", "thesis"}:
-        return clean_text(entry.get("school"))
+        return resolve_bib_string(entry.get("school"), string_map)
 
-    for candidate in ("abbr", "booktitle", "journal", "school", "note"):
+    for candidate in ("booktitle", "journal", "school"):
         value = clean_text(entry.get(candidate))
         if value:
-          return value
+            return resolve_bib_string(value, string_map)
     return ""
 
 
@@ -245,6 +254,11 @@ def main() -> None:
 
     with BIB_SOURCE.open(encoding="utf-8") as bibtex_file:
         bib_database = bibtexparser.load(bibtex_file, parser=parser)
+    string_map = {
+        key.lower(): clean_text(value)
+        for key, value in getattr(bib_database, "strings", {}).items()
+        if clean_text(value)
+    }
 
     generated_entries: list[dict] = []
 
@@ -263,7 +277,7 @@ def main() -> None:
             "publication_types": [publication_type_id(entry.get("ENTRYTYPE", ""))],
             "abstract": "",
             "featured": False,
-            "publication": derived_publication(entry),
+            "publication": derived_publication(entry, string_map),
             "publication_short": clean_text(entry.get("publication_short")),
             "note": derived_note(entry),
             "url_project": derived_project_url(entry),

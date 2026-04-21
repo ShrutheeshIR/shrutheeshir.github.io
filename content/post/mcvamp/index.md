@@ -1,7 +1,7 @@
 ---
-title: Started PhD
-date: 2026-02-28
-summary: Our paper [SPaSM](https://commalab.org/papers/spasm/) has been accepted at ICRA 2026. See you in Vienna!
+title: McVAMP
+date: 2026-04-21
+summary: Our work on [Constrained Motion Planning](https://commalab.org/papers/mcvamp/) is publically available and under review.
 
 image:
     height: 200px
@@ -11,4 +11,4 @@ reading_time: false
 ---
 
 <!--more-->
-Our paper [SPaSM](https://commalab.org/papers/spasm/) has been accepted at ICRA 2026. See you in Vienna!
+Our work on [Constrained Motion Planning](https://commalab.org/papers/mcvamp/) is publically available and under review.
