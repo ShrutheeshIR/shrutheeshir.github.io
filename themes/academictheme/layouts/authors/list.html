@@ -10,7 +10,7 @@
 {{ end }}
 
 <section id="profile-page" class="pt-5">
-  <div class="container">
+  <div class="universal-wrapper">
     {{/* Show the About widget if an account exists for this user. */}}
     {{ if .File }}
       {{ $widget := "widgets/about.html" }}

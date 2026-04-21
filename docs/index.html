@@ -3,7 +3,7 @@
 <!-- Last Published: April 21, 2026 --><html lang="en" >
 
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -700,7 +700,7 @@
    <div class="home-section-bg " >
      
    </div>
-    <div class="container">
+    <div class="universal-wrapper">
 
     
 
@@ -975,13 +975,13 @@
    <div class="home-section-bg " >
      
    </div>
-    <div class="container">
+    <div class="universal-wrapper">
 
     
-      <div class="row  ">
+      <div class="row  justify-content-center">
       
         
-          <div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
+          <div class="section-heading col-12 mb-3 text-center">
             <h1 class="mb-0">Publications</h1>
             
           </div>
@@ -1067,62 +1067,60 @@
 
 <div class="pub-list-item view-citation pub-citation-item">
   <div class="row pub-citation-row">
-    <div class="col-12 col-sm-3 col-md-2 pub-citation-media">
+    <div class="col col-sm-2 pub-citation-media">
       
         
         
         
         
         
-        <img src="/publication/hu-rss-24/featured.gif" alt="Motion Planning in Foliated Manifolds using Repetition Roadmap" class="pub-citation-image" loading="lazy">
+        <figure class="pub-preview">
+          <picture>
+            <img src="/publication/hu-rss-24/featured.gif" class="preview z-depth-1 rounded pub-citation-image" alt="Motion Planning in Foliated Manifolds using Repetition Roadmap" data-zoomable loading="lazy">
+          </picture>
+        </figure>
       
     </div>
 
-    <div class="col-12 col-sm-9 col-md-10 pub-citation-content">
-      <div class="pub-citation-title">
-        <a href="/publication/hu-rss-24/">Motion Planning in Foliated Manifolds using Repetition Roadmap</a>
-      </div>
-
-      <div class="pub-citation-authors">
-        
+    <div class="col-sm-10 pub-citation-content">
+      <div class="title"><a href="/publication/hu-rss-24/">Motion Planning in Foliated Manifolds using Repetition Roadmap</a></div>
+      <div class="author">
 
   <span >
       <a href="/authors/jiaming-hu/">Jiaming Hu</a></span><span class="author-notes" data-toggle="tooltip" title="equal contribution">*</span>, <span >
       <a href="/authors/shrutheesh-r.-iyer/">Shrutheesh R. Iyer</a></span><span class="author-notes" data-toggle="tooltip" title="equal contribution">*</span>, <span >
       <a href="/authors/joel-wong/">Joel Wong</a></span>, <span >
-      <a href="/authors/henrik-i-christensen/">Henrik I Christensen</a></span>
+      <a href="/authors/henrik-i-christensen/">Henrik I Christensen</a></span></div>
+
+      
+        <div class="periodical"><em><em>Proceedings of Robotics: Science and Systems (RSS)</em></em></div>
+      
+
+      <div class="links">
+        
+          <a class="btn btn-outline-primary btn-page-header btn-sm z-depth-0" href="https://www.roboticsproceedings.org/rss20/p036.pdf" target="_blank" rel="noopener">PDF</a>
+        
+
+        
+          <a class="bibtex btn btn-outline-primary btn-page-header btn-sm z-depth-0" role="button" href="#pub-hu-rss-24-0-bibtex">Bib</a>
+        
+
+        
+
+        
+          <a class="btn btn-outline-primary btn-page-header btn-sm z-depth-0" href="https://jih189.github.io/RSS2024_planning_in_foliation/" target="_blank" rel="noopener">Website</a>
+        
+
+        
+
+        
       </div>
 
       
-        <div class="pub-citation-location"><em>Proceedings of Robotics: Science and Systems (RSS)</em></div>
+
       
-
-      <div class="pub-citation-actions">
-        <div class="pub-citation-buttons">
-          
-            <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://www.roboticsproceedings.org/rss20/p036.pdf" target="_blank" rel="noopener">PDF</a>
-          
-
-          
-            <label for="pub-hu-rss-24-0-bib" class="btn btn-outline-primary btn-page-header btn-sm" role="button">Bib</label>
-          
-
-          
-
-          
-            <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://jih189.github.io/RSS2024_planning_in_foliation/" target="_blank" rel="noopener">Website</a>
-          
-
-          
-
-          
-        </div>
-
-        <div class="pub-citation-panels">
-          
-            <input id="pub-hu-rss-24-0-bib" class="pub-panel-toggle" type="checkbox">
-            <div class="pub-inline-body pub-panel-bib">
-              <pre><code class="language-bibtex">@inproceedings{hu-RSS-24,
+        <div id="pub-hu-rss-24-0-bibtex" class="bibtex hidden">
+          <pre><code class="language-bibtex">@inproceedings{hu-RSS-24,
  address = {Delft, Netherlands},
  author = {Jiaming Hu AND Shrutheesh Raman Iyer AND Jiawei Wang AND Henrik I Christensen},
  booktitle = {Proceedings of Robotics: Science and Systems},
@@ -1134,12 +1132,8 @@
  year = {2024}
 }
 </code></pre>
-            </div>
-          
-
-          
         </div>
-      </div>
+      
     </div>
   </div>
 </div>
@@ -1172,24 +1166,24 @@
 
 <div class="pub-list-item view-citation pub-citation-item">
   <div class="row pub-citation-row">
-    <div class="col-12 col-sm-3 col-md-2 pub-citation-media">
+    <div class="col col-sm-2 pub-citation-media">
       
         
         
         
         
         
-        <img src="/publication/irc-23-homerobot/featured.gif" alt="Household navigation and manipulation for everyday object rearrangement tasks" class="pub-citation-image" loading="lazy">
+        <figure class="pub-preview">
+          <picture>
+            <img src="/publication/irc-23-homerobot/featured.gif" class="preview z-depth-1 rounded pub-citation-image" alt="Household navigation and manipulation for everyday object rearrangement tasks" data-zoomable loading="lazy">
+          </picture>
+        </figure>
       
     </div>
 
-    <div class="col-12 col-sm-9 col-md-10 pub-citation-content">
-      <div class="pub-citation-title">
-        <a href="/publication/irc-23-homerobot/">Household navigation and manipulation for everyday object rearrangement tasks</a>
-      </div>
-
-      <div class="pub-citation-authors">
-        
+    <div class="col-sm-10 pub-citation-content">
+      <div class="title"><a href="/publication/irc-23-homerobot/">Household navigation and manipulation for everyday object rearrangement tasks</a></div>
+      <div class="author">
 
   <span >
       <a href="/authors/shrutheesh-r.-iyer/">Shrutheesh R. Iyer</a></span>, <span >
@@ -1197,37 +1191,35 @@
       <a href="/authors/jiaming-hu/">Jiaming Hu</a></span>, <span >
       <a href="/authors/akanimoh-adeleye/">Akanimoh Adeleye</a></span>, <span >
       <a href="/authors/aditya-aggarwal/">Aditya Aggarwal</a></span>, <span >
-      <a href="/authors/henrik-i.-christensen/">Henrik I. Christensen</a></span>
+      <a href="/authors/henrik-i.-christensen/">Henrik I. Christensen</a></span></div>
+
+      
+        <div class="periodical"><em><em>International Conference on Robotic Computing (IRC)</em></em></div>
+      
+
+      <div class="links">
+        
+          <a class="btn btn-outline-primary btn-page-header btn-sm z-depth-0" href="https://arxiv.org/pdf/2312.06129" target="_blank" rel="noopener">PDF</a>
+        
+
+        
+          <a class="bibtex btn btn-outline-primary btn-page-header btn-sm z-depth-0" role="button" href="#pub-irc-23-homerobot-1-bibtex">Bib</a>
+        
+
+        
+
+        
+
+        
+
+        
       </div>
 
       
-        <div class="pub-citation-location"><em>International Conference on Robotic Computing (IRC)</em></div>
+
       
-
-      <div class="pub-citation-actions">
-        <div class="pub-citation-buttons">
-          
-            <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://arxiv.org/pdf/2312.06129" target="_blank" rel="noopener">PDF</a>
-          
-
-          
-            <label for="pub-irc-23-homerobot-1-bib" class="btn btn-outline-primary btn-page-header btn-sm" role="button">Bib</label>
-          
-
-          
-
-          
-
-          
-
-          
-        </div>
-
-        <div class="pub-citation-panels">
-          
-            <input id="pub-irc-23-homerobot-1-bib" class="pub-panel-toggle" type="checkbox">
-            <div class="pub-inline-body pub-panel-bib">
-              <pre><code class="language-bibtex">@inproceedings{irc23homerobot,
+        <div id="pub-irc-23-homerobot-1-bibtex" class="bibtex hidden">
+          <pre><code class="language-bibtex">@inproceedings{irc23homerobot,
  address = {Laguna Hills, CA},
  author = {Shrutheesh R. Iyer and Anwesan Pal and Jiaming Hu and Akanimoh Adeleye and Aditya Aggarwal and Henrik I. Christensen},
  booktitle = {International Conference on Robotic Computing (IRC)},
@@ -1240,12 +1232,8 @@
  year = {2023}
 }
 </code></pre>
-            </div>
-          
-
-          
         </div>
-      </div>
+      
     </div>
   </div>
 </div>
@@ -1278,55 +1266,53 @@
 
 <div class="pub-list-item view-citation pub-citation-item">
   <div class="row pub-citation-row">
-    <div class="col-12 col-sm-3 col-md-2 pub-citation-media">
+    <div class="col col-sm-2 pub-citation-media">
       
         
         
         
         
         
-        <img src="/publication/iyer-2023-improvisational/featured.gif" alt="Improvisational Robot Tool Use using Affordance based Planning" class="pub-citation-image" loading="lazy">
+        <figure class="pub-preview">
+          <picture>
+            <img src="/publication/iyer-2023-improvisational/featured.gif" class="preview z-depth-1 rounded pub-citation-image" alt="Improvisational Robot Tool Use using Affordance based Planning" data-zoomable loading="lazy">
+          </picture>
+        </figure>
       
     </div>
 
-    <div class="col-12 col-sm-9 col-md-10 pub-citation-content">
-      <div class="pub-citation-title">
-        <a href="/publication/iyer-2023-improvisational/">Improvisational Robot Tool Use using Affordance based Planning</a>
-      </div>
-
-      <div class="pub-citation-authors">
-        
+    <div class="col-sm-10 pub-citation-content">
+      <div class="title"><a href="/publication/iyer-2023-improvisational/">Improvisational Robot Tool Use using Affordance based Planning</a></div>
+      <div class="author">
 
   <span >
-      <a href="/authors/shrutheesh-raman-iyer/">Shrutheesh Raman Iyer</a></span>
+      <a href="/authors/shrutheesh-raman-iyer/">Shrutheesh Raman Iyer</a></span></div>
+
+      
+
+      <div class="links">
+        
+          <a class="btn btn-outline-primary btn-page-header btn-sm z-depth-0" href="https://escholarship.org/uc/item/8622p2rs" target="_blank" rel="noopener">PDF</a>
+        
+
+        
+          <a class="bibtex btn btn-outline-primary btn-page-header btn-sm z-depth-0" role="button" href="#pub-iyer-2023-improvisational-2-bibtex">Bib</a>
+        
+
+        
+
+        
+
+        
+
+        
       </div>
 
       
 
-      <div class="pub-citation-actions">
-        <div class="pub-citation-buttons">
-          
-            <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://escholarship.org/uc/item/8622p2rs" target="_blank" rel="noopener">PDF</a>
-          
-
-          
-            <label for="pub-iyer-2023-improvisational-2-bib" class="btn btn-outline-primary btn-page-header btn-sm" role="button">Bib</label>
-          
-
-          
-
-          
-
-          
-
-          
-        </div>
-
-        <div class="pub-citation-panels">
-          
-            <input id="pub-iyer-2023-improvisational-2-bib" class="pub-panel-toggle" type="checkbox">
-            <div class="pub-inline-body pub-panel-bib">
-              <pre><code class="language-bibtex">@phdthesis{iyer2023improvisational,
+      
+        <div id="pub-iyer-2023-improvisational-2-bibtex" class="bibtex hidden">
+          <pre><code class="language-bibtex">@phdthesis{iyer2023improvisational,
  author = {Iyer, Shrutheesh Raman},
  category = {Thesis},
  month = {Jul},
@@ -1336,12 +1322,8 @@
  year = {2023}
 }
 </code></pre>
-            </div>
-          
-
-          
         </div>
-      </div>
+      
     </div>
   </div>
 </div>
@@ -1374,60 +1356,58 @@
 
 <div class="pub-list-item view-citation pub-citation-item">
   <div class="row pub-citation-row">
-    <div class="col-12 col-sm-3 col-md-2 pub-citation-media">
+    <div class="col col-sm-2 pub-citation-media">
       
         
         
         
         
         
-        <img src="/publication/iyer-2023-deep/featured.gif" alt="Deep-Feature-Based Visual Odometry for Autonomous Emergency Parking" class="pub-citation-image" loading="lazy">
+        <figure class="pub-preview">
+          <picture>
+            <img src="/publication/iyer-2023-deep/featured.gif" class="preview z-depth-1 rounded pub-citation-image" alt="Deep-Feature-Based Visual Odometry for Autonomous Emergency Parking" data-zoomable loading="lazy">
+          </picture>
+        </figure>
       
     </div>
 
-    <div class="col-12 col-sm-9 col-md-10 pub-citation-content">
-      <div class="pub-citation-title">
-        <a href="/publication/iyer-2023-deep/">Deep-Feature-Based Visual Odometry for Autonomous Emergency Parking</a>
-      </div>
-
-      <div class="pub-citation-authors">
-        
+    <div class="col-sm-10 pub-citation-content">
+      <div class="title"><a href="/publication/iyer-2023-deep/">Deep-Feature-Based Visual Odometry for Autonomous Emergency Parking</a></div>
+      <div class="author">
 
   <span >
       <a href="/authors/shrutheesh-raman-iyer/">Shrutheesh Raman Iyer</a></span>, <span >
       <a href="/authors/varghese-p-kuruvilla/">Varghese P Kuruvilla</a></span>, <span >
       <a href="/authors/raghu-krishnapuram/">Raghu Krishnapuram</a></span>, <span >
-      <a href="/authors/panini-bhamidipati/">Panini Bhamidipati</a></span>
+      <a href="/authors/panini-bhamidipati/">Panini Bhamidipati</a></span></div>
+
+      
+        <div class="periodical"><em><em>Proceedings of the 2023 6th International Conference on Advances in Robotics</em></em></div>
+      
+
+      <div class="links">
+        
+          <a class="btn btn-outline-primary btn-page-header btn-sm z-depth-0" href="https://dl.acm.org/doi/10.1145/3610419.3610480" target="_blank" rel="noopener">PDF</a>
+        
+
+        
+          <a class="bibtex btn btn-outline-primary btn-page-header btn-sm z-depth-0" role="button" href="#pub-iyer-2023-deep-3-bibtex">Bib</a>
+        
+
+        
+
+        
+
+        
+
+        
       </div>
 
       
-        <div class="pub-citation-location"><em>Proceedings of the 2023 6th International Conference on Advances in Robotics</em></div>
+
       
-
-      <div class="pub-citation-actions">
-        <div class="pub-citation-buttons">
-          
-            <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://dl.acm.org/doi/10.1145/3610419.3610480" target="_blank" rel="noopener">PDF</a>
-          
-
-          
-            <label for="pub-iyer-2023-deep-3-bib" class="btn btn-outline-primary btn-page-header btn-sm" role="button">Bib</label>
-          
-
-          
-
-          
-
-          
-
-          
-        </div>
-
-        <div class="pub-citation-panels">
-          
-            <input id="pub-iyer-2023-deep-3-bib" class="pub-panel-toggle" type="checkbox">
-            <div class="pub-inline-body pub-panel-bib">
-              <pre><code class="language-bibtex">@inproceedings{iyer2023deep,
+        <div id="pub-iyer-2023-deep-3-bibtex" class="bibtex hidden">
+          <pre><code class="language-bibtex">@inproceedings{iyer2023deep,
  author = {Iyer, Shrutheesh Raman and Kuruvilla, Varghese P and Krishnapuram, Raghu and Bhamidipati, Panini},
  booktitle = {Proceedings of the 2023 6th International Conference on Advances in Robotics},
  category = {Conference},
@@ -1438,12 +1418,8 @@
  year = {2023}
 }
 </code></pre>
-            </div>
-          
-
-          
         </div>
-      </div>
+      
     </div>
   </div>
 </div>
@@ -1476,52 +1452,46 @@
 
 <div class="pub-list-item view-citation pub-citation-item">
   <div class="row pub-citation-row">
-    <div class="col-12 col-sm-3 col-md-2 pub-citation-media">
+    <div class="col col-sm-2 pub-citation-media">
       
     </div>
 
-    <div class="col-12 col-sm-9 col-md-10 pub-citation-content">
-      <div class="pub-citation-title">
-        <a href="/publication/iyer-2019-adaptive/">Adaptive real time traffic prediction using deep neural networks</a>
-      </div>
-
-      <div class="pub-citation-authors">
-        
+    <div class="col-sm-10 pub-citation-content">
+      <div class="title"><a href="/publication/iyer-2019-adaptive/">Adaptive real time traffic prediction using deep neural networks</a></div>
+      <div class="author">
 
   <span >
       <a href="/authors/parinith-r-iyer/">Parinith R Iyer</a></span>, <span >
       <a href="/authors/shrutheesh-raman-iyer/">Shrutheesh Raman Iyer</a></span>, <span >
       <a href="/authors/raghavendran-ramesh/">Raghavendran Ramesh</a></span>, <span >
       <a href="/authors/mr-anala/">MR Anala</a></span>, <span >
-      <a href="/authors/kn-subramanya/">KN Subramanya</a></span>
+      <a href="/authors/kn-subramanya/">KN Subramanya</a></span></div>
+
+      
+        <div class="periodical"><em><em>IAES International Journal of Artificial Intelligence</em></em></div>
+      
+
+      <div class="links">
+        
+
+        
+          <a class="bibtex btn btn-outline-primary btn-page-header btn-sm z-depth-0" role="button" href="#pub-iyer-2019-adaptive-4-bibtex">Bib</a>
+        
+
+        
+
+        
+
+        
+
+        
       </div>
 
       
-        <div class="pub-citation-location"><em>IAES International Journal of Artificial Intelligence</em></div>
+
       
-
-      <div class="pub-citation-actions">
-        <div class="pub-citation-buttons">
-          
-
-          
-            <label for="pub-iyer-2019-adaptive-4-bib" class="btn btn-outline-primary btn-page-header btn-sm" role="button">Bib</label>
-          
-
-          
-
-          
-
-          
-
-          
-        </div>
-
-        <div class="pub-citation-panels">
-          
-            <input id="pub-iyer-2019-adaptive-4-bib" class="pub-panel-toggle" type="checkbox">
-            <div class="pub-inline-body pub-panel-bib">
-              <pre><code class="language-bibtex">@article{iyer2019adaptive,
+        <div id="pub-iyer-2019-adaptive-4-bibtex" class="bibtex hidden">
+          <pre><code class="language-bibtex">@article{iyer2019adaptive,
  author = {Iyer, Parinith R and Iyer, Shrutheesh Raman and Ramesh, Raghavendran and Anala, MR and Subramanya, KN},
  category = {Conference},
  journal = {IAES International Journal of Artificial Intelligence},
@@ -1533,12 +1503,8 @@
  year = {2019}
 }
 </code></pre>
-            </div>
-          
-
-          
         </div>
-      </div>
+      
     </div>
   </div>
 </div>
@@ -1615,13 +1581,13 @@
    <div class="home-section-bg " >
      
    </div>
-    <div class="container">
+    <div class="universal-wrapper">
 
     
-      <div class="row  ">
+      <div class="row  justify-content-center">
       
         
-          <div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
+          <div class="section-heading col-12 mb-3 text-center">
             <h1 class="mb-0">Latest News</h1>
             <p class="mt-1">Life updates</p>
           </div>
@@ -1676,459 +1642,85 @@
 
 
 
-        <div class="col-12 col-lg-8 isotope-item">
-  
-  
-  
-    
 
-
-
-
-
-
-
-
-
-
-
-
+  <div class="col-12  isotope-item">
 
   
-
-
-<div class="media stream-item view-compact row experience">
-  <div class="col-auto text-center flex-column d-none d-sm-flex">
-    
-    <div class="m-2">
-      <span class="badge badge-pill border exp-fill">&nbsp;</span>
-    </div>
-    
-  </div>  
-  <div class="media-body">
-
-    <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/post/left_aurora/" >Started PhD</a>
-    </div>
-
-    
-    <a href="/post/left_aurora/"  class="summary-link">
-      <div class="article-style">
-        Started my PhD at Purdue
+  
+    <div class="news-list">
+      <div class="table-responsive">
+        <table class="table table-borderless news-table">
+          <tbody>
+            
+              
+              
+                
+              
+              <tr class="news-table-row">
+                <th scope="row" class="news-table-date"><strong>Jul 28, 2025</strong></th>
+                <td class="news-table-content">
+                  
+                    Started my PhD at Purdue
+                  
+                </td>
+              </tr>
+            
+              
+              
+                
+              
+              <tr class="news-table-row">
+                <th scope="row" class="news-table-date"><strong>May 13, 2024</strong></th>
+                <td class="news-table-content">
+                  
+                    Our work on Experience based Task and Motion Planning framework accepted at RSS 2024, and presented in Delft.
+                  
+                </td>
+              </tr>
+            
+              
+              
+                
+              
+              <tr class="news-table-row">
+                <th scope="row" class="news-table-date"><strong>Dec 11, 2023</strong></th>
+                <td class="news-table-content">
+                  
+                    Presented our work on service-home-robot at IEEE Robotic Computing (IRC) Conference 2023
+                  
+                </td>
+              </tr>
+            
+              
+              
+                
+              
+              <tr class="news-table-row">
+                <th scope="row" class="news-table-date"><strong>Jul 24, 2023</strong></th>
+                <td class="news-table-content">
+                  
+                    Joined Aurora Tech as a perception software engineer.
+                  
+                </td>
+              </tr>
+            
+              
+              
+                
+              
+              <tr class="news-table-row">
+                <th scope="row" class="news-table-date"><strong>Jun 16, 2023</strong></th>
+                <td class="news-table-content">
+                  
+                    Graduated with a masters degree in Computer Science and Engineering from UC San Diego!
+                  
+                </td>
+              </tr>
+            
+          </tbody>
+        </table>
       </div>
-    </a>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-        
-
-
-<div class="article-metadata">
-
-  
-  
-
-  
-  <span class="article-date">
-    
-    
-      
-    
-    Jul 28, 2025
-  </span>
-  
-
-  
-
-  
-
-  
-  
-  
-  
-
-  
-  
-
-</div>
-
-      
     </div>
-
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-  </div>
-</div>
-
-
-  
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-<div class="media stream-item view-compact row experience">
-  <div class="col-auto text-center flex-column d-none d-sm-flex">
-    
-    <div class="m-2">
-      <span class="badge badge-pill border exp-fill">&nbsp;</span>
-    </div>
-    
-  </div>  
-  <div class="media-body">
-
-    <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/post/rss2024/" >Paper Accepted at RSS 2024</a>
-    </div>
-
-    
-    <a href="/post/rss2024/"  class="summary-link">
-      <div class="article-style">
-        Our work on Experience based Task and Motion Planning framework accepted at RSS 2024, and presented in Delft.
-      </div>
-    </a>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-        
-
-
-<div class="article-metadata">
-
-  
-  
-
-  
-  <span class="article-date">
-    
-    
-      
-    
-    May 13, 2024
-  </span>
-  
-
-  
-
-  
-
-  
-  
-  
-  
-
-  
-  
-
-</div>
-
-      
-    </div>
-
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-  </div>
-</div>
-
-
-  
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-<div class="media stream-item view-compact row experience">
-  <div class="col-auto text-center flex-column d-none d-sm-flex">
-    
-    <div class="m-2">
-      <span class="badge badge-pill border exp-fill">&nbsp;</span>
-    </div>
-    
-  </div>  
-  <div class="media-body">
-
-    <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/post/irc/" >Presented at IRC 2023</a>
-    </div>
-
-    
-    <a href="/post/irc/"  class="summary-link">
-      <div class="article-style">
-        Presented our work on service-home-robot at IEEE Robotic Computing (IRC) Conference 2023
-      </div>
-    </a>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-        
-
-
-<div class="article-metadata">
-
-  
-  
-
-  
-  <span class="article-date">
-    
-    
-      
-    
-    Dec 11, 2023
-  </span>
-  
-
-  
-
-  
-
-  
-  
-  
-  
-
-  
-  
-
-</div>
-
-      
-    </div>
-
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-  </div>
-</div>
-
-
-  
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-<div class="media stream-item view-compact row experience">
-  <div class="col-auto text-center flex-column d-none d-sm-flex">
-    
-    <div class="m-2">
-      <span class="badge badge-pill border exp-fill">&nbsp;</span>
-    </div>
-    
-  </div>  
-  <div class="media-body">
-
-    <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/post/started_aurora/" >Software Engineer at Aurora</a>
-    </div>
-
-    
-    <a href="/post/started_aurora/"  class="summary-link">
-      <div class="article-style">
-        Joined Aurora Tech as a perception software engineer.
-      </div>
-    </a>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-        
-
-
-<div class="article-metadata">
-
-  
-  
-
-  
-  <span class="article-date">
-    
-    
-      
-    
-    Jul 24, 2023
-  </span>
-  
-
-  
-
-  
-
-  
-  
-  
-  
-
-  
-  
-
-</div>
-
-      
-    </div>
-
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-  </div>
-</div>
-
-
-  
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-<div class="media stream-item view-compact row experience">
-  <div class="col-auto text-center flex-column d-none d-sm-flex">
-    
-    <div class="m-2">
-      <span class="badge badge-pill border exp-fill">&nbsp;</span>
-    </div>
-    
-  </div>  
-  <div class="media-body">
-
-    <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/post/graduation/" >Graduated from UC San Diego!</a>
-    </div>
-
-    
-    <a href="/post/graduation/"  class="summary-link">
-      <div class="article-style">
-        Graduated with a masters degree in Computer Science and Engineering from UC San Diego!
-      </div>
-    </a>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-        
-
-
-<div class="article-metadata">
-
-  
-  
-
-  
-  <span class="article-date">
-    
-    
-      
-    
-    Jun 16, 2023
-  </span>
-  
-
-  
-
-  
-
-  
-  
-  
-  
-
-  
-  
-
-</div>
-
-      
-    </div>
-
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-  </div>
-</div>
-
-
   
 
   
@@ -2156,9 +1748,10 @@
       </a>
     </div>
   
+
+
   </div>
 
-</div>
 
 
     
@@ -2179,7 +1772,7 @@
   <div class="page-footer">
     
     
-    <div class="container">
+    <div class="universal-wrapper">
       <footer class="site-footer">
 
   

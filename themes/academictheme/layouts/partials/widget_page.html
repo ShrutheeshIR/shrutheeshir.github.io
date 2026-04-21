@@ -121,7 +121,7 @@
     {{ $use_container = $cfg.use_container }}
   {{end}}
 
-  {{ $columns := $st.Params.design.columns | default "2" }}
+  {{ $columns := printf "%v" ($st.Params.design.columns | default "2") }}
   {{ $use_cols := in (slice "pages" "featured" "experience" "accomplishments" "contact" "blank" "tag_cloud" "portfolio" "news") $widget }}
 
   {{/* Dedicated child div for bg prevents parallax 100% height issue within new CSS grid page wrapper. */}}
@@ -129,7 +129,7 @@
    <div class="home-section-bg {{if $bg.image}} bg-image{{if ($bg.image_parallax | default true) }} parallax{{end}}{{end}}" {{with $style_bg}}style="{{. | safeCSS}}"{{end}}>
      {{with $bg_video}}<video class="bg-video {{$bg_video_class}}" playsinline="" preload="auto" loop="" muted autoplay="" tabindex="-1" width="100%" height="100%" src="{{.RelPermalink}}" style="width: 100%; height: 100%; object-fit: cover; object-position: center center; opacity: 1;"></video>{{end}}
    </div>
-    {{if $use_container}}<div class="container">{{end}}
+    {{if $use_container}}<div class="universal-wrapper">{{end}}
 
     {{if $use_cols}}
       <div class="row  {{if not $st.Title | or (eq $columns "1") }}justify-content-center{{end}}">

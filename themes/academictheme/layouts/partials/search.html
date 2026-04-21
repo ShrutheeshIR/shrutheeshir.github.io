@@ -2,7 +2,7 @@
 {{ $search_provider := lower site.Params.features.search.provider }}
 {{ if in (slice "wowchemy" "algolia") $search_provider }}
 <aside class="search-modal" id="search">
-  <div class="container">
+  <div class="universal-wrapper">
     <section class="search-header">
 
       <div class="row no-gutters justify-content-between mb-3">

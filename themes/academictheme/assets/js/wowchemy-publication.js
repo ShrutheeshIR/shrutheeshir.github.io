@@ -122,6 +122,23 @@ function filter_publications() {
 }
 
 document.addEventListener('DOMContentLoaded', function () {
+  // Toggle publication abstract and bibtex blocks.
+  $('.pub-list-item .abstract, .pub-list-item .bibtex').click(function (e) {
+    e.preventDefault();
+    let $button = $(this);
+    let targetSelector = $button.attr('href');
+    let $item = $button.closest('.pub-list-item');
+    if (!targetSelector || !targetSelector.startsWith('#')) {
+      return;
+    }
+    let $target = $item.find(targetSelector).first();
+    if (!$target.length) {
+      return;
+    }
+    $target.toggleClass('hidden');
+    $button.toggleClass('active');
+  });
+
   // Enable publication filter for publication index page.
   if ($('.pub-filters-select')) {
     filter_publications();

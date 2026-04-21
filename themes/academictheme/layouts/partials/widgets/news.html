@@ -70,19 +70,50 @@
   {{ $query = first $items_count $query }}
 {{ end }}
 
-{{ $columns := $st.Params.design.columns | default "2" }}
+{{ $columns := printf "%v" ($st.Params.design.columns | default "2") }}
+{{ $is_small_card := in (slice "small_card" 3) $st.Params.design.view }}
 
-{{ if in (slice "small_card" 3) $st.Params.design.view  }}
+{{ if $is_small_card }}
 <div class="container-fluid py-2">
   <div class="d-flex flex-row flex-nowrap overflow-auto">
-    {{ else }}
-        <div class="col-12 col-lg-8 isotope-item">
-  {{ end }}
+{{ else }}
+  <div class="col-12 {{if eq $columns "2"}}col-lg-8{{end}} isotope-item">
+{{ end }}
   {{ with $st.Content }}{{ . }}{{ end }}
-  {{ range $index, $item := $query }}
-    {{ partial "functions/render_view" (dict "page" $st "item" . "view" ($st.Params.design.view | default "compact") "index" $index) }}
-
-  {{end}}
+  {{ if and (eq ($st.Params.content.page_type | default "") "post") (eq ($st.Params.design.view | default "") "descriptive_list") }}
+    <div class="news-list">
+      <div class="table-responsive">
+        <table class="table table-borderless news-table">
+          <tbody>
+            {{ range $index, $item := $query }}
+              {{ $news_html := "" }}
+              {{ if $item.Params.summary }}
+                {{ $news_html = $item.Params.summary | markdownify | emojify }}
+              {{ else if $item.Summary }}
+                {{ $news_html = $item.Summary }}
+              {{ else if $item.Plain }}
+                {{ $news_html = ($item.Plain | plainify | truncate 180) }}
+              {{ end }}
+              <tr class="news-table-row">
+                <th scope="row" class="news-table-date"><strong>{{ $item.Date | time.Format (site.Params.locale.date_format | default "Jan 2, 2006") }}</strong></th>
+                <td class="news-table-content">
+                  {{ if ne (trim ($news_html | plainify) " ") "" }}
+                    {{ $news_html | safeHTML }}
+                  {{ else }}
+                    <a href="{{ $item.RelPermalink }}">{{ $item.RelPermalink }}</a>
+                  {{ end }}
+                </td>
+              </tr>
+            {{ end }}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  {{ else }}
+    {{ range $index, $item := $query }}
+      {{ partial "functions/render_view" (dict "page" $st "item" . "view" ($st.Params.design.view | default "compact") "index" $index) }}
+    {{end}}
+  {{ end }}
 
   {{/* Archive link */}}
   {{ $show_archive_link := $st.Params.content.archive.enable | default (gt $count $items_count) }}
@@ -117,6 +148,10 @@
       </a>
     </div>
   {{ end }}
-  </div>
 
+{{ if $is_small_card }}
+  </div>
 </div>
+{{ else }}
+  </div>
+{{ end }}

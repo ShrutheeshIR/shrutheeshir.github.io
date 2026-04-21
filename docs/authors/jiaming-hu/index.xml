@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Jiaming Hu | Shrutheesh Raman Iyer</title>
-    <link>http://localhost:1313/authors/jiaming-hu/</link>
-      <atom:link href="http://localhost:1313/authors/jiaming-hu/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://example.com/authors/jiaming-hu/</link>
+      <atom:link href="https://example.com/authors/jiaming-hu/index.xml" rel="self" type="application/rss+xml" />
     <description>Jiaming Hu</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en</language><lastBuildDate>Mon, 01 Jul 2024 00:00:00 +0000</lastBuildDate>
     <item>
       <title>Motion Planning in Foliated Manifolds using Repetition Roadmap</title>
-      <link>http://localhost:1313/publication/hu-rss-24/</link>
+      <link>https://example.com/publication/hu-rss-24/</link>
       <pubDate>Mon, 01 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/hu-rss-24/</guid>
+      <guid>https://example.com/publication/hu-rss-24/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Household navigation and manipulation for everyday object rearrangement tasks</title>
-      <link>http://localhost:1313/publication/irc-23-homerobot/</link>
+      <link>https://example.com/publication/irc-23-homerobot/</link>
       <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/irc-23-homerobot/</guid>
+      <guid>https://example.com/publication/irc-23-homerobot/</guid>
       <description></description>
     </item>
     

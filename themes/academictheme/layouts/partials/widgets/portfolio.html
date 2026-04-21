@@ -3,7 +3,7 @@
 {{/* Initialise */}}
 {{ $ := .root }}
 {{ $st := .page }}
-{{ $columns := $st.Params.design.columns | default "2" }}
+{{ $columns := printf "%v" ($st.Params.design.columns | default "2") }}
 {{ $view := $st.Params.design.view | default "masonry" }}
 
 {{/* Require Isotope */}}
