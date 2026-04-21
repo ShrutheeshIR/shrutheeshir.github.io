@@ -1,7 +1,7 @@
 ---
 # Documentation: https://wowchemy.com/docs/page-builder/
 widget: pages
-weight: 2
+weight: 3
 title: Publications
 cms_exclude: true
 

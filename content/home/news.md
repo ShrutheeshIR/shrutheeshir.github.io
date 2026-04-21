@@ -1,7 +1,7 @@
 ---
 # Documentation: https://wowchemy.com/docs/page-builder/
 widget: news
-weight: 3
+weight: 2
 title: Latest News
 subtitle: Life updates
 cms_exclude: true
