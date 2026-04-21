@@ -37,7 +37,12 @@
       {{ if $cover_image }}
       <div class="article-header">
         {{ $alt := (.Params.image.caption | default "") | plainify }}
-        {{ $cover_image = $cover_image.Fit "1800x310 webp" }}
+        {{ $subtype := lower ($cover_image.MediaType.SubType | default "") }}
+        {{ $name := lower ($cover_image.Name | default "") }}
+        {{ $is_passthrough := or (or (eq $subtype "gif") (hasSuffix $name ".gif")) (or (eq $subtype "svg") (hasSuffix $name ".svg")) }}
+        {{ if not $is_passthrough }}
+          {{ $cover_image = $cover_image.Fit "1800x310 webp" }}
+        {{ end }}
         <img src="{{$cover_image.RelPermalink}}" width="{{$cover_image.Width}}" height="{{$cover_image.Height}}" class="article-banner" alt="{{$alt}}">
         {{ with (.Params.image.alt_text | default .Params.image.caption) }}
           <span class="article-header-caption">{{ . | markdownify | emojify }}</span>

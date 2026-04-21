@@ -43,6 +43,9 @@
 
 {{/* Fit image within max size. */}}
 {{ $image := $featured }}
+{{ $featuredSubtype := lower ($featured.MediaType.SubType | default "") }}
+{{ $featuredName := lower ($featured.Name | default "") }}
+{{ $featuredPassthrough := or (or (eq $featuredSubtype "gif") (hasSuffix $featuredName ".gif")) (or (eq $featuredSubtype "svg") (hasSuffix $featuredName ".svg")) }}
 
 {{/* Determine image placement. */}}
 {{ $placement := .Params.image.placement | default 1 }}{{/* Default to full column width. */}}
@@ -50,13 +53,13 @@
 {{ $image_container := "" }}
 {{ if eq $placement 2}}
   {{ $image_container = "container" }}
-  {{ $image = $featured.Fit "1200x2500 webp" }}
+  {{ if not $featuredPassthrough }}{{ $image = $featured.Fit "1200x2500 webp" }}{{ end }}
 {{else if eq $placement 3}}
   {{ $image_container = "container-fluid" }}
-  {{ $image := $featured.Fit "2560x2560 webp" }}
+  {{ if not $featuredPassthrough }}{{ $image = $featured.Fit "2560x2560 webp" }}{{ end }}
 {{else}}
   {{ $image_container = "article-container" }}
-  {{ $image = $featured.Fit "720x2500 webp" }}
+  {{ if not $featuredPassthrough }}{{ $image = $featured.Fit "720x2500 webp" }}{{ end }}
 {{end}}
 
 <div class="article-container pt-3">

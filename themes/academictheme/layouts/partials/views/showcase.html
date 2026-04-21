@@ -52,7 +52,13 @@
       {{ $resource := partial "functions/get_featured_image.html" $item }}
 
       {{ with $resource }}
-        {{ $image := .Resize "540x webp" }}
+        {{ $subtype := lower (.MediaType.SubType | default "") }}
+        {{ $name := lower (.Name | default "") }}
+        {{ $is_passthrough := or (or (eq $subtype "gif") (hasSuffix $name ".gif")) (or (eq $subtype "svg") (hasSuffix $name ".svg")) }}
+        {{ $image := . }}
+        {{ if not $is_passthrough }}
+          {{ $image = .Resize "540x webp" }}
+        {{ end }}
         {{if $do_link}}<a href="{{ $link }}" {{ $target | safeHTMLAttr }}>{{end}}
           <img src="{{ $image.RelPermalink }}" height="{{ $image.Height }}" width="{{ $image.Width }}"
               alt="{{ $item.Title }}" loading="lazy">

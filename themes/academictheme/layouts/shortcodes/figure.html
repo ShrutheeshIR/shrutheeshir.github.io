@@ -68,8 +68,10 @@
         <a href="{{ $link }}" {{ if strings.HasPrefix $link "http" }} target="_blank" rel="noopener"{{ end }}>
       {{- end -}}
       {{- if $img -}}
-        {{- $isSVG := eq $img.MediaType.SubType "svg" -}}
-        {{- $isGIF := eq $img.MediaType.SubType "gif" -}}
+        {{- $subtype := lower ($img.MediaType.SubType | default "") -}}
+        {{- $name := lower ($img.Name | default "") -}}
+        {{- $isSVG := or (eq $subtype "svg") (hasSuffix $name ".svg") -}}
+        {{- $isGIF := or (eq $subtype "gif") (hasSuffix $name ".gif") -}}
         {{- if $isSVG | or $isGIF -}}
           <img alt="{{ $alt }}"
            src="{{ $img.RelPermalink }}"

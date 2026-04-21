@@ -76,7 +76,13 @@
   <div class="ml-3">
     {{ $resource := partial "functions/get_featured_image.html" $item }}
     {{ with $resource }}
-      {{ $image := .Resize "150x webp" }}
+      {{ $subtype := lower (.MediaType.SubType | default "") }}
+      {{ $name := lower (.Name | default "") }}
+      {{ $is_passthrough := or (or (eq $subtype "gif") (hasSuffix $name ".gif")) (or (eq $subtype "svg") (hasSuffix $name ".svg")) }}
+      {{ $image := . }}
+      {{ if not $is_passthrough }}
+        {{ $image = .Resize "150x webp" }}
+      {{ end }}
       <a href="{{$link}}" {{ $target | safeHTMLAttr }}>
         <img src="{{ $image.RelPermalink }}" height="{{ $image.Height }}" width="{{ $image.Width }}"
             alt="{{ $item.Title }}" loading="lazy">

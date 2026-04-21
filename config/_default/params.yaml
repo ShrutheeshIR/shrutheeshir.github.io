@@ -9,7 +9,7 @@ appearance:
   theme_day: forest
   theme_night: 
   font: minimal
-  font_size: s
+  font_size: m
 light: true
 
 # SEO

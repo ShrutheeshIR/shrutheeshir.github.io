@@ -1,68 +1,101 @@
 {{ $item := .item }}
-{{ $has_attachments := partial "functions/has_attachments" $item }}
-
-{{ $link := $item.RelPermalink }}
-{{ $target := "" }}
-{{ if $item.Params.external_link }}
-  {{ $link = $item.Params.external_link }}
-  {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
-{{ end }}
-
+{{ $index := .index | default 0 }}
+{{ $uid := printf "pub-%s-%d" ($item.File.ContentBaseName | default (anchorize $item.Title)) $index }}
 
 {{ $resource := partial "functions/get_featured_image.html" $item }}
-<div class="pub-list-item view-citation">
-  <table class="table-sm">
-  <tr>
-    <td style="padding-right:2.5%;width:13%;vertical-align:middle;min-width:120px">
+{{ $location := $item.Params.publication | default $item.Params.publication_short | default "" }}
+{{ $has_abstract := ne (trim ($item.Params.abstract | default "") " ") "" }}
+{{ $bib_resource := $item.Resources.GetMatch "cite.bib" }}
 
+{{ $pdf := "" }}
+{{ $pdf_resource := $item.Resources.GetMatch (printf "%s.pdf" $item.File.ContentBaseName) }}
+{{ with $pdf_resource }}
+  {{ $pdf = .RelPermalink }}
+{{ else }}
+  {{ with $item.Params.url_pdf }}{{ $pdf = . | relURL }}{{ end }}
+{{ end }}
+
+{{ $code := "" }}
+{{ with $item.Params.url_code }}{{ $code = . | relURL }}{{ end }}
+
+{{ $video := "" }}
+{{ with $item.Params.url_video }}{{ $video = . | relURL }}{{ end }}
+
+{{ $website := "" }}
+{{ with $item.Params.url_project }}{{ $website = . | relURL }}{{ end }}
+{{ if and (eq $website "") $item.Params.url_source }}{{ $website = $item.Params.url_source | relURL }}{{ end }}
+
+<div class="pub-list-item view-citation pub-citation-item">
+  <div class="row pub-citation-row">
+    <div class="col-12 col-sm-3 col-md-2 pub-citation-media">
       {{ with $resource }}
-      {{ $image := .Resize "1000x" }}
-        <img src="{{ $image.RelPermalink }}" height="{{ $image.Height }}" width="{{ $image.Width }}"
-             alt="{{ $item.Title }}" class="img-responsive" loading="lazy">
+        {{ $subtype := lower (.MediaType.SubType | default "") }}
+        {{ $name := lower (.Name | default "") }}
+        {{ $is_passthrough := or (or (eq $subtype "gif") (hasSuffix $name ".gif")) (or (eq $subtype "svg") (hasSuffix $name ".svg")) }}
+        {{ $image := . }}
+        {{ if not $is_passthrough }}
+          {{ $image = .Fit "420x300" }}
+        {{ end }}
+        <img src="{{ $image.RelPermalink }}" alt="{{ $item.Title }}" class="pub-citation-image" loading="lazy">
+      {{ end }}
+    </div>
+
+    <div class="col-12 col-sm-9 col-md-10 pub-citation-content">
+      <div class="pub-citation-title">
+        <a href="{{ $item.RelPermalink }}">{{ $item.Title }}</a>
+      </div>
+
+      <div class="pub-citation-authors">
+        {{ partial "page_metadata_authors" $item }}
+      </div>
+
+      {{ with $location }}
+        <div class="pub-citation-location">{{ . | markdownify }}</div>
       {{ end }}
 
-    </td>
+      <div class="pub-citation-actions">
+        <div class="pub-citation-buttons">
+          {{ with $pdf }}
+            <a class="btn btn-outline-primary btn-page-header btn-sm" href="{{ . }}" target="_blank" rel="noopener">PDF</a>
+          {{ end }}
 
-  <!-- <i class="far fa-file-alt pub-icon" aria-hidden="true"></i> -->
-  <td style="padding-left:2.5%;width:85%;vertical-align:middle;font-size: 15px;">
-  {{/* APA Style */}}
-  {{ if eq (site.Params.publications.citation_style | default "apa") "apa" }}
+          {{ with $bib_resource }}
+            <label for="{{ $uid }}-bib" class="btn btn-outline-primary btn-page-header btn-sm" role="button">Bib</label>
+          {{ end }}
 
-  <span class="article-metadata li-cite-author">
-    {{ partial "page_metadata_authors" $item }}
-  </span>
-  ({{- $item.Date.Format "2006" -}}).
-  <!-- <a href="{{ $item.RelPermalink }}">{{ $item.Title }}</a>. -->
-  <b>{{ $item.Title }}. </b>
-  {{ if $item.Params.publication_short }}
-    {{- $item.Params.publication_short | markdownify -}}.
-  {{ else if $item.Params.publication }}
-    {{- $item.Params.publication | markdownify -}}.
-  {{ end }}
-  <p>{{ partial "page_links" (dict "page" $item "is_list" 1) }}</p>
+          {{ if $has_abstract }}
+            <label for="{{ $uid }}-abs" class="btn btn-outline-primary btn-page-header btn-sm" role="button">Abs</label>
+          {{ end }}
 
-  {{/* MLA Style */}}
-  {{ else }}
+          {{ with $website }}
+            <a class="btn btn-outline-primary btn-page-header btn-sm" href="{{ . }}" target="_blank" rel="noopener">Website</a>
+          {{ end }}
 
-  <span class="article-metadata li-cite-author">
-    {{ partial "page_metadata_authors" $item }}.
-  </span>
-  <a href="{{ $item.RelPermalink }}">{{ $item.Title }}</a>.
-  {{ if $item.Params.publication_short }}
-    {{- $item.Params.publication_short | markdownify -}},
-  {{ else if $item.Params.publication }}
-    {{- $item.Params.publication | markdownify -}},
-  {{ end }}
-  {{- $item.Date.Format "2006" -}}.
+          {{ with $video }}
+            <a class="btn btn-outline-primary btn-page-header btn-sm" href="{{ . }}" target="_blank" rel="noopener">Video</a>
+          {{ end }}
 
-  {{ if $has_attachments }}
-  <div class="btn-links">
-    {{ partial "page_links" (dict "page" $item "is_list" 1) }}
+          {{ with $code }}
+            <a class="btn btn-outline-primary btn-page-header btn-sm" href="{{ . }}" target="_blank" rel="noopener">Code</a>
+          {{ end }}
+        </div>
+
+        <div class="pub-citation-panels">
+          {{ with $bib_resource }}
+            <input id="{{ $uid }}-bib" class="pub-panel-toggle" type="checkbox">
+            <div class="pub-inline-body pub-panel-bib">
+              <pre><code class="language-bibtex">{{ .Content | htmlEscape }}</code></pre>
+            </div>
+          {{ end }}
+
+          {{ if $has_abstract }}
+            <input id="{{ $uid }}-abs" class="pub-panel-toggle" type="checkbox">
+            <div class="pub-inline-body pub-panel-abs">
+              <p>{{ $item.Params.abstract | markdownify }}</p>
+            </div>
+          {{ end }}
+        </div>
+      </div>
+    </div>
   </div>
-  {{ end }}
-
-  {{ end }}
-  </td>
-    </tr>
-  </table>  
 </div>

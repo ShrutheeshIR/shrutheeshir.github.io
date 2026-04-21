@@ -23,10 +23,35 @@
 {{ $caption := .Get "caption" }}
 
 {{ $is_remote := strings.HasPrefix $src "http" }}
-{{ if not $is_remote }}
-  {{ $src = path.Join  "content" $.Page.File.Dir $src }}
+{{ $rows := slice }}
+
+{{ if $is_remote }}
+  {{ with try (resources.GetRemote $src) }}
+    {{ with .Err }}
+      {{ errorf "Table shortcode failed to fetch remote CSV %q: %s" $src . }}
+    {{ else }}
+      {{ $rows = transform.Unmarshal (dict "delimiter" $delimiter) .Value }}
+    {{ end }}
+  {{ end }}
+{{ else }}
+  {{ $resource := $.Page.Resources.GetMatch $src }}
+  {{ if $resource }}
+    {{ $rows = transform.Unmarshal (dict "delimiter" $delimiter) $resource }}
+  {{ else }}
+    {{ $pageDir := "" }}
+    {{ with $.Page.File }}{{ $pageDir = .Dir }}{{ end }}
+    {{ if $pageDir }}
+      {{ $localPath := path.Join "content" $pageDir $src }}
+      {{ if fileExists $localPath }}
+        {{ $rows = transform.Unmarshal (dict "format" "csv" "delimiter" $delimiter) (os.ReadFile $localPath) }}
+      {{ else }}
+        {{ errorf "Table shortcode could not find CSV %q" $localPath }}
+      {{ end }}
+    {{ else }}
+      {{ errorf "Table shortcode could not resolve local CSV %q for page without a backing file" $src }}
+    {{ end }}
+  {{ end }}
 {{ end }}
-{{ $rows := getCSV $delimiter $src }}
 
 <table class="table">
   {{ if $useHeaderRow }}

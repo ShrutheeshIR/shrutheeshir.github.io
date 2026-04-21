@@ -1,1 +1,51 @@
 // Override this file to add your own SCSS styling.
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Source+Sans+Pro:wght@400;600;700&display=swap");
+
+/* Use Source Sans Pro/Roboto site-wide. */
+body,
+button,
+input,
+select,
+textarea {
+	font-family: "Source Sans Pro", "Roboto", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.section-subheading,
+.article-title,
+.hero-title {
+	font-family: "Source Sans Pro", "Roboto", sans-serif;
+	letter-spacing: 0.01em;
+}
+
+/* Improve top navbar readability and hierarchy. */
+.navbar {
+	font-family: "Source Sans Pro", "Roboto", sans-serif;
+}
+
+.navbar .navbar-brand {
+	font-weight: 700;
+	font-size: 1.15rem;
+	letter-spacing: 0.015em;
+}
+
+.navbar .navbar-nav .nav-link {
+	font-weight: 600;
+	font-size: 1.05rem;
+	letter-spacing: 0.012em;
+}
+
+/* Disable alternating section backgrounds on the homepage. */
+.home-section:nth-of-type(even) {
+	background: $sta-home-section-odd;
+}
+
+.dark .home-section:nth-of-type(even) {
+	background: $sta-dark-home-section-odd;
+}

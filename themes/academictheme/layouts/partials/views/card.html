@@ -44,7 +44,13 @@
   {{ $resource := partial "functions/get_featured_image.html" $item }}
   {{ $anchor := $item.Params.image.focal_point | default "Smart" }}
   {{ with $resource }}
-    {{ $image := .Fill (printf "808x455 webp %s" $anchor) }}
+    {{ $subtype := lower (.MediaType.SubType | default "") }}
+    {{ $name := lower (.Name | default "") }}
+    {{ $is_passthrough := or (or (eq $subtype "gif") (hasSuffix $name ".gif")) (or (eq $subtype "svg") (hasSuffix $name ".svg")) }}
+    {{ $image := . }}
+    {{ if not $is_passthrough }}
+      {{ $image = .Fill (printf "808x455 webp %s" $anchor) }}
+    {{ end }}
     <a href="{{ $link }}" {{ $target | safeHTMLAttr }}>
       <div class="img-hover-zoom">
         <img src="{{ $image.RelPermalink }}" height="{{ $image.Height }}" width="{{ $image.Width }}"

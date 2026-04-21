@@ -6,6 +6,7 @@
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Source+Sans+Pro:wght@400;600;700&display=swap");
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -7212,13 +7213,13 @@ a.text-dark:hover, a.text-dark:focus {
  **************************************************/
 html {
   font-family: "B612", sans-serif;
-  font-size: 14.08px;
+  font-size: 16.28px;
   color: rgba(0, 0, 0, 0.8);
   line-height: 1.65; }
 
 @media screen and (min-width: 58em) {
   html {
-    font-size: 16px; } }
+    font-size: 18.5px; } }
 
 body {
   font-family: inherit;
@@ -8170,7 +8171,7 @@ a.summary-link {
   height: 70px;
   background: #fff;
   box-shadow: 0 0.125rem 0.25rem 0 rgba(0, 0, 0, 0.11);
-  font-size: 14.08px;
+  font-size: 16.28px;
   padding: 0 1rem; }
   .navbar .nav-item {
     position: relative; }
@@ -8194,7 +8195,7 @@ a.summary-link {
         font-weight: bold !important;
         color: #1b5e20 !important; }
   .navbar .dropdown-menu {
-    font-size: 14.08px; }
+    font-size: 16.28px; }
   .navbar .dropdown-item.active,
   .navbar .dropdown-item-active {
     font-weight: bold;
@@ -8783,6 +8784,79 @@ footer .powered-by {
 
 .dark .li-cite-author a {
   color: #f8f8f2; }
+
+.pub-citation-item {
+  padding: 0.4rem 0 1rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08); }
+
+.dark .pub-citation-item {
+  border-bottom-color: rgba(255, 255, 255, 0.15); }
+
+.pub-citation-row {
+  align-items: flex-start; }
+
+.pub-citation-media {
+  margin-bottom: 0.75rem; }
+
+.pub-citation-image {
+  width: 100%;
+  max-width: 220px;
+  border-radius: 0.35rem;
+  border: 1px solid rgba(0, 0, 0, 0.12); }
+
+.pub-citation-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  line-height: 1.35;
+  margin-bottom: 0.35rem; }
+
+.pub-citation-title a {
+  color: inherit; }
+
+.pub-citation-authors,
+.pub-citation-location {
+  margin-bottom: 0.3rem; }
+
+.pub-citation-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  align-items: center;
+  margin-top: 0.45rem; }
+
+.pub-citation-buttons .btn {
+  margin: 0; }
+
+.pub-citation-actions {
+  margin-top: 0.45rem; }
+
+.pub-citation-panels {
+  margin-top: 0.55rem; }
+
+.pub-panel-toggle {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none; }
+
+.pub-inline-body {
+  display: none;
+  width: 100%;
+  margin-top: 0.55rem; }
+
+.pub-panel-toggle:checked + .pub-inline-body {
+  display: block; }
+
+.pub-inline-body pre {
+  padding: 0.65rem;
+  margin: 0;
+  border-radius: 0.3rem;
+  font-size: 0.8rem;
+  max-height: 240px;
+  overflow: auto; }
+
+@media (max-width: 575.98px) {
+  .pub-citation-image {
+    max-width: 100%; } }
 
 /*************************************************
  *  Style for right to left (RTL) languages.
@@ -9644,3 +9718,44 @@ div.chart {
   margin-right: auto;
   margin-bottom: 1rem;
   overflow-x: auto; }
+
+/* Use Source Sans Pro/Roboto site-wide. */
+body,
+button,
+input,
+select,
+textarea {
+  font-family: "Source Sans Pro", "Roboto", sans-serif; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.section-subheading,
+.article-title,
+.hero-title {
+  font-family: "Source Sans Pro", "Roboto", sans-serif;
+  letter-spacing: 0.01em; }
+
+/* Improve top navbar readability and hierarchy. */
+.navbar {
+  font-family: "Source Sans Pro", "Roboto", sans-serif; }
+
+.navbar .navbar-brand {
+  font-weight: 700;
+  font-size: 1.15rem;
+  letter-spacing: 0.015em; }
+
+.navbar .navbar-nav .nav-link {
+  font-weight: 600;
+  font-size: 1.05rem;
+  letter-spacing: 0.012em; }
+
+/* Disable alternating section backgrounds on the homepage. */
+.home-section:nth-of-type(even) {
+  background: white; }
+
+.dark .home-section:nth-of-type(even) {
+  background: #272935; }
