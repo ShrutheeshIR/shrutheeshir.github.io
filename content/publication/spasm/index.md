@@ -1,14 +1,21 @@
 ---
-title: "Motion Planning in Foliated Manifolds using Repetition Roadmap"
-date: 2024-07-01
-publishDate: 2024-12-06T10:53:51.671758Z
-authors: ['Jiaming Hu', 'Shrutheesh R. Iyer', "Joel Wong", "Henrik I Christensen"]
-publication_types: ["1"]
+title: "Differentiable Particle Optimization for Fast Sequential Manipulation"
+date: 2026-01-01
+authors:
+  - "Lucas Chen"
+  - "Shrutheesh R. Iyer"
+  - "Zachary Kingston"
+publication_types:
+  - "1"
 abstract: ""
 featured: false
-publication: "*Proceedings of Robotics: Science and Systems (RSS)*"
-url_project: "https://jih189.github.io/RSS2024_planning_in_foliation/"
-url_pdf: "https://www.roboticsproceedings.org/rss20/p036.pdf"
-doi: "10.15607/RSS.2024.XX.036"
-author_notes: ["equal contribution", "equal contribution"]
+publication: "ICRA"
+publication_short: ""
+url_project: "https://commalab.org/papers/spasm"
+url_pdf: "https://arxiv.org/abs/2510.07674"
+url_code: "https://github.com/CoMMALab/SPaSM"
+url_video: "https://www.youtube.com/watch?v=VK8PYsdXNBk"
+doi: ""
+preview: "spasm.gif"
+slug: "spasm"
 ---

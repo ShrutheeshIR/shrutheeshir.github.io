@@ -3,7 +3,7 @@
 <!-- Last Published: April 21, 2026 --><html lang="en" >
 
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -1297,6 +1297,7 @@
 
 
 
+
   
 
 
@@ -1321,7 +1322,239 @@
         
         <figure class="pub-preview">
           <picture>
-            <img src="/publication/hu-rss-24/featured.gif" class="preview z-depth-1 rounded pub-citation-image" alt="Motion Planning in Foliated Manifolds using Repetition Roadmap" data-zoomable loading="lazy">
+            <img src="/publications_preview/spasm.gif" class="preview z-depth-1 rounded pub-citation-image" alt="Differentiable Particle Optimization for Fast Sequential Manipulation" data-zoomable loading="lazy">
+          </picture>
+        </figure>
+      
+    </div>
+
+    <div class="col-sm-10 pub-citation-content">
+      <div class="title"><a href="/publication/spasm/">Differentiable Particle Optimization for Fast Sequential Manipulation</a></div>
+      <div class="author">
+
+  <span >
+      <a href="/authors/lucas-chen/">Lucas Chen</a></span>, <span >
+      <a href="/authors/shrutheesh-r.-iyer/">Shrutheesh R. Iyer</a></span>, <span >
+      <a href="/authors/zachary-kingston/">Zachary Kingston</a></span></div>
+
+      
+        <div class="periodical"><em>ICRA</em></div>
+      
+
+      
+
+      <div class="links">
+        
+          <a class="btn btn-outline-primary btn-page-header btn-sm z-depth-0" href="https://arxiv.org/abs/2510.07674" target="_blank" rel="noopener">PDF</a>
+        
+
+        
+          <a class="bibtex btn btn-outline-primary btn-page-header btn-sm z-depth-0" role="button" href="#pub-spasm-0-bibtex">Bib</a>
+        
+
+        
+
+        
+          <a class="btn btn-outline-primary btn-page-header btn-sm z-depth-0" href="https://commalab.org/papers/spasm" target="_blank" rel="noopener">Website</a>
+        
+
+        
+          <a class="btn btn-outline-primary btn-page-header btn-sm z-depth-0" href="https://www.youtube.com/watch?v=VK8PYsdXNBk" target="_blank" rel="noopener">Video</a>
+        
+
+        
+          <a class="btn btn-outline-primary btn-page-header btn-sm z-depth-0" href="https://github.com/CoMMALab/SPaSM" target="_blank" rel="noopener">Code</a>
+        
+      </div>
+
+      
+
+      
+        <div id="pub-spasm-0-bibtex" class="bibtex hidden">
+          <pre><code class="language-bibtex">@inproceedings{chen2025spasm,
+  title        = {Differentiable Particle Optimization for Fast Sequential Manipulation}, 
+  author       = {Lucas Chen and Shrutheesh R. Iyer and Zachary Kingston},
+  abstract     = {Sequential robot manipulation tasks require finding collision-free trajectories that satisfy geometric constraints across multiple object interactions in potentially high-dimensional configuration spaces. Solving these problems in real-time and at large scales has remained out of reach due to computational requirements. Recently, GPU-based acceleration has shown promising results, but prior methods achieve limited performance due to CPU-GPU data transfer overhead and complex logic that prevents full hardware utilization. To this end, we present SPaSM (Sampling Particle optimization for Sequential Manipulation), a fully GPU-parallelized framework that compiles constraint evaluation, sampling, and gradient-based optimization into optimized CUDA kernels for end-to-end trajectory optimization without CPU coordination. The method consists of a two-stage particle optimization strategy: first solving placement constraints through massively parallel sampling, then lifting solutions to full trajectory optimization in joint space. Unlike hierarchical approaches, SPaSM jointly optimizes object placements and robot trajectories to handle scenarios where motion feasibility constrains placement options. Experimental evaluation on challenging benchmarks demonstrates solution times in the realm of milliseconds with a 100\% success rate; a 4000x speedup compared to existing approaches.},
+  booktitle    = icra,
+  year         = 2026,
+  pdf          = {https://arxiv.org/abs/2510.07674}, 
+  projects     = {realtime,long-horizon,constraints},
+  note         = {To Appear},
+  abbr         = {ICRA},
+  website      = {https://commalab.org/papers/spasm},
+  video        = {https://www.youtube.com/watch?v=VK8PYsdXNBk},
+  code         = {https://github.com/CoMMALab/SPaSM},
+  slug         = {spasm},
+  preview      = {spasm.gif}
+}
+@inproceedings{hu-RSS-24,
+ address = {Delft, Netherlands},
+ author = {Jiaming Hu AND Shrutheesh Raman Iyer AND Jiawei Wang AND Henrik I Christensen},
+ booktitle = {Proceedings of Robotics: Science and Systems},
+ category = {Conference},
+ doi = {10.15607/RSS.2024.XX.036},
+ month = {July},
+ title = {Motion Planning in Foliated Manifolds using Repetition Roadmap},
+ url = {https://www.roboticsproceedings.org/rss20/p036.pdf},
+ year = {2024}
+}
+</code></pre>
+        </div>
+      
+    </div>
+  </div>
+</div>
+
+  
+    
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="pub-list-item view-citation pub-citation-item">
+  <div class="row pub-citation-row">
+    <div class="col col-sm-2 pub-citation-media">
+      
+        
+        
+        
+        
+        
+        <figure class="pub-preview">
+          <picture>
+            <img src="/publications_preview/mcvamp_maze.gif" class="preview z-depth-1 rounded pub-citation-image" alt="Vectorizing Projection in Manifold-Constrained Motion Planning for Real-Time Whole-Body Control" data-zoomable loading="lazy">
+          </picture>
+        </figure>
+      
+    </div>
+
+    <div class="col-sm-10 pub-citation-content">
+      <div class="title"><a href="/publication/mcvamp/">Vectorizing Projection in Manifold-Constrained Motion Planning for Real-Time Whole-Body Control</a></div>
+      <div class="author">
+
+  <span >
+      <a href="/authors/shrutheesh-r.-iyer/">Shrutheesh R. Iyer</a></span>, <span >
+      <a href="/authors/i-chia-chang/">I-Chia Chang</a></span>, <span >
+      <a href="/authors/andrew-z.-liu/">Andrew Z. Liu</a></span>, <span >
+      <a href="/authors/yan-gu/">Yan Gu</a></span>, <span >
+      <a href="/authors/zachary-kingston/">Zachary Kingston</a></span></div>
+
+      
+        <div class="periodical"><em>ARXIV</em></div>
+      
+
+      
+
+      <div class="links">
+        
+          <a class="btn btn-outline-primary btn-page-header btn-sm z-depth-0" href="https://arxiv.org/pdf/2604.13323" target="_blank" rel="noopener">PDF</a>
+        
+
+        
+          <a class="bibtex btn btn-outline-primary btn-page-header btn-sm z-depth-0" role="button" href="#pub-mcvamp-1-bibtex">Bib</a>
+        
+
+        
+
+        
+          <a class="btn btn-outline-primary btn-page-header btn-sm z-depth-0" href="https://commalab.org/papers/mcvamp" target="_blank" rel="noopener">Website</a>
+        
+
+        
+
+        
+          <a class="btn btn-outline-primary btn-page-header btn-sm z-depth-0" href="https://github.com/CoMMALab/vamp/tree/constrained_planner?tab=readme-ov-file#manifold-constrained-planner" target="_blank" rel="noopener">Code</a>
+        
+      </div>
+
+      
+
+      
+        <div id="pub-mcvamp-1-bibtex" class="bibtex hidden">
+          <pre><code class="language-bibtex">@misc{iyer2026vectorizingprojectionmanifoldconstrainedmotion,
+  title        = {Vectorizing Projection in Manifold-Constrained Motion Planning for Real-Time Whole-Body Control},
+  author       = {Shrutheesh R. Iyer and I-Chia Chang and Andrew Z. Liu and Yan Gu and Zachary Kingston},
+  abstract     = { Many robot planning tasks require satisfaction of one or more constraints throughout the entire trajectory. For geometric constraints, manifold-constrained motion planning algorithms are capable of planning collision-free path between start and goal configurations on the constraint submanifolds specified by task. Current state-of-the-art methods can take tens of seconds to solve these tasks for complex systems such as humanoid robots, making real-world use impractical, especially in dynamic settings. Inspired by recent advances in hardware accelerated motion planning, we present a CPU SIMD-accelerated manifold-constrained motion planner that revisits projection-based constraint satisfaction through the lens of parallelization. By transforming relevant components into parallelizable structures, we use SIMD parallelism to plan constraint satisfying solutions. Our approach achieves up to 100-1000x speed-ups over the state-of-the-art, making real-time constrained motion planning feasible for the first time. We demonstrate our planner on a real humanoid robot and show real-time whole-body quasi-static plan generation.},
+  year         = 2026,
+  eprint.      = {2604.13323},
+  archivePrefix= {arXiv},
+  primaryClass = {cs.RO},
+  pdf          = {https://arxiv.org/pdf/2604.13323},
+  code         = {https://github.com/CoMMALab/vamp/tree/constrained_planner?tab=readme-ov-file#manifold-constrained-planner},
+  website      = {https://commalab.org/papers/mcvamp},
+  note         = {Under Review},
+  projects     = {constraints,realtime},
+  abbr         = {ARXIV},
+  slug         = {mcvamp},
+  preview      = {mcvamp_maze.gif},
+}
+</code></pre>
+        </div>
+      
+    </div>
+  </div>
+</div>
+
+  
+    
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="pub-list-item view-citation pub-citation-item">
+  <div class="row pub-citation-row">
+    <div class="col col-sm-2 pub-citation-media">
+      
+        
+        
+        
+        
+        
+        <figure class="pub-preview">
+          <picture>
+            <img src="/publications_preview/foliated_rss.gif" class="preview z-depth-1 rounded pub-citation-image" alt="Motion Planning in Foliated Manifolds using Repetition Roadmap" data-zoomable loading="lazy">
           </picture>
         </figure>
       
@@ -1334,11 +1567,13 @@
   <span >
       <a href="/authors/jiaming-hu/">Jiaming Hu</a></span><span class="author-notes" data-toggle="tooltip" title="equal contribution">*</span>, <span >
       <a href="/authors/shrutheesh-r.-iyer/">Shrutheesh R. Iyer</a></span><span class="author-notes" data-toggle="tooltip" title="equal contribution">*</span>, <span >
-      <a href="/authors/joel-wong/">Joel Wong</a></span>, <span >
+      <a href="/authors/jiawei-wang/">Jiawei Wang</a></span>, <span >
       <a href="/authors/henrik-i-christensen/">Henrik I Christensen</a></span></div>
 
       
-        <div class="periodical"><em><em>Proceedings of Robotics: Science and Systems (RSS)</em></em></div>
+        <div class="periodical"><em>Proceedings of Robotics: Science and Systems</em></div>
+      
+
       
 
       <div class="links">
@@ -1347,13 +1582,11 @@
         
 
         
-          <a class="bibtex btn btn-outline-primary btn-page-header btn-sm z-depth-0" role="button" href="#pub-hu-rss-24-0-bibtex">Bib</a>
+          <a class="bibtex btn btn-outline-primary btn-page-header btn-sm z-depth-0" role="button" href="#pub-hu-rss-24-2-bibtex">Bib</a>
         
 
         
 
-        
-          <a class="btn btn-outline-primary btn-page-header btn-sm z-depth-0" href="https://jih189.github.io/RSS2024_planning_in_foliation/" target="_blank" rel="noopener">Website</a>
         
 
         
@@ -1364,17 +1597,19 @@
       
 
       
-        <div id="pub-hu-rss-24-0-bibtex" class="bibtex hidden">
-          <pre><code class="language-bibtex">@inproceedings{hu-RSS-24,
- address = {Delft, Netherlands},
- author = {Jiaming Hu AND Shrutheesh Raman Iyer AND Jiawei Wang AND Henrik I Christensen},
- booktitle = {Proceedings of Robotics: Science and Systems},
- category = {Conference},
- doi = {10.15607/RSS.2024.XX.036},
- month = {July},
- title = {Motion Planning in Foliated Manifolds using Repetition Roadmap},
- url = {https://www.roboticsproceedings.org/rss20/p036.pdf},
- year = {2024}
+        <div id="pub-hu-rss-24-2-bibtex" class="bibtex hidden">
+          <pre><code class="language-bibtex">@inproceedings{hu-RSS-24, 
+    author    = {Jiaming Hu AND Shrutheesh Raman Iyer AND Jiawei Wang AND Henrik I Christensen}, 
+    title     = {{Motion Planning in Foliated Manifolds using Repetition Roadmap}}, 
+    booktitle = {Proceedings of Robotics: Science and Systems}, 
+    year      = {2024}, 
+    address   = {Delft, Netherlands}, 
+    month     = {July}, 
+    doi       = {10.15607/RSS.2024.XX.036},
+    url       = {https://www.roboticsproceedings.org/rss20/p036.pdf},
+    author_notes = {equal contribution, equal contribution},
+    slug      = {hu-rss-24},
+    preview   = {foliated_rss.gif}
 }
 </code></pre>
         </div>
@@ -1385,6 +1620,7 @@
 
   
     
+
 
 
 
@@ -1420,106 +1656,7 @@
         
         <figure class="pub-preview">
           <picture>
-            <img src="/publication/spasm/featured.gif" class="preview z-depth-1 rounded pub-citation-image" alt="Motion Planning in Foliated Manifolds using Repetition Roadmap" data-zoomable loading="lazy">
-          </picture>
-        </figure>
-      
-    </div>
-
-    <div class="col-sm-10 pub-citation-content">
-      <div class="title"><a href="/publication/spasm/">Motion Planning in Foliated Manifolds using Repetition Roadmap</a></div>
-      <div class="author">
-
-  <span >
-      <a href="/authors/jiaming-hu/">Jiaming Hu</a></span><span class="author-notes" data-toggle="tooltip" title="equal contribution">*</span>, <span >
-      <a href="/authors/shrutheesh-r.-iyer/">Shrutheesh R. Iyer</a></span><span class="author-notes" data-toggle="tooltip" title="equal contribution">*</span>, <span >
-      <a href="/authors/joel-wong/">Joel Wong</a></span>, <span >
-      <a href="/authors/henrik-i-christensen/">Henrik I Christensen</a></span></div>
-
-      
-        <div class="periodical"><em><em>Proceedings of Robotics: Science and Systems (RSS)</em></em></div>
-      
-
-      <div class="links">
-        
-          <a class="btn btn-outline-primary btn-page-header btn-sm z-depth-0" href="https://www.roboticsproceedings.org/rss20/p036.pdf" target="_blank" rel="noopener">PDF</a>
-        
-
-        
-          <a class="bibtex btn btn-outline-primary btn-page-header btn-sm z-depth-0" role="button" href="#pub-spasm-1-bibtex">Bib</a>
-        
-
-        
-
-        
-          <a class="btn btn-outline-primary btn-page-header btn-sm z-depth-0" href="https://jih189.github.io/RSS2024_planning_in_foliation/" target="_blank" rel="noopener">Website</a>
-        
-
-        
-
-        
-      </div>
-
-      
-
-      
-        <div id="pub-spasm-1-bibtex" class="bibtex hidden">
-          <pre><code class="language-bibtex">@inproceedings{hu-RSS-24,
- address = {Delft, Netherlands},
- author = {Jiaming Hu AND Shrutheesh Raman Iyer AND Jiawei Wang AND Henrik I Christensen},
- booktitle = {Proceedings of Robotics: Science and Systems},
- category = {Conference},
- doi = {10.15607/RSS.2024.XX.036},
- month = {July},
- title = {Motion Planning in Foliated Manifolds using Repetition Roadmap},
- url = {https://www.roboticsproceedings.org/rss20/p036.pdf},
- year = {2024}
-}
-</code></pre>
-        </div>
-      
-    </div>
-  </div>
-</div>
-
-  
-    
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="pub-list-item view-citation pub-citation-item">
-  <div class="row pub-citation-row">
-    <div class="col col-sm-2 pub-citation-media">
-      
-        
-        
-        
-        
-        
-        <figure class="pub-preview">
-          <picture>
-            <img src="/publication/irc-23-homerobot/featured.gif" class="preview z-depth-1 rounded pub-citation-image" alt="Household navigation and manipulation for everyday object rearrangement tasks" data-zoomable loading="lazy">
+            <img src="/publications_preview/homerobot.gif" class="preview z-depth-1 rounded pub-citation-image" alt="Household navigation and manipulation for everyday object rearrangement tasks" data-zoomable loading="lazy">
           </picture>
         </figure>
       
@@ -1538,7 +1675,9 @@
       <a href="/authors/henrik-i.-christensen/">Henrik I. Christensen</a></span></div>
 
       
-        <div class="periodical"><em><em>International Conference on Robotic Computing (IRC)</em></em></div>
+        <div class="periodical"><em>International Conference on Robotic Computing (IRC)</em></div>
+      
+
       
 
       <div class="links">
@@ -1547,7 +1686,7 @@
         
 
         
-          <a class="bibtex btn btn-outline-primary btn-page-header btn-sm z-depth-0" role="button" href="#pub-irc-23-homerobot-2-bibtex">Bib</a>
+          <a class="bibtex btn btn-outline-primary btn-page-header btn-sm z-depth-0" role="button" href="#pub-irc-23-homerobot-3-bibtex">Bib</a>
         
 
         
@@ -1562,108 +1701,19 @@
       
 
       
-        <div id="pub-irc-23-homerobot-2-bibtex" class="bibtex hidden">
-          <pre><code class="language-bibtex">@inproceedings{irc23homerobot,
- address = {Laguna Hills, CA},
- author = {Shrutheesh R. Iyer and Anwesan Pal and Jiaming Hu and Akanimoh Adeleye and Aditya Aggarwal and Henrik I. Christensen},
- booktitle = {International Conference on Robotic Computing (IRC)},
- category = {Conference},
- month = {Dec},
+        <div id="pub-irc-23-homerobot-3-bibtex" class="bibtex hidden">
+          <pre><code class="language-bibtex">@InProceedings{irc23homerobot,
+ author =       {Shrutheesh R. Iyer and Anwesan Pal and Jiaming Hu and Akanimoh Adeleye and Aditya Aggarwal and Henrik I. Christensen},
+ title =        {Household navigation and manipulation for everyday object rearrangement tasks},
+ booktitle =    {International Conference on Robotic Computing (IRC)},
+ year =         2023,
+ pages =        { },
+ month =        {Dec},
+ address =      {Laguna Hills, CA},
  organization = {IEEE},
- pages = { },
- title = {Household navigation and manipulation for everyday object rearrangement tasks},
- url = {https://arxiv.org/pdf/2312.06129},
- year = {2023}
-}
-</code></pre>
-        </div>
-      
-    </div>
-  </div>
-</div>
-
-  
-    
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="pub-list-item view-citation pub-citation-item">
-  <div class="row pub-citation-row">
-    <div class="col col-sm-2 pub-citation-media">
-      
-        
-        
-        
-        
-        
-        <figure class="pub-preview">
-          <picture>
-            <img src="/publication/iyer-2023-improvisational/featured.gif" class="preview z-depth-1 rounded pub-citation-image" alt="Improvisational Robot Tool Use using Affordance based Planning" data-zoomable loading="lazy">
-          </picture>
-        </figure>
-      
-    </div>
-
-    <div class="col-sm-10 pub-citation-content">
-      <div class="title"><a href="/publication/iyer-2023-improvisational/">Improvisational Robot Tool Use using Affordance based Planning</a></div>
-      <div class="author">
-
-  <span >
-      <a href="/authors/shrutheesh-raman-iyer/">Shrutheesh Raman Iyer</a></span></div>
-
-      
-
-      <div class="links">
-        
-          <a class="btn btn-outline-primary btn-page-header btn-sm z-depth-0" href="https://escholarship.org/uc/item/8622p2rs" target="_blank" rel="noopener">PDF</a>
-        
-
-        
-          <a class="bibtex btn btn-outline-primary btn-page-header btn-sm z-depth-0" role="button" href="#pub-iyer-2023-improvisational-3-bibtex">Bib</a>
-        
-
-        
-
-        
-
-        
-
-        
-      </div>
-
-      
-
-      
-        <div id="pub-iyer-2023-improvisational-3-bibtex" class="bibtex hidden">
-          <pre><code class="language-bibtex">@phdthesis{iyer2023improvisational,
- author = {Iyer, Shrutheesh Raman},
- category = {Thesis},
- month = {Jul},
- school = {UC San Diego},
- title = {Improvisational Robot Tool Use using Affordance based Planning},
- url = {https://escholarship.org/uc/item/8622p2rs},
- year = {2023}
+ url =          {https://arxiv.org/pdf/2312.06129},
+ slug =          {irc-23-homerobot},
+ preview      = {homerobot.gif}
 }
 </code></pre>
         </div>

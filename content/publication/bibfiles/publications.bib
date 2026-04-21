@@ -1,50 +1,93 @@
-@inproceedings{irc23homerobot,
- address = {Laguna Hills, CA},
- author = {Shrutheesh R. Iyer and Anwesan Pal and Jiaming Hu and Akanimoh Adeleye and Aditya Aggarwal and Henrik I. Christensen},
- booktitle = {International Conference on Robotic Computing (IRC)},
- category = {Conference},
- month = {Dec},
- organization = {IEEE},
- pages = { },
- title = {Household navigation and manipulation for everyday object rearrangement tasks},
- url = {https://arxiv.org/pdf/2312.06129},
- year = {2023}
-}
+@string{rss = {Robotics: Science and Systems}}
+@string{icra = {IEEE International Conference on Robotics and Automation}}
+@string{iros = {IEEE/RSJ International Conference on Intelligent Robots and Systems}}
+@string{ral = {IEEE Robotics and Automation Letters}}
+@string{tro = {IEEE Transactions on Robotics}}
+@string{ijrr = {The International Journal of Robotics Research}}
 
+@misc{iyer2026vectorizingprojectionmanifoldconstrainedmotion,
+  title        = {Vectorizing Projection in Manifold-Constrained Motion Planning for Real-Time Whole-Body Control},
+  author       = {Shrutheesh R. Iyer and I-Chia Chang and Andrew Z. Liu and Yan Gu and Zachary Kingston},
+  abstract     = { Many robot planning tasks require satisfaction of one or more constraints throughout the entire trajectory. For geometric constraints, manifold-constrained motion planning algorithms are capable of planning collision-free path between start and goal configurations on the constraint submanifolds specified by task. Current state-of-the-art methods can take tens of seconds to solve these tasks for complex systems such as humanoid robots, making real-world use impractical, especially in dynamic settings. Inspired by recent advances in hardware accelerated motion planning, we present a CPU SIMD-accelerated manifold-constrained motion planner that revisits projection-based constraint satisfaction through the lens of parallelization. By transforming relevant components into parallelizable structures, we use SIMD parallelism to plan constraint satisfying solutions. Our approach achieves up to 100-1000x speed-ups over the state-of-the-art, making real-time constrained motion planning feasible for the first time. We demonstrate our planner on a real humanoid robot and show real-time whole-body quasi-static plan generation.},
+  year         = 2026,
+  eprint.      = {2604.13323},
+  archivePrefix= {arXiv},
+  primaryClass = {cs.RO},
+  pdf          = {https://arxiv.org/pdf/2604.13323}, 
+  code         = {https://github.com/CoMMALab/vamp/tree/constrained_planner?tab=readme-ov-file#manifold-constrained-planner},
+  website      = {https://commalab.org/papers/mcvamp},
+  note         = {Under Review},
+  projects     = {constraints,realtime},
+  abbr         = {ARXIV},
+  slug         = {mcvamp},
+  preview      = {mcvamp_maze.gif},
+}
+@inproceedings{chen2025spasm,
+  title        = {Differentiable Particle Optimization for Fast Sequential Manipulation}, 
+  author       = {Lucas Chen and Shrutheesh R. Iyer and Zachary Kingston},
+  abstract     = {Sequential robot manipulation tasks require finding collision-free trajectories that satisfy geometric constraints across multiple object interactions in potentially high-dimensional configuration spaces. Solving these problems in real-time and at large scales has remained out of reach due to computational requirements. Recently, GPU-based acceleration has shown promising results, but prior methods achieve limited performance due to CPU-GPU data transfer overhead and complex logic that prevents full hardware utilization. To this end, we present SPaSM (Sampling Particle optimization for Sequential Manipulation), a fully GPU-parallelized framework that compiles constraint evaluation, sampling, and gradient-based optimization into optimized CUDA kernels for end-to-end trajectory optimization without CPU coordination. The method consists of a two-stage particle optimization strategy: first solving placement constraints through massively parallel sampling, then lifting solutions to full trajectory optimization in joint space. Unlike hierarchical approaches, SPaSM jointly optimizes object placements and robot trajectories to handle scenarios where motion feasibility constrains placement options. Experimental evaluation on challenging benchmarks demonstrates solution times in the realm of milliseconds with a 100\% success rate; a 4000x speedup compared to existing approaches.},
+  booktitle    = icra,
+  year         = 2026,
+  pdf          = {https://arxiv.org/abs/2510.07674}, 
+  projects     = {realtime,long-horizon,constraints},
+  note         = {To Appear},
+  abbr         = {ICRA},
+  website      = {https://commalab.org/papers/spasm},
+  video        = {https://www.youtube.com/watch?v=VK8PYsdXNBk},
+  code         = {https://github.com/CoMMALab/SPaSM},
+  slug         = {spasm},
+  preview      = {spasm.gif}
+}
+@InProceedings{irc23homerobot,
+  author =       {Shrutheesh R. Iyer and Anwesan Pal and Jiaming Hu and Akanimoh Adeleye and Aditya Aggarwal and Henrik I. Christensen},
+  title =        {Household navigation and manipulation for everyday object rearrangement tasks},
+  booktitle =    {International Conference on Robotic Computing (IRC)},
+  year =         2023,
+  pages =        { },
+  month =        {Dec},
+  address =      {Laguna Hills, CA},
+  organization = {IEEE},
+  url =          {https://arxiv.org/pdf/2312.06129},
+  slug =          {irc-23-homerobot},
+  preview      = {homerobot.gif}
+}
+@inproceedings{hu-RSS-24, 
+    author    = {Jiaming Hu AND Shrutheesh Raman Iyer AND Jiawei Wang AND Henrik I Christensen}, 
+    title     = {{Motion Planning in Foliated Manifolds using Repetition Roadmap}}, 
+    booktitle = {Proceedings of Robotics: Science and Systems}, 
+    year      = {2024}, 
+    address   = {Delft, Netherlands}, 
+    month     = {July}, 
+    doi       = {10.15607/RSS.2024.XX.036},
+    url       = {https://www.roboticsproceedings.org/rss20/p036.pdf},
+    author_notes = {equal contribution, equal contribution},
+    slug      = {hu-rss-24},
+    preview   = {foliated_rss.gif}
+}
 @inproceedings{iyer2023deep,
- author = {Iyer, Shrutheesh Raman and Kuruvilla, Varghese P and Krishnapuram, Raghu and Bhamidipati, Panini},
- booktitle = {Proceedings of the 2023 6th International Conference on Advances in Robotics},
- category = {Conference},
- month = {Jul},
- pages = {1--6},
- title = {Deep-Feature-Based Visual Odometry for Autonomous Emergency Parking},
- url = {https://dl.acm.org/doi/10.1145/3610419.3610480},
- year = {2023}
+  title={Deep-Feature-Based Visual Odometry for Autonomous Emergency Parking},
+  author={Iyer, Shrutheesh Raman and Kuruvilla, Varghese P and Krishnapuram, Raghu and Bhamidipati, Panini},
+  booktitle={Proceedings of the 2023 6th International Conference on Advances in Robotics},
+  pages={1--6},
+  month ={Jul},
+  year={2023},
+  url={https://dl.acm.org/doi/10.1145/3610419.3610480},
+  slug={iyer-2023-deep},
+  preview={visual_odom.gif}
 }
 
 @article{iyer2019adaptive,
- author = {Iyer, Parinith R and Iyer, Shrutheesh Raman and Ramesh, Raghavendran and Anala, MR and Subramanya, KN},
- category = {Conference},
- journal = {IAES International Journal of Artificial Intelligence},
- number = {2},
- pages = {107},
- publisher = {IAES Institute of Advanced Engineering and Science},
- title = {Adaptive real time traffic prediction using deep neural networks},
- volume = {8},
- year = {2019}
+  title={Adaptive real time traffic prediction using deep neural networks},
+  author={Iyer, Parinith R and Iyer, Shrutheesh Raman and Ramesh, Raghavendran and Anala, MR and Subramanya, KN},
+  journal={IAES International Journal of Artificial Intelligence},
+  volume={8},
+  number={2},
+  pages={107},
+  year={2019},
+  publisher={IAES Institute of Advanced Engineering and Science},
+  slug={iyer-2019-adaptive}
 }
 
-@inproceedings{hu-RSS-24,
- address = {Delft, Netherlands},
- author = {Jiaming Hu AND Shrutheesh Raman Iyer AND Jiawei Wang AND Henrik I Christensen},
- booktitle = {Proceedings of Robotics: Science and Systems},
- category = {Conference},
- doi = {10.15607/RSS.2024.XX.036},
- month = {July},
- title = {{Motion Planning in Foliated Manifolds using Repetition Roadmap}},
- url = {https://www.roboticsproceedings.org/rss20/p036.pdf},
- year = {2024}
-}
 
 @phdthesis{iyer2023improvisational,
  author = {Iyer, Shrutheesh Raman},

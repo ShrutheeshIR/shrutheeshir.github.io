@@ -18,6 +18,10 @@
   {{ $resource = (.Resources.ByType "image").GetMatch $filename }}
   {{/* Otherwise in `assets/media/` folder */}}
   {{ if eq $resource nil }} {{ $resource = resources.GetMatch (path.Join "media" $filename) }} {{ end }}
+  {{ if and (eq $resource nil) .Params.preview }}
+    {{ $preview := .Params.preview }}
+    {{ $resource = resources.GetMatch (path.Join "publications_preview" $preview) }}
+  {{ end }}
 {{ end }}
 
 {{ return $resource }}

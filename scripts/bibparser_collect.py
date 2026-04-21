@@ -4,7 +4,6 @@ from __future__ import annotations
 
 import re
 import unicodedata
-from datetime import datetime, timezone
 from pathlib import Path
 
 import bibtexparser
@@ -20,6 +19,7 @@ except ImportError as exc:  # pragma: no cover - environment issue
 ROOT = Path(__file__).resolve().parents[1]
 BIB_DIR = ROOT / "content" / "publication" / "bibfiles"
 PUBLICATION_DIR = ROOT / "content" / "publication"
+BIB_SOURCE = BIB_DIR / "publications.bib"
 
 
 MONTHS = {
@@ -74,20 +74,6 @@ def normalize_lookup(value: str) -> str:
     return slugify(value).replace("-", "")
 
 
-def parse_front_matter(path: Path) -> tuple[dict, str]:
-    if not path.exists():
-        return {}, ""
-
-    content = path.read_text(encoding="utf-8")
-    match = re.match(r"^---\n(.*?)\n---\n?(.*)$", content, re.DOTALL)
-    if not match:
-        return {}, content
-
-    front_matter = yaml.safe_load(match.group(1)) or {}
-    body = match.group(2)
-    return front_matter, body
-
-
 def format_author(name: str) -> str:
     name = clean_text(name)
     if "," in name:
@@ -107,6 +93,16 @@ def parse_authors(author_field: str | list | None) -> list[str]:
     else:
         authors = re.split(r"\s+and\s+", str(author_field), flags=re.IGNORECASE)
     return [format_author(author) for author in authors if clean_text(author)]
+
+
+def parse_notes(note_field: str | list | None) -> list[str]:
+    if not note_field:
+        return []
+    if isinstance(note_field, list):
+        notes = note_field
+    else:
+        notes = re.split(r"\s*,\s*", str(note_field))
+    return [clean_text(note) for note in notes if clean_text(note)]
 
 
 def parse_month(month_value: str | None) -> int | None:
@@ -145,17 +141,25 @@ def publication_type_id(entry_type: str) -> str:
 def derived_publication(entry: dict) -> str:
     entry_type = (entry.get("ENTRYTYPE") or entry.get("entrytype") or "").lower()
     if entry_type == "article":
-        return clean_text(entry.get("journal"))
+        return clean_text(entry.get("journal")) or clean_text(entry.get("abbr"))
     if entry_type in {"inproceedings", "incollection"}:
-        return clean_text(entry.get("booktitle"))
+        return clean_text(entry.get("abbr")) or clean_text(entry.get("booktitle"))
     if entry_type in {"phdthesis", "mastersthesis", "thesis"}:
         return clean_text(entry.get("school"))
 
-    for candidate in ("booktitle", "journal", "school", "note"):
+    for candidate in ("abbr", "booktitle", "journal", "school", "note"):
         value = clean_text(entry.get(candidate))
         if value:
           return value
     return ""
+
+
+def derived_preview(entry: dict) -> str:
+    return clean_text(entry.get("preview"))
+
+
+def derived_note(entry: dict) -> str:
+    return clean_text(entry.get("note"))
 
 
 def derived_pdf_url(entry: dict) -> str:
@@ -203,66 +207,17 @@ def derived_video_url(entry: dict) -> str:
     return ""
 
 
-def title_to_folder_map() -> dict[str, str]:
-    mapping: dict[str, str] = {}
-    for index_file in PUBLICATION_DIR.glob("*/index.md"):
-        if index_file.parent.name == "bibfiles":
-            continue
-        front_matter, _ = parse_front_matter(index_file)
-        title = clean_text(front_matter.get("title"))
-        if title:
-            mapping[normalize_lookup(title)] = index_file.parent.name
-    return mapping
+def folder_from_entry(entry: dict) -> str:
+    slug_value = clean_text(entry.get("slug"))
+    if slug_value:
+        return slugify(slug_value)
 
-
-def folder_from_entry(entry: dict, existing_titles: dict[str, str]) -> str:
     entry_key = clean_text(entry.get("ID") or entry.get("id") or entry.get("key"))
     title = clean_text(entry.get("title"))
-    for candidate in (title, entry_key):
-        if not candidate:
-            continue
-        lookup = normalize_lookup(candidate)
-        if lookup in existing_titles:
-            return existing_titles[lookup]
-    return slugify(title or entry_key)
+    return slugify(entry_key or title)
 
 
-def merge_front_matter(existing: dict, generated: dict) -> dict:
-    merged: dict = {}
-    preferred_order = [
-        "title",
-        "date",
-        "authors",
-        "publication_types",
-        "abstract",
-        "featured",
-        "publication",
-        "publication_short",
-        "url_project",
-        "url_pdf",
-        "url_code",
-        "url_video",
-        "doi",
-        "author_notes",
-    ]
-
-    for key in preferred_order:
-        value = generated.get(key)
-        if value not in (None, "", [], {}):
-            merged[key] = value
-
-    for key, value in existing.items():
-        if key not in merged:
-            merged[key] = value
-
-    for key, value in generated.items():
-        if key not in merged and value not in (None, "", [], {}):
-            merged[key] = value
-
-    return merged
-
-
-def write_markdown(path: Path, front_matter: dict, body: str = "") -> None:
+def write_markdown(path: Path, front_matter: dict) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     rendered_front_matter = yaml.safe_dump(
         front_matter,
@@ -270,12 +225,7 @@ def write_markdown(path: Path, front_matter: dict, body: str = "") -> None:
         allow_unicode=True,
         default_flow_style=False,
     ).strip()
-    output = f"---\n{rendered_front_matter}\n---\n"
-    if body.strip():
-        output += body.lstrip("\n")
-        if not output.endswith("\n"):
-            output += "\n"
-    path.write_text(output, encoding="utf-8")
+    path.write_text(f"---\n{rendered_front_matter}\n---\n", encoding="utf-8")
 
 
 def write_cite_bib(path: Path, entry: dict) -> None:
@@ -288,70 +238,57 @@ def write_cite_bib(path: Path, entry: dict) -> None:
 
 
 def main() -> None:
-    source_bibs = sorted(path for path in BIB_DIR.glob("*.bib") if path.name != "publications.bib")
-    if not source_bibs:
-        raise SystemExit(f"No bib files found in {BIB_DIR}")
+    if not BIB_SOURCE.exists():
+        raise SystemExit(f"Missing source bibliography: {BIB_SOURCE}")
 
-    existing_titles = title_to_folder_map()
     parser = bibtexparser.bparser.BibTexParser(common_strings=True)
 
-    merged_entries: list[dict] = []
+    with BIB_SOURCE.open(encoding="utf-8") as bibtex_file:
+        bib_database = bibtexparser.load(bibtex_file, parser=parser)
+
     generated_entries: list[dict] = []
 
-    for bib_path in source_bibs:
-        with bib_path.open(encoding="utf-8") as bibtex_file:
-            bib_database = bibtexparser.load(bibtex_file, parser=parser)
+    for entry in bib_database.entries:
+        if int(entry.get("year", 0) or 0) < 2017:
+            continue
 
-        for entry in bib_database.entries:
-            if int(entry.get("year", 0) or 0) < 2017:
-                continue
+        folder_name = folder_from_entry(entry)
+        bundle_dir = PUBLICATION_DIR / folder_name
+        index_path = bundle_dir / "index.md"
 
-            merged_entries.append(entry)
+        generated_front_matter = {
+            "title": clean_text(entry.get("title")),
+            "date": parse_date(entry),
+            "authors": parse_authors(entry.get("author")),
+            "publication_types": [publication_type_id(entry.get("ENTRYTYPE", ""))],
+            "abstract": "",
+            "featured": False,
+            "publication": derived_publication(entry),
+            "publication_short": clean_text(entry.get("publication_short")),
+            "note": derived_note(entry),
+            "url_project": derived_project_url(entry),
+            "url_pdf": derived_pdf_url(entry),
+            "url_code": derived_code_url(entry),
+            "url_video": derived_video_url(entry),
+            "doi": clean_text(entry.get("doi")),
+            "preview": derived_preview(entry),
+        }
 
-            folder_name = folder_from_entry(entry, existing_titles)
-            bundle_dir = PUBLICATION_DIR / folder_name
-            index_path = bundle_dir / "index.md"
+        author_notes = parse_notes(entry.get("author_notes"))
+        if author_notes:
+            generated_front_matter["author_notes"] = author_notes
 
-            existing_front_matter, existing_body = parse_front_matter(index_path)
+        if clean_text(entry.get("slug")):
+            generated_front_matter["slug"] = slugify(entry.get("slug"))
 
-            generated_front_matter = {
-                "title": clean_text(entry.get("title")),
-                "date": parse_date(entry),
-                "authors": parse_authors(entry.get("author")),
-                "publication_types": [publication_type_id(entry.get("ENTRYTYPE", ""))],
-                "abstract": clean_text(entry.get("abstract")) if existing_front_matter.get("abstract") else "",
-                "featured": existing_front_matter.get("featured", False),
-                "publication": clean_text(existing_front_matter.get("publication")) or derived_publication(entry),
-                "publication_short": clean_text(existing_front_matter.get("publication_short")),
-                "url_project": derived_project_url(entry),
-                "url_pdf": derived_pdf_url(entry),
-                "url_code": derived_code_url(entry),
-                "url_video": derived_video_url(entry),
-                "doi": clean_text(entry.get("doi")),
-            }
+        write_markdown(index_path, generated_front_matter)
 
-            if existing_front_matter.get("author_notes"):
-                generated_front_matter["author_notes"] = existing_front_matter.get("author_notes")
+        cite_path = bundle_dir / "cite.bib"
+        write_cite_bib(cite_path, entry)
 
-            if existing_front_matter.get("slug"):
-                generated_front_matter["slug"] = existing_front_matter.get("slug")
+        generated_entries.append(entry)
 
-            merged_front_matter = merge_front_matter(existing_front_matter, generated_front_matter)
-            write_markdown(index_path, merged_front_matter, existing_body)
-
-            cite_path = bundle_dir / "cite.bib"
-            write_cite_bib(cite_path, entry)
-
-            generated_entries.append(entry)
-
-    merged_database = BibDatabase()
-    merged_database.entries = merged_entries
-    writer = BibTexWriter()
-    writer.order_entries_by = ("author",)
-    with (BIB_DIR / "publications.bib").open("w", encoding="utf-8") as bibfile:
-        bibtexparser.dump(merged_database, bibfile, writer)
-
-    print(f"Generated {len(generated_entries)} publication bundles from {len(source_bibs)} bib file(s).")
+    print(f"Generated {len(generated_entries)} publication bundles from {BIB_SOURCE.name}.")
 
 
 if __name__ == "__main__":

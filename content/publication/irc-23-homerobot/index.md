@@ -1,12 +1,24 @@
 ---
 title: "Household navigation and manipulation for everyday object rearrangement tasks"
 date: 2023-12-01
-publishDate: 2024-09-07T04:05:34.723566Z
-authors: ["Shrutheesh R. Iyer", "Anwesan Pal", "Jiaming Hu", "Akanimoh Adeleye", "Aditya Aggarwal", "Henrik I. Christensen"]
-publication_types: ["1"]
+authors:
+  - "Shrutheesh R. Iyer"
+  - "Anwesan Pal"
+  - "Jiaming Hu"
+  - "Akanimoh Adeleye"
+  - "Aditya Aggarwal"
+  - "Henrik I. Christensen"
+publication_types:
+  - "1"
 abstract: ""
 featured: false
-publication: "*International Conference on Robotic Computing (IRC)*"
+publication: "International Conference on Robotic Computing (IRC)"
+publication_short: ""
+url_project: ""
 url_pdf: "https://arxiv.org/pdf/2312.06129"
+url_code: ""
+url_video: ""
+doi: ""
+preview: "homerobot.gif"
+slug: "irc-23-homerobot"
 ---
-

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lucas Chen | Shrutheesh Raman Iyer</title>
+    <link>https://example.com/authors/lucas-chen/</link>
+      <atom:link href="https://example.com/authors/lucas-chen/index.xml" rel="self" type="application/rss+xml" />
+    <description>Lucas Chen</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en</language><lastBuildDate>Thu, 01 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Differentiable Particle Optimization for Fast Sequential Manipulation</title>
+      <link>https://example.com/publication/spasm/</link>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/spasm/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

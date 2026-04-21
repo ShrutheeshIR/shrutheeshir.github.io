@@ -2,31 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Shrutheesh R. Iyer | Shrutheesh Raman Iyer</title>
-    <link>http://localhost:1313/authors/shrutheesh-r.-iyer/</link>
-      <atom:link href="http://localhost:1313/authors/shrutheesh-r.-iyer/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://example.com/authors/shrutheesh-r.-iyer/</link>
+      <atom:link href="https://example.com/authors/shrutheesh-r.-iyer/index.xml" rel="self" type="application/rss+xml" />
     <description>Shrutheesh R. Iyer</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en</language><lastBuildDate>Mon, 01 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en</language><lastBuildDate>Thu, 01 Jan 2026 00:00:00 +0000</lastBuildDate>
     <item>
-      <title>Motion Planning in Foliated Manifolds using Repetition Roadmap</title>
-      <link>http://localhost:1313/publication/hu-rss-24/</link>
-      <pubDate>Mon, 01 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/hu-rss-24/</guid>
+      <title>Differentiable Particle Optimization for Fast Sequential Manipulation</title>
+      <link>https://example.com/publication/spasm/</link>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/spasm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vectorizing Projection in Manifold-Constrained Motion Planning for Real-Time Whole-Body Control</title>
+      <link>https://example.com/publication/mcvamp/</link>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/mcvamp/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Motion Planning in Foliated Manifolds using Repetition Roadmap</title>
-      <link>http://localhost:1313/publication/spasm/</link>
+      <link>https://example.com/publication/hu-rss-24/</link>
       <pubDate>Mon, 01 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/spasm/</guid>
+      <guid>https://example.com/publication/hu-rss-24/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Household navigation and manipulation for everyday object rearrangement tasks</title>
-      <link>http://localhost:1313/publication/irc-23-homerobot/</link>
+      <link>https://example.com/publication/irc-23-homerobot/</link>
       <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/irc-23-homerobot/</guid>
+      <guid>https://example.com/publication/irc-23-homerobot/</guid>
       <description></description>
     </item>
     
