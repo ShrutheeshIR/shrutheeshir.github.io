@@ -5,7 +5,15 @@
     <link>https://example.com/post/</link>
       <atom:link href="https://example.com/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Latest News</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en</language><lastBuildDate>Tue, 21 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en</language><lastBuildDate>Sat, 20 Jun 2026 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>McVAMP</title>
+      <link>https://example.com/post/mcvamp_accept/</link>
+      <pubDate>Sat, 20 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://example.com/post/mcvamp_accept/</guid>
+      <description>&lt;p&gt;Our work on &lt;a href=&#34;https://commalab.org/papers/mcvamp/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Constrained Motion Planning&lt;/a&gt; has been accepted at IROS 2026. See you in Pittsburgh!&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>McVAMP</title>
       <link>https://example.com/post/mcvamp/</link>

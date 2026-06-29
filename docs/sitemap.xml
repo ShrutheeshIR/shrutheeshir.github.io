@@ -42,12 +42,15 @@
     <loc>https://example.com/projects/iimb/</loc>
   </url><url>
     <loc>https://example.com/post/</loc>
-    <lastmod>2026-04-21T00:00:00+00:00</lastmod>
+    <lastmod>2026-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/post/mcvamp/</loc>
-    <lastmod>2026-04-21T00:00:00+00:00</lastmod>
+    <loc>https://example.com/post/mcvamp_accept/</loc>
+    <lastmod>2026-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://example.com/</loc>
+    <lastmod>2026-06-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://example.com/post/mcvamp/</loc>
     <lastmod>2026-04-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://example.com/post/icra2026/</loc>
