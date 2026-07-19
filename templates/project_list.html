@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block title %}Projects — {{ config.title }}{% endblock title %}
+
+{% block content %}
+<h1>Projects</h1>
+<p class="page-intro">A selection of past research projects, coursework, and student-team work.</p>
+
+<div class="project-grid">
+  {% for p in section.pages %}
+  <a class="project-card" href="{% if p.extra.external_link %}{{ p.extra.external_link }}{% else %}{{ p.permalink }}{% endif %}" {% if p.extra.external_link %}target="_blank" rel="noopener"{% endif %}>
+    {% if p.extra.image %}
+    <div class="project-card-image">
+      <img src="{{ get_url(path=p.colocated_path ~ p.extra.image) }}" alt="" loading="lazy">
+    </div>
+    {% endif %}
+    <div class="project-card-body">
+      <h3>{{ p.title }}</h3>
+      <p>{{ p.description }}</p>
+      <p class="project-card-meta">{{ p.extra.location }}</p>
+      <div class="tag-list">
+        {% for t in p.taxonomies.tags %}<span class="tag">{{ t }}</span>{% endfor %}
+      </div>
+    </div>
+  </a>
+  {% endfor %}
+</div>
+{% endblock content %}

@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block title %}Blog — {{ config.title }}{% endblock title %}
+
+{% block content %}
+<h1>Blog</h1>
+<p class="page-intro">Longer write-ups on projects, papers, and ideas.</p>
+
+{% set pages = section.pages | sort(attribute="date") | reverse %}
+{% if pages | length == 0 %}
+<p class="page-intro">Nothing here yet — check back soon.</p>
+{% else %}
+<ul class="article-list">
+  {% for post in pages %}
+  <li class="article-item">
+    <span class="news-date">{{ post.date | date(format="%b %Y") }}</span>
+    <div>
+      <a class="article-title" href="{{ post.permalink }}">{{ post.title }}</a>
+      {% if post.description %}<p class="article-excerpt">{{ post.description }}</p>{% endif %}
+    </div>
+  </li>
+  {% endfor %}
+</ul>
+{% endif %}
+{% endblock content %}

@@ -1,0 +1,70 @@
+{% extends "base.html" %}
+
+{% block title %}Bio — {{ config.title }}{% endblock title %}
+
+{% block content %}
+<article class="prose">
+  <h1>Bio</h1>
+  {{ page.content | safe }}
+</article>
+
+<section class="bio-section">
+  <h2>Education</h2>
+  <ul class="timeline">
+    {% for e in page.extra.education %}
+    <li>
+      <div class="timeline-header">
+        <strong>{{ e.degree }}</strong>
+        <span class="timeline-dates">{{ e.dates }}</span>
+      </div>
+      <div class="timeline-org">{{ e.institution }} &middot; {{ e.location }}</div>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+
+<section class="bio-section">
+  <h2>Experience</h2>
+  <ul class="timeline">
+    {% for e in page.extra.experience %}
+    <li>
+      <div class="timeline-header">
+        <strong>{{ e.title }}</strong>
+        <span class="timeline-dates">{{ e.dates }}</span>
+      </div>
+      <div class="timeline-org"><a href="{{ e.org_url }}" target="_blank" rel="noopener">{{ e.org }}</a> &middot; {{ e.location }}</div>
+      <ul class="timeline-bullets">
+        {% for b in e.bullets %}<li>{{ b }}</li>{% endfor %}
+      </ul>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+
+<section class="bio-section">
+  <h2>Other Experience</h2>
+  <ul class="timeline">
+    {% for e in page.extra.other_experience %}
+    <li>
+      <div class="timeline-header">
+        <strong>{{ e.title }}</strong>
+        <span class="timeline-dates">{{ e.dates }}</span>
+      </div>
+      <div class="timeline-org">{{ e.org }}</div>
+      <ul class="timeline-bullets">
+        {% for b in e.bullets %}<li>{{ b }}</li>{% endfor %}
+      </ul>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+
+<section class="bio-section">
+  <h2>Skills</h2>
+  <ul class="skills-list">
+    {% for s in page.extra.skills %}
+    <li><strong>{{ s.category }}:</strong> {{ s.items }}</li>
+    {% endfor %}
+  </ul>
+</section>
+{% endblock content %}

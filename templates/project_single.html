@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block title %}{{ page.title }} — {{ config.title }}{% endblock title %}
+
+{% block content %}
+<article class="prose project-single">
+  <a class="back-link" href="{{ get_url(path="@/projects/_index.md") }}">&larr; All projects</a>
+  <h1>{{ page.title }}</h1>
+  <p class="project-single-meta">{{ page.extra.location }}</p>
+  <div class="tag-list">
+    {% for t in page.taxonomies.tags %}<span class="tag">{{ t }}</span>{% endfor %}
+  </div>
+  {% if page.extra.image %}
+  <img class="project-single-image" src="{{ get_url(path=page.colocated_path ~ page.extra.image) }}" alt="">
+  {% endif %}
+  {{ page.content | safe }}
+  {% if page.extra.external_link %}
+  <p><a href="{{ page.extra.external_link }}" target="_blank" rel="noopener">Project website &rarr;</a></p>
+  {% endif %}
+</article>
+{% endblock content %}

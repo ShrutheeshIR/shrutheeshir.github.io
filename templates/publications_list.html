@@ -1,0 +1,41 @@
+{% import "macros.html" as macros %}
+{% extends "base.html" %}
+
+{% block title %}Publications — {{ config.title }}{% endblock title %}
+
+{% block content %}
+<h1>Publications</h1>
+<p class="page-intro">Kept up to date from <a href="https://github.com/ShrutheeshIR/shrutheeshir.github.io/blob/revamped/publications.bib" target="_blank" rel="noopener">publications.bib</a>.</p>
+
+{% set pubs = load_data(path="data/publications.json") %}
+<ul class="pub-list">
+  {% for p in pubs %}
+  <li class="pub-item">
+    {% if p.preview %}
+    <div class="pub-preview">
+      <img src="{{ get_url(path="publications_preview/" ~ p.preview) }}" alt="" loading="lazy">
+    </div>
+    {% endif %}
+    <div class="pub-body">
+      <h3 class="pub-title">
+        {% if p.pdf %}<a href="{{ p.pdf }}" target="_blank" rel="noopener">{{ p.title }}</a>
+        {% elif p.website %}<a href="{{ p.website }}" target="_blank" rel="noopener">{{ p.title }}</a>
+        {% else %}{{ p.title }}{% endif %}
+      </h3>
+      <p class="pub-authors">{{ macros::author_list(authors=p.authors) }}</p>
+      <p class="pub-venue">
+        {% if p.abbr %}<span class="pub-abbr">{{ p.abbr }}</span>{% endif %}
+        {{ p.venue }}{% if p.year %}, {{ p.year }}{% endif %}
+        {% if p.note %}<span class="pub-note">&middot; {{ p.note }}</span>{% endif %}
+      </p>
+      <p class="pub-links">
+        {% if p.pdf %}<a href="{{ p.pdf }}" target="_blank" rel="noopener">PDF</a>{% endif %}
+        {% if p.code %}<a href="{{ p.code }}" target="_blank" rel="noopener">Code</a>{% endif %}
+        {% if p.video %}<a href="{{ p.video }}" target="_blank" rel="noopener">Video</a>{% endif %}
+        {% if p.website %}<a href="{{ p.website }}" target="_blank" rel="noopener">Project</a>{% endif %}
+      </p>
+    </div>
+  </li>
+  {% endfor %}
+</ul>
+{% endblock content %}

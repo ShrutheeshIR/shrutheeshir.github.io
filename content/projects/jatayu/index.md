@@ -1,41 +1,19 @@
----
-title: Unmanned Aerial Vehicles
-summary: Building drones at Project Jatayu, capable of object recognition and autonomy.
-tags:
-  - Robotics
-  - Team
-# date: '2021-04-27T00:00:00Z'
-weight: 6
-location: Project Jatayu, RVCE
-# authors: [Shrutheesh]
-show_date: False
-# Optional external URL for project (replaces project detail page).
-external_link: ''
++++
+title = "Unmanned Aerial Vehicles"
+description = "Building drones at Project Jatayu, capable of object recognition and autonomy."
+weight = 8
+template = "project_single.html"
 
-image:
-  caption: UAV Developed
-  focal_point: Smart
+[taxonomies]
+tags = ["Robotics", "Team"]
 
-# links:
-#   - icon: twitter
-#     icon_pack: fab
-#     name: Follow
-#     url: https://twitter.com/georgecushen
-# url_code: ''
-# url_pdf: ''
-# url_slides: ''
-# url_video: ''
+[extra]
+location = "Project Jatayu, RVCE"
+image = "featured.jpg"
++++
 
-# Slides (optional).
-#   Associate this project with Markdown slides.
-#   Simply enter your slide deck's filename without extension.
-#   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
-#   Otherwise, set `slides = ""`.
-# slides: example
----
+Project Jatayu is the autonomous UAV team of RVCE (undergraduate university).
 
-
-Project Jatayu is the autonomous UAV team of RVCE (undergrad university)
-- Built multiple UAVs, both multicoptors and fixed wings.
-- Developed robust perception modules for noisy and poorly lit video footage from drones for object detection and localization. Some of the work available [here](https://github.com/ShrutheeshIR/ODLC-GUI)
-- As the team lead, participated in the Student Unmanned Aerial Vehicle Challenge (SUAS 2019), held in Maryland, USA. [Details](https://www.youtube.com/watch?v=_rCvikNtklg) about the drone developed for the competition.
+- Built multiple UAVs, both multicopters and fixed wings.
+- Developed robust perception modules for noisy, poorly lit drone video footage for object detection and localization. Some of the work is available [here](https://github.com/ShrutheeshIR/ODLC-GUI).
+- As team lead, participated in the Student Unmanned Aerial Vehicle Challenge (SUAS 2019), held in Maryland, USA. [Details](https://www.youtube.com/watch?v=_rCvikNtklg) about the drone developed for the competition.

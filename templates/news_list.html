@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block title %}News — {{ config.title }}{% endblock title %}
+
+{% block content %}
+<h1>News</h1>
+<p class="page-intro">Short updates, most recent first.</p>
+
+{% set pages = section.pages | sort(attribute="date") | reverse %}
+<ul class="news-list news-list-full">
+  {% for post in pages %}
+  <li>
+    <span class="news-date">{{ post.date | date(format="%b %Y") }}</span>
+    <span class="news-body">
+      <a class="news-title" href="{{ post.permalink }}">{{ post.title }}</a>
+      {{ post.content | safe }}
+    </span>
+  </li>
+  {% endfor %}
+</ul>
+{% endblock content %}

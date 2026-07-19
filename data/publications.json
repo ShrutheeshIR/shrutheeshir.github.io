@@ -1,0 +1,178 @@
+[
+  {
+    "key": "iyer2026vectorizingprojectionmanifoldconstrainedmotion",
+    "entry_type": "misc",
+    "title": "Vectorizing Projection in Manifold-Constrained Motion Planning for Real-Time Whole-Body Control",
+    "authors": [
+      "Shrutheesh R. Iyer",
+      "I-Chia Chang",
+      "Andrew Z. Liu",
+      "Yan Gu",
+      "Zachary Kingston"
+    ],
+    "year": 2026,
+    "venue": "IEEE/RSJ International Conference on Intelligent Robots and Systems",
+    "note": "To Appear",
+    "abstract": "Many robot planning tasks require satisfaction of one or more constraints throughout the entire trajectory. For geometric constraints, manifold-constrained motion planning algorithms are capable of planning collision-free path between start and goal configurations on the constraint submanifolds specified by task. Current state-of-the-art methods can take tens of seconds to solve these tasks for complex systems such as humanoid robots, making real-world use impractical, especially in dynamic settings. Inspired by recent advances in hardware accelerated motion planning, we present a CPU SIMD-accelerated manifold-constrained motion planner that revisits projection-based constraint satisfaction through the lens of parallelization. By transforming relevant components into parallelizable structures, we use SIMD parallelism to plan constraint satisfying solutions. Our approach achieves up to 100-1000x speed-ups over the state-of-the-art, making real-time constrained motion planning feasible for the first time. We demonstrate our planner on a real humanoid robot and show real-time whole-body quasi-static plan generation.",
+    "pdf": "https://arxiv.org/pdf/2604.13323",
+    "code": "https://github.com/CoMMALab/vamp/tree/constrained_planner?tab=readme-ov-file#manifold-constrained-planner",
+    "video": "",
+    "website": "https://commalab.org/papers/mcvamp",
+    "doi": "",
+    "abbr": "IROS",
+    "preview": "mcvamp_maze.gif",
+    "projects": [
+      "constraints",
+      "realtime"
+    ]
+  },
+  {
+    "key": "chen2025spasm",
+    "entry_type": "inproceedings",
+    "title": "Differentiable Particle Optimization for Fast Sequential Manipulation",
+    "authors": [
+      "Lucas Chen",
+      "Shrutheesh R. Iyer",
+      "Zachary Kingston"
+    ],
+    "year": 2026,
+    "venue": "IEEE International Conference on Robotics and Automation",
+    "note": "To Appear",
+    "abstract": "Sequential robot manipulation tasks require finding collision-free trajectories that satisfy geometric constraints across multiple object interactions in potentially high-dimensional configuration spaces. Solving these problems in real-time and at large scales has remained out of reach due to computational requirements. Recently, GPU-based acceleration has shown promising results, but prior methods achieve limited performance due to CPU-GPU data transfer overhead and complex logic that prevents full hardware utilization. To this end, we present SPaSM (Sampling Particle optimization for Sequential Manipulation), a fully GPU-parallelized framework that compiles constraint evaluation, sampling, and gradient-based optimization into optimized CUDA kernels for end-to-end trajectory optimization without CPU coordination. The method consists of a two-stage particle optimization strategy: first solving placement constraints through massively parallel sampling, then lifting solutions to full trajectory optimization in joint space. Unlike hierarchical approaches, SPaSM jointly optimizes object placements and robot trajectories to handle scenarios where motion feasibility constrains placement options. Experimental evaluation on challenging benchmarks demonstrates solution times in the realm of milliseconds with a 100% success rate; a 4000x speedup compared to existing approaches.",
+    "pdf": "https://arxiv.org/abs/2510.07674",
+    "code": "https://github.com/CoMMALab/SPaSM",
+    "video": "https://www.youtube.com/watch?v=VK8PYsdXNBk",
+    "website": "https://commalab.org/papers/spasm",
+    "doi": "",
+    "abbr": "ICRA",
+    "preview": "spasm.gif",
+    "projects": [
+      "realtime",
+      "long-horizon",
+      "constraints"
+    ]
+  },
+  {
+    "key": "hu2024rss",
+    "entry_type": "inproceedings",
+    "title": "Motion Planning in Foliated Manifolds using Repetition Roadmap",
+    "authors": [
+      "Jiaming Hu",
+      "Shrutheesh Raman Iyer",
+      "Jiawei Wang",
+      "Henrik I Christensen"
+    ],
+    "year": 2024,
+    "venue": "Robotics: Science and Systems",
+    "note": "",
+    "abstract": "",
+    "pdf": "https://www.roboticsproceedings.org/rss20/p036.pdf",
+    "code": "",
+    "video": "",
+    "website": "",
+    "doi": "10.15607/RSS.2024.XX.036",
+    "abbr": "RSS",
+    "preview": "foliated_rss.gif",
+    "projects": [
+      "experience-tamp"
+    ]
+  },
+  {
+    "key": "irc23homerobot",
+    "entry_type": "inproceedings",
+    "title": "Household navigation and manipulation for everyday object rearrangement tasks",
+    "authors": [
+      "Shrutheesh R. Iyer",
+      "Anwesan Pal",
+      "Jiaming Hu",
+      "Akanimoh Adeleye",
+      "Aditya Aggarwal",
+      "Henrik I. Christensen"
+    ],
+    "year": 2023,
+    "venue": "IEEE International Conference on Robotic Computing",
+    "note": "",
+    "abstract": "",
+    "pdf": "https://arxiv.org/pdf/2312.06129",
+    "code": "",
+    "video": "",
+    "website": "",
+    "doi": "",
+    "abbr": "IRC",
+    "preview": "homerobot.gif",
+    "projects": [
+      "home-robot"
+    ]
+  },
+  {
+    "key": "iyer2023deep",
+    "entry_type": "inproceedings",
+    "title": "Deep-Feature-Based Visual Odometry for Autonomous Emergency Parking",
+    "authors": [
+      "Shrutheesh Raman Iyer",
+      "Varghese P Kuruvilla",
+      "Raghu Krishnapuram",
+      "Panini Bhamidipati"
+    ],
+    "year": 2023,
+    "venue": "International Conference on Advances in Robotics",
+    "note": "",
+    "abstract": "",
+    "pdf": "",
+    "code": "",
+    "video": "",
+    "website": "https://dl.acm.org/doi/10.1145/3610419.3610480",
+    "doi": "",
+    "abbr": "ICAR",
+    "preview": "visual_odom.gif",
+    "projects": [
+      "visual-odometry"
+    ]
+  },
+  {
+    "key": "iyer2023improvisational",
+    "entry_type": "phdthesis",
+    "title": "Improvisational Robot Tool Use using Affordance based Planning",
+    "authors": [
+      "Shrutheesh Raman Iyer"
+    ],
+    "year": 2023,
+    "venue": "UC San Diego",
+    "note": "",
+    "abstract": "",
+    "pdf": "",
+    "code": "",
+    "video": "",
+    "website": "https://escholarship.org/uc/item/8622p2rs",
+    "doi": "",
+    "abbr": "Thesis",
+    "preview": "",
+    "projects": [
+      "macgyver"
+    ]
+  },
+  {
+    "key": "iyer2019adaptive",
+    "entry_type": "article",
+    "title": "Adaptive real time traffic prediction using deep neural networks",
+    "authors": [
+      "Parinith R Iyer",
+      "Shrutheesh Raman Iyer",
+      "Raghavendran Ramesh",
+      "MR Anala",
+      "KN Subramanya"
+    ],
+    "year": 2019,
+    "venue": "IAES International Journal of Artificial Intelligence",
+    "note": "",
+    "abstract": "",
+    "pdf": "",
+    "code": "",
+    "video": "",
+    "website": "",
+    "doi": "",
+    "abbr": "IJAI",
+    "preview": "",
+    "projects": []
+  }
+]

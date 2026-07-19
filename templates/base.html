@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% block title %}{{ config.title }}{% endblock title %}</title>
+<meta name="description" content="{% block description %}{{ config.description }}{% endblock description %}">
+<link rel="stylesheet" href="{{ get_url(path="css/style.css") }}">
+<link rel="icon" href="{{ get_url(path="favicon.svg") }}" type="image/svg+xml">
+<link rel="alternate" type="application/atom+xml" title="{{ config.title }}" href="{{ get_url(path="atom.xml") }}">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <nav class="site-nav">
+    <a class="brand" href="{{ get_url(path="@/_index.md") }}">Shrutheesh Iyer</a>
+    <input type="checkbox" id="nav-toggle" class="nav-toggle">
+    <label for="nav-toggle" class="nav-toggle-label" aria-label="Toggle navigation">
+      <span></span><span></span><span></span>
+    </label>
+    <ul class="nav-links">
+      <li><a href="{{ get_url(path="@/_index.md") }}">Home</a></li>
+      <li><a href="{{ get_url(path="@/bio.md") }}">Bio</a></li>
+      <li><a href="{{ get_url(path="@/publications/_index.md") }}">Publications</a></li>
+      <li><a href="{{ get_url(path="@/projects/_index.md") }}">Projects</a></li>
+      <li><a href="{{ get_url(path="@/news/_index.md") }}">News</a></li>
+      <li><a href="{{ get_url(path="@/blog/_index.md") }}">Blog</a></li>
+      <li><a href="{{ config.extra.cv }}" target="_blank" rel="noopener">CV</a></li>
+    </ul>
+  </nav>
+</header>
+<main id="main">
+{% block content %}{% endblock content %}
+</main>
+<footer class="site-footer">
+  <p>&copy; {{ now() | date(format="%Y") }} Shrutheesh Raman Iyer. Built with <a href="https://www.getzola.org/" target="_blank" rel="noopener">Zola</a>.</p>
+</footer>
+</body>
+</html>

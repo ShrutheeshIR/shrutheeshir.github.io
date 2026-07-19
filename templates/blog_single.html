@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block title %}{{ page.title }} — {{ config.title }}{% endblock title %}
+
+{% block content %}
+<article class="prose">
+  <a class="back-link" href="{{ get_url(path="@/blog/_index.md") }}">&larr; All posts</a>
+  <p class="news-date">{{ page.date | date(format="%B %-d, %Y") }}</p>
+  <h1>{{ page.title }}</h1>
+  {{ page.content | safe }}
+</article>
+{% endblock content %}

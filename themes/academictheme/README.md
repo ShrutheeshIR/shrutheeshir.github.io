@@ -1,2 +1,0 @@
-# academictheme
-hugo academic theme

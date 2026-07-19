@@ -1,1 +1,0 @@
-python3 scripts/bibparser_collect.py

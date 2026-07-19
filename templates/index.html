@@ -1,0 +1,68 @@
+{% import "macros.html" as macros %}
+{% extends "base.html" %}
+
+{% block content %}
+<section class="hero">
+  <img class="hero-avatar" src="{{ get_url(path="images/avatar.jpg") }}" alt="Photo of {{ config.extra.author }}">
+  <div>
+    <h1>{{ config.extra.author }}</h1>
+    <p class="role">{{ config.extra.role }}</p>
+    <p class="tagline">{{ config.extra.tagline }}</p>
+    <p class="pull-quote">🤖 Building something like robots I guess</p>
+    {{ macros::social_links() }}
+  </div>
+</section>
+
+<section class="home-intro">
+  {{ section.content | safe }}
+</section>
+
+{% set pubs = load_data(path="data/publications.json") %}
+{% set featured = pubs | slice(end=3) %}
+<section class="home-pubs">
+  <h2>Publications</h2>
+  <ul class="pub-list">
+    {% for p in featured %}
+    <li class="pub-item">
+      {% if p.preview %}
+      <div class="pub-preview">
+        <img src="{{ get_url(path="publications_preview/" ~ p.preview) }}" alt="" loading="lazy">
+      </div>
+      {% endif %}
+      <div class="pub-body">
+        <h3 class="pub-title">
+          {% if p.pdf %}<a href="{{ p.pdf }}" target="_blank" rel="noopener">{{ p.title }}</a>
+          {% elif p.website %}<a href="{{ p.website }}" target="_blank" rel="noopener">{{ p.title }}</a>
+          {% else %}{{ p.title }}{% endif %}
+        </h3>
+        <p class="pub-authors">{{ macros::author_list(authors=p.authors) }}</p>
+        <p class="pub-venue">
+          {% if p.abbr %}<span class="pub-abbr">{{ p.abbr }}</span>{% endif %}
+          {{ p.venue }}{% if p.year %}, {{ p.year }}{% endif %}
+          {% if p.note %}<span class="pub-note">&middot; {{ p.note }}</span>{% endif %}
+        </p>
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
+  <a class="more-link" href="{{ get_url(path="@/publications/_index.md") }}">All publications &rarr;</a>
+</section>
+
+{% set news = get_section(path="news/_index.md") %}
+{% set recent = news.pages | sort(attribute="date") | reverse | slice(end=5) %}
+<section class="home-news">
+  <h2>News</h2>
+  <ul class="news-list">
+    {% for post in recent %}
+    <li>
+      <span class="news-date">{{ post.date | date(format="%b %Y") }}</span>
+      <span class="news-body">
+        <a class="news-title" href="{{ post.permalink }}">{{ post.title }}</a>
+        {{ post.content | safe }}
+      </span>
+    </li>
+    {% endfor %}
+  </ul>
+  <a class="more-link" href="{{ get_url(path="@/news/_index.md") }}">All news &rarr;</a>
+</section>
+{% endblock content %}
