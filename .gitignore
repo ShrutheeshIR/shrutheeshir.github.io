@@ -1,0 +1,5 @@
+# Zola build output
+public/
+
+# Old Hugo build output (root-owned leftover, kept out for good)
+docs/
